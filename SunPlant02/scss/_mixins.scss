@@ -1,0 +1,11 @@
+@mixin size($w, $h) {
+    width: $w;
+    height: $h;
+}
+@mixin twoCenter() {
+    justify-content: center;
+    align-items: center;
+}
+//variables
+$mainGreen: #518432;
+$darkBlack: #333333;
