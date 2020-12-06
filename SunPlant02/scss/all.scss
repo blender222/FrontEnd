@@ -61,15 +61,16 @@
     }
     > .head-bar__home {
         position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
         margin: auto;
+        display: flex;
+        justify-content: center;
         a {
             display: flex;
             @include twoCenter();
-            @include size(100%, 100%);
+            // @include size(100%, 100%);
             img {
                 @include size(160px, auto);
                 max-width: 15vw;
@@ -291,6 +292,7 @@
                         opacity: 0;
                         transition: all .5s;
                         > li {
+                            position: relative;
                             border-radius: 50%;
                             background-color: #ffffff;
                             box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
@@ -314,6 +316,42 @@
                                 svg {
                                     fill: #ffffff;
                                 }
+                            }
+                            &:hover::before {
+                                display: block;
+                                position: absolute;
+                                left: 50%;
+                                top: -70%;
+                                transform: translateX(-50%);
+                                padding: .25rem .5rem;
+                                max-width: 200px;
+                                font-size: 14px;
+                                border-radius: .25rem;
+                                color: #ffffff;
+                                background-color: #000000;
+                                box-shadow: 0 0 2px 0px rgba(0, 0, 0, .7);
+                                z-index: 2;
+                            }
+                            &.button__wish-list:hover::before {
+                                content: 'Add\0000A0to\0000A0Wishlist';
+                            }
+                            &.button__cart:hover::before {
+                                content: 'Add\0000A0to\0000A0Cart';
+                            }
+                            &.button__quick-view:hover::before {
+                                content: 'Quickview';
+                            }
+                            &:hover::after {
+                                position: absolute;
+                                left: 50%;
+                                top: -18%;
+                                transform: translateX(-50%);
+                                content: '';
+                                @include size(0, 0);
+                                border-top: 8px solid #000;
+                                border-left: 8px solid transparent;
+                                border-right: 8px solid transparent;
+                                z-index: 2;
                             }
                         }
                     }
