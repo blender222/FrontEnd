@@ -1,4 +1,7 @@
 @import "mixins";
+html, body {
+    overflow-x: hidden;
+}
 .head-bar {
     position: fixed;
     top: 0;
@@ -61,14 +64,19 @@
     }
     > .head-bar__home {
         position: absolute;
-        @include size(160px, 45px);
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
         margin: auto;
-        img {
+        a {
+            display: flex;
+            @include twoCenter();
             @include size(100%, 100%);
+            img {
+                @include size(160px, auto);
+                max-width: 15vw;
+            }
         }
     }
     .function {
@@ -106,6 +114,7 @@
         position: relative;
         width: 1150px;
         height: 100%;
+        max-width: 80vw;
         margin: auto;
         .banner__text-region {
             position: absolute;
@@ -147,12 +156,14 @@
             top: 0;
             bottom: 0;
             margin: auto;
+            max-width: 60%;
         }
     }
 }
 .section-info {
     .section-info__container {
         width: 1400px;
+        max-width: 95vw;
         margin: 70px auto 0;
         .section-info__title {
             text-align: center;
@@ -190,6 +201,12 @@
                     color: #9c9c9c;
                 }
             }
+            .section-info__pic {
+                max-width: 35%;
+                img {
+                    @include size(100%, 100%);
+                }
+            }
         }
     }
 }
@@ -197,6 +214,7 @@
     margin-top: 70px;
     .section-product__container {
         width: 1400px;
+        max-width: 95%;
         margin: auto;
         h3 {
             font-size: 35px;
@@ -210,10 +228,11 @@
             justify-content: space-between;
             .section-product__item {
                 position: relative;
-                height: 653px;
+                @include size(450px, 653px);
+                max-width: 32.5%;
                 .pic {
                     position: relative;
-                    @include size(450px, 500px);
+                    @include size(100%, auto);
                     transition: all .5s;
                     img {
                         @include size(100%, 100%);
@@ -361,14 +380,19 @@
         top: 0;
         bottom: 0;
         margin: auto;
-        @include size(1430px, 430px);
+        @include size(1440px, 430px);
+        max-width: 95vw;
         .section-video__info {
             position: absolute;
             top: 0;
             bottom: 0;
-            left: 140px;
+            left: 10%;
             margin: auto;
-            @include size(565px, 200px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            @include size(500px, auto);
+            max-width: 35%;
             .title {
                 margin-bottom: 20px;
                 color: $mainGreen;
@@ -382,18 +406,21 @@
                 position: relative;
                 margin-top: 30px;
                 @include size(175px, 53px);
-                box-sizing: content-box;
-                border: 1px solid $darkBlack;
-                background-color: transparent;
                 display: flex;
-                @include twoCenter();
+                border: none;
+                outline: 1px solid $darkBlack;
+                background-color: transparent;
                 transition: all .3s;
                 .text {
                     position: absolute;
+                    display: flex;
+                    @include twoCenter();
+                    @include size(100%, 100%);
                     font-size: 14px;
                     font-weight: 500;
                     color: $darkBlack;
                     letter-spacing: 2px;
+                    text-decoration: none;
                     transition: all .3s;
                 }
                 &::before {
@@ -401,18 +428,16 @@
                     top: 0;
                     left: 0;
                     content: '';
-                    width: 100%;
-                    height: 0;
+                    @include size(100%, 0);
                     background-color: $mainGreen;
-                    transition: all 0s;
+                    transition: all .3s;
                     z-index: 0;
                 }
                 &:hover {
-                    border: 1px solid $mainGreen;
+                    outline: 1px solid $mainGreen;
                     color: #ffffff;
                     &::before {
                         height: 100%;
-                        transition: all .3s;
                     }
                     > .text {
                         color: #ffffff;
@@ -422,10 +447,15 @@
         }
         .section-video__video {
             position: absolute;
+            margin: auto 15px auto;
+            top: 0;
+            bottom: 0;
             right: 0;
-            padding: 0 15px;
+            max-width: 48%;
+            display: flex;
+            align-items: center;
             > .background {
-                @include size(685px, 430px);
+                @include size(100%, auto);
             }
             > .play-icon {
                 position: absolute;
@@ -457,6 +487,7 @@
     .instagram__container {
         margin: auto;
         width: 1440px;
+        max-width: 95vw;
     }
     .instagram__title {
         display: flex;
@@ -477,12 +508,13 @@
         justify-content: space-between;
         > .item {
             @include size(328px, 328px);
+            max-width: 23%;
             transition: all .5s;
             &:hover {
                 filter: brightness(.4);
             }
             img {
-                @include size(100%, 100%);
+                @include size(100%, auto);
             }
         }
     }
@@ -494,6 +526,7 @@
         margin: auto;
         padding: 47px 0 68px;
         width: 1440px;
+        max-width: 95vw;
         display: flex;
         flex-direction: column;
         align-items: center;

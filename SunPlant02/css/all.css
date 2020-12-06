@@ -1,3 +1,7 @@
+html, body {
+  overflow-x: hidden;
+}
+
 .head-bar {
   position: fixed;
   top: 0;
@@ -74,8 +78,6 @@
 
 .head-bar > .head-bar__home {
   position: absolute;
-  width: 160px;
-  height: 45px;
   left: 0;
   right: 0;
   top: 0;
@@ -83,9 +85,18 @@
   margin: auto;
 }
 
-.head-bar > .head-bar__home img {
+.head-bar > .head-bar__home a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
+}
+
+.head-bar > .head-bar__home a img {
+  width: 160px;
+  height: auto;
+  max-width: 15vw;
 }
 
 .head-bar .function {
@@ -132,6 +143,7 @@
   position: relative;
   width: 1150px;
   height: 100%;
+  max-width: 80vw;
   margin: auto;
 }
 
@@ -182,10 +194,12 @@
   top: 0;
   bottom: 0;
   margin: auto;
+  max-width: 60%;
 }
 
 .section-info .section-info__container {
   width: 1400px;
+  max-width: 95vw;
   margin: 70px auto 0;
 }
 
@@ -236,12 +250,22 @@
   color: #9c9c9c;
 }
 
+.section-info .section-info__container .section-info__content .section-info__pic {
+  max-width: 35%;
+}
+
+.section-info .section-info__container .section-info__content .section-info__pic img {
+  width: 100%;
+  height: 100%;
+}
+
 .section-product {
   margin-top: 70px;
 }
 
 .section-product .section-product__container {
   width: 1400px;
+  max-width: 95%;
   margin: auto;
 }
 
@@ -260,13 +284,15 @@
 
 .section-product .section-product__container .section-product__ul .section-product__item {
   position: relative;
+  width: 450px;
   height: 653px;
+  max-width: 32.5%;
 }
 
 .section-product .section-product__container .section-product__ul .section-product__item .pic {
   position: relative;
-  width: 450px;
-  height: 500px;
+  width: 100%;
+  height: auto;
   transition: all .5s;
 }
 
@@ -448,18 +474,23 @@
   top: 0;
   bottom: 0;
   margin: auto;
-  width: 1430px;
+  width: 1440px;
   height: 430px;
+  max-width: 95vw;
 }
 
 .section-video .section-video__container .section-video__info {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 140px;
+  left: 10%;
   margin: auto;
-  width: 565px;
-  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  max-width: 35%;
 }
 
 .section-video .section-video__container .section-video__info .title {
@@ -478,21 +509,25 @@
   margin-top: 30px;
   width: 175px;
   height: 53px;
-  box-sizing: content-box;
-  border: 1px solid #333333;
-  background-color: transparent;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  border: none;
+  outline: 1px solid #333333;
+  background-color: transparent;
   transition: all .3s;
 }
 
 .section-video .section-video__container .section-video__info button .text {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
   font-size: 14px;
   font-weight: 500;
   color: #333333;
   letter-spacing: 2px;
+  text-decoration: none;
   transition: all .3s;
 }
 
@@ -504,18 +539,17 @@
   width: 100%;
   height: 0;
   background-color: #518432;
-  transition: all 0s;
+  transition: all .3s;
   z-index: 0;
 }
 
 .section-video .section-video__container .section-video__info button:hover {
-  border: 1px solid #518432;
+  outline: 1px solid #518432;
   color: #ffffff;
 }
 
 .section-video .section-video__container .section-video__info button:hover::before {
   height: 100%;
-  transition: all .3s;
 }
 
 .section-video .section-video__container .section-video__info button:hover > .text {
@@ -524,13 +558,18 @@
 
 .section-video .section-video__container .section-video__video {
   position: absolute;
+  margin: auto 15px auto;
+  top: 0;
+  bottom: 0;
   right: 0;
-  padding: 0 15px;
+  max-width: 48%;
+  display: flex;
+  align-items: center;
 }
 
 .section-video .section-video__container .section-video__video > .background {
-  width: 685px;
-  height: 430px;
+  width: 100%;
+  height: auto;
 }
 
 .section-video .section-video__container .section-video__video > .play-icon {
@@ -568,6 +607,7 @@
 .instagram .instagram__container {
   margin: auto;
   width: 1440px;
+  max-width: 95vw;
 }
 
 .instagram .instagram__title {
@@ -595,6 +635,7 @@
 .instagram .instagram__ul > .item {
   width: 328px;
   height: 328px;
+  max-width: 23%;
   transition: all .5s;
 }
 
@@ -604,7 +645,7 @@
 
 .instagram .instagram__ul > .item img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .footer {
@@ -616,6 +657,7 @@
   margin: auto;
   padding: 47px 0 68px;
   width: 1440px;
+  max-width: 95vw;
   display: flex;
   flex-direction: column;
   align-items: center;
