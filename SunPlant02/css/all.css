@@ -217,13 +217,12 @@
 
 .section-info .section-info__container .section-info__content {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   padding-top: 40px;
 }
 
 .section-info .section-info__container .section-info__content .section-info__subtitle-list {
-  width: 415px;
+  width: 450px;
 }
 
 .section-info .section-info__container .section-info__content .section-info__subtitle-list:first-child {
@@ -241,7 +240,7 @@
 }
 
 .section-info .section-info__container .section-info__content .section-info__subtitle-list p {
-  font-size: 15px;
+  font-size: 16px;
   color: #9c9c9c;
 }
 
