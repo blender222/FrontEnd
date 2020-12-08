@@ -1,3 +1,4 @@
+@import "reset";
 @import "mixins";
 .head-bar {
     position: fixed;
@@ -9,52 +10,202 @@
     box-shadow: 0 2px 5px 0px rgba(0, 0, 0, 0.1);
     z-index: 1;
     .nav-region {
+        margin-left: 25px;
         width: 500px;
         height: 100%;
         display: flex;
-        @include twoCenter();
-        .nav-region__ul {
+        align-items: center;
+        .nav-region__nav-list {
             height: 50px;
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            > .nav-region__item {
-                position: relative;
-                height: 30px;
+            .nav-ul-a {
                 display: flex;
-                @include twoCenter();
-                & + .nav-region__item {
-                    margin-left: 20px;
-                }
-                a {
-                    padding: 5px 10px;
-                    color: #000000;
-                    text-decoration: none;
-                    &:hover {
-                        color: $mainGreen;
-                    }
-                }
-                .new-tag {
-                    position: absolute;
-                    top: -40%;
-                    left: 60%;
-                    @include size(47px, 16px);
+                .nav-region__item {
+                    position: relative;
+                    padding: 5px 18px;
                     display: flex;
+                    height: 30px;
                     @include twoCenter();
-                    font-size: 10px;
-                    font-weight: 600;
-                    color: #ffffff;
-                    background-color: #48c8fd;
-                    &::before {
-                        position: absolute;
-                        top: 100%;
-                        left: 10px;
-                        content: '';
-                        width: 0;
-                        height: 0;
-                        border-top: 5px solid #48c8fd;
-                        border-right: 4px solid transparent;
+                    a {
+                        position: relative;
+                        &:hover {
+                            color: $mainGreen;
+                        }
                     }
+                }
+            }
+        }
+        .nav-region__item {
+            &:hover {
+                .nav-title {
+                    color: $mainGreen;
+                }
+            }
+            .dropdown-menu {
+                //公共
+                visibility: hidden;
+                display: flex;
+                position: absolute;
+                left: 0;
+                top: 100%;
+                padding: 15px;
+                background-color: #ffffff;
+                border-radius: 3px;
+                box-shadow: 0px 2px 10px -2px rgba(0, 0, 0, 0.3);
+                transform: translate(10px, 20px);
+                opacity: 0;
+                transition: all .1s;
+                z-index: 9;
+                .title, .title a {
+                    font-weight: 400;
+                    font-size: 12px;
+                    color: $mainGreen;
+                }
+                .title.underline {
+                    position: relative;
+                    margin-bottom: 35px;
+                    &::after {
+                        position: absolute;
+                        top: 190%;
+                        left: 0;
+                        content: '';
+                        @include size(55px, 0);
+                        border-bottom: 2px solid $mainGreen;
+                    }
+                }
+                .link-group {
+                    display: flex;
+                    .link-text {
+                        padding: 10px 0;
+                        font-size: 14px;
+                        color: #1e1e1e;
+                        a {
+                            position: relative;
+                        }
+                    }
+                    .col {
+                        padding: 15px;
+                        width: 200px;
+                    }
+                }
+                //分開
+                &.home {
+                    @include size(930px, auto);
+                    .nav-ul-b {
+                        display: flex;
+                        flex-wrap: wrap;
+                        li.link-pic {
+                            padding: 15px;
+                            @include size(280px, auto);
+                        }
+                        .title {
+                            padding: 20px 0 0;
+                            letter-spacing: 3px;
+                        }
+                    }
+                    img {
+                        transition: all .2s;
+                        &:hover {
+                            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.18);
+                        }
+                    }
+                }
+                &.featured {
+                    left: -150px;
+                    width: 950px;
+                    box-sizing: border-box;
+                    .link-group:nth-child(1) {
+                        width: 75%;
+                        flex-wrap: wrap;
+                        .col {
+                            width: auto;
+                            flex-basis: 33.3333%;
+                            box-sizing: border-box;
+                        }
+                    }
+                    .link-group:nth-child(2) {
+                        padding: 15px;
+                        width: 25%;
+                        box-sizing: border-box;
+                    }
+                }
+                &.element {
+                    left: -200px;
+                    width: 600px;
+                    background: url("../assets/asset\ 42.png") 0 0 / cover;
+                    .col {
+                        box-sizing: border-box;
+                        width: 190px;
+                    }
+                }
+            }
+            &:hover .dropdown-menu {
+                visibility: visible;
+                transform: translate(0, 0);
+                opacity: 1;
+                transition: all .4s;
+            }
+            @keyframes fadeInUp {
+                from {
+                    opacity: 0;
+                    transform: translate(10px, 20px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translate(0, 0);
+                }
+            }
+            @keyframes fadeOutDown {
+                from {
+                    opacity: 1;
+                    transform: translate(0, 0);
+                }
+                to {
+                    opacity: 0;
+                    transform: translate(-10px, 20px);
+                }
+            }
+            @keyframes fadeInLeft {
+                from {
+                    opacity: 0;
+                    transform: translate(5px, 0px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translate(0, 0);
+                }
+            }
+        }
+        .tag {
+            position: absolute;
+            top: -17px;
+            right: -25px;
+            display: flex;
+            @include twoCenter();
+            @include size(47px, 16px);
+            color: #ffffff;
+            font-size: 10px;
+            font-weight: 600;
+            &::before {
+                position: absolute;
+                top: 100%;
+                left: 10px;
+                content: '';
+                width: 0;
+                height: 0;
+                border-right: 4px solid transparent;
+            }
+            &.red {
+                background-color: $redTag;
+                &::before {
+                    border-top: 5px solid $redTag;
+                }
+            }
+            &.blue {
+                background-color: $blueTag;
+                &::before {
+                    border-top: 5px solid $blueTag;
                 }
             }
         }
@@ -70,7 +221,6 @@
         a {
             display: flex;
             @include twoCenter();
-            // @include size(100%, 100%);
             img {
                 @include size(160px, auto);
                 max-width: 15vw;

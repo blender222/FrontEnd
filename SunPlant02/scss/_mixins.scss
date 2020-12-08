@@ -2,10 +2,10 @@
     width: $w;
     height: $h;
 }
-@mixin maxSize($maxW, $maxH) {
-    max-width: $maxW;
-    max-height: $maxH;
-}
+// @mixin maxSize($maxW, $maxH) {
+//     max-width: $maxW;
+//     max-height: $maxH;
+// }
 @mixin twoCenter() {
     justify-content: center;
     align-items: center;
@@ -13,3 +13,6 @@
 //variables
 $mainGreen: #518432;
 $darkBlack: #333333;
+$blueTag: #48c8fd;
+$redTag: #ef3e3e;
+//
