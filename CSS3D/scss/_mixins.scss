@@ -1,0 +1,12 @@
+@mixin size($w, $h) {
+  width: $w;
+  height: $h;
+}
+@mixin twoCenter() {
+  justify-content: center;
+  align-items: center;
+}
+@mixin rotateXYZ($angleX:0deg, $angleY:0deg, $angleZ:0deg) {
+  transform: rotateX($angleX) rotateY($angleY) rotateZ($angleZ);
+}
+//variables
