@@ -1,0 +1,5 @@
+$color: #fa0;
+@use '$color' as hero;
+* {
+  background-color: #ffaa00;
+}

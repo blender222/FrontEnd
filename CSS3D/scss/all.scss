@@ -3,7 +3,7 @@
 html, body {
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 .camera {
   position: relative;
@@ -129,32 +129,40 @@ html, body {
   position: absolute;
   top: 0;
   left: 0;
-  border: 5px solid #ffffff;
+  border: 5px solid #000000;
   box-sizing: border-box;
 }
+$flash-duration: .5s;
+$flash-delay: .5s;
 .cube .front {
   transform: rotate3d(0, 0, 0, 0deg) translateZ(50px);
-  background-color: rgb(65, 105, 225);
+  // background-color: hsl(225, 73%, 57%);
+  animation: flash-front $flash-duration steps(2) 0s infinite alternate;
 }
 .cube .back {
   transform: rotate3d(1, 0, 0, 180deg) translateZ(50px);
-  background-color: rgb(30, 222, 255);
+  // background-color: hsl(189, 100%, 56%);
+  animation: flash-back $flash-duration steps(2) 0s infinite alternate;
 }
 .cube .top {
   transform: rotate3d(1, 0, 0, 90deg) translateZ(50px);
-  background-color: rgb(255, 13, 255);
+  // background-color: hsl(300, 100%, 53%);
+  animation: flash-top $flash-duration steps(2) $flash-delay infinite alternate;
 }
 .cube .bottom {
   transform: rotate3d(1, 0, 0, -90deg) translateZ(50px);
-  background-color: rgb(124, 252, 0);
+  // background-color: hsl(90, 100%, 49%);
+  animation: flash-bottom $flash-duration steps(2) $flash-delay infinite alternate;
 }
 .cube .left {
   transform: rotate3d(0, 1, 0, -90deg) translateZ(50px);
-  background-color: rgb(255, 69, 0);
+  // background-color: hsl(16, 100%, 50%);
+  animation: flash-left $flash-duration steps(2) 0s infinite alternate;
 }
 .cube .right {
   transform: rotate3d(0, 1, 0, 90deg) translateZ(50px);
-  background-color: rgb(255, 215, 0);
+  // background-color: hsl(51, 100%, 50%);
+  animation: flash-right $flash-duration steps(2) $flash-delay infinite alternate;
 }
 // Y轉動
 .box1, .box11, .box21, .box2, .box12, .box22, .box3, .box13, .box23 {
@@ -189,5 +197,66 @@ html, body {
   }
   100% {
     transform: rotateX(258deg) rotateY(120deg) rotateZ(360deg);
+  }
+}
+$box-shadow: 0 0 30px 20px #ffffff inset;
+@keyframes flash-front {
+  0% {
+    background-color: hsl(225, 73%, 20%);
+    box-shadow: none;
+  }
+  100% {
+    background-color: hsl(225, 73%, 57%);
+    box-shadow: $box-shadow;
+  }
+}
+@keyframes flash-back {
+  0% {
+    background-color: hsl(189, 100%, 20%);
+    box-shadow: none;
+  }
+  100% {
+    background-color: hsl(189, 100%, 56%);
+    box-shadow: $box-shadow;
+  }
+}
+@keyframes flash-top {
+  0% {
+    background-color: hsl(300, 100%, 20%);
+    box-shadow: none;
+  }
+  100% {
+    background-color: hsl(300, 100%, 53%);
+    box-shadow: $box-shadow;
+  }
+}
+@keyframes flash-bottom {
+  0% {
+    background-color: hsl(90, 100%, 20%);
+    box-shadow: none;
+  }
+  100% {
+    background-color: hsl(90, 100%, 49%);
+    box-shadow: $box-shadow;
+  }
+}
+@keyframes flash-left {
+  0% {
+    background-color: hsl(16, 100%, 20%);
+    box-shadow: none;
+  }
+  100% {
+    background-color: hsl(16, 100%, 50%);
+    box-shadow: $box-shadow;
+  }
+}
+@keyframes flash-right {
+  0% {
+    background-color: hsl(51, 100%, 20%);
+    box-shadow: none;
+  }
+  100% {
+    background-color: hsl(51, 100%, 50%);
+    box-shadow: $box-shadow;
   }
 }
