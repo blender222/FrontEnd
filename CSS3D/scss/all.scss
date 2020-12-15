@@ -13,7 +13,7 @@ html, body {
   perspective-origin: 50% 50%;
 }
 .space {
-  @include size(0, 0);
+  @include size(500px, 500px);
   position: absolute;
   margin: auto;
   top: 0;
@@ -23,6 +23,9 @@ html, body {
   transform-style: preserve-3d;
   transform: rotateX(-18deg) rotateY(0deg) rotateZ(0deg);
   animation: allRotate 6s infinite ease-in-out alternate;
+  &:hover, &:hover * {
+    animation: none !important;
+  }
 }
 .box {
   @include size(0, 0);
@@ -136,33 +139,36 @@ $flash-duration: .5s;
 $flash-delay: .5s;
 .cube .front {
   transform: rotate3d(0, 0, 0, 0deg) translateZ(50px);
-  // background-color: hsl(225, 73%, 57%);
+  background-color: hsl(225, 73%, 57%);
   animation: flash-front $flash-duration steps(2) 0s infinite alternate;
 }
 .cube .back {
   transform: rotate3d(1, 0, 0, 180deg) translateZ(50px);
-  // background-color: hsl(189, 100%, 56%);
+  background-color: hsl(189, 100%, 56%);
   animation: flash-back $flash-duration steps(2) 0s infinite alternate;
 }
 .cube .top {
   transform: rotate3d(1, 0, 0, 90deg) translateZ(50px);
-  // background-color: hsl(300, 100%, 53%);
+  background-color: hsl(300, 100%, 53%);
   animation: flash-top $flash-duration steps(2) $flash-delay infinite alternate;
 }
 .cube .bottom {
   transform: rotate3d(1, 0, 0, -90deg) translateZ(50px);
-  // background-color: hsl(90, 100%, 49%);
+  background-color: hsl(90, 100%, 49%);
   animation: flash-bottom $flash-duration steps(2) $flash-delay infinite alternate;
 }
 .cube .left {
   transform: rotate3d(0, 1, 0, -90deg) translateZ(50px);
-  // background-color: hsl(16, 100%, 50%);
+  background-color: hsl(16, 100%, 50%);
   animation: flash-left $flash-duration steps(2) 0s infinite alternate;
 }
 .cube .right {
   transform: rotate3d(0, 1, 0, 90deg) translateZ(50px);
-  // background-color: hsl(51, 100%, 50%);
+  background-color: hsl(51, 100%, 50%);
   animation: flash-right $flash-duration steps(2) $flash-delay infinite alternate;
+}
+.cube > * {
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, .8) inset;
 }
 // Y轉動
 .box1, .box11, .box21, .box2, .box12, .box22, .box3, .box13, .box23 {
@@ -199,7 +205,6 @@ $flash-delay: .5s;
     transform: rotateX(258deg) rotateY(120deg) rotateZ(360deg);
   }
 }
-$box-shadow: 0 0 30px 20px #ffffff inset;
 @keyframes flash-front {
   0% {
     background-color: hsl(225, 73%, 20%);

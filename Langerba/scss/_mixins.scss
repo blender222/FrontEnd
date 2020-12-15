@@ -1,0 +1,44 @@
+@mixin size($w:0, $h:0) {
+  width: $w;
+  height: $h;
+}
+@mixin twoCenter() {
+  justify-content: center;
+  align-items: center;
+}
+@mixin rotateXYZ($angleX:0deg, $angleY:0deg, $angleZ:0deg) {
+  transform: rotateX($angleX) rotateY($angleY) rotateZ($angleZ);
+}
+// utilities
+.open {
+  display: block !important;
+}
+.xy-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//variables
+//default color
+$color0: #ffffff;
+.color0 {
+  color: $color0;
+}
+$color1: #252525;
+.color1 {
+  color: $color1;
+}
+$color2: #555555;
+.color2 {
+  color: $color2;
+}
+$color3: #66b8e0;
+.color3 {
+  color: $color3;
+}
+$color4: #7d7d7d;
+.color4 {
+  color: $color4;
+}
+$color-main: #fc8f44;
+$color-header: #003c5a;
