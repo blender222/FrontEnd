@@ -10,4 +10,4 @@
   transform: rotateX($angleX) rotateY($angleY) rotateZ($angleZ);
 }
 //variables
-$box-shadow: 0 0 30px 20px #ffffff inset;
+$box-shadow: 0 0 10px 10px rgba(255, 255, 255, .7) inset;

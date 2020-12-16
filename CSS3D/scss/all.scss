@@ -24,7 +24,8 @@ html, body {
   transform: rotateX(-18deg) rotateY(0deg) rotateZ(0deg);
   animation: allRotate 6s infinite ease-in-out alternate;
   &:hover, &:hover * {
-    animation: none !important;
+    // animation: none !important;
+    animation-play-state: paused !important;
   }
 }
 .box {
@@ -135,37 +136,37 @@ html, body {
   border: 5px solid #000000;
   box-sizing: border-box;
 }
-$flash-duration: .5s;
+$flash-duration: 1s;
 $flash-delay: .5s;
 .cube .front {
   transform: rotate3d(0, 0, 0, 0deg) translateZ(50px);
   background-color: hsl(225, 73%, 57%);
-  animation: flash-front $flash-duration steps(2) 0s infinite alternate;
+  animation: flash-front $flash-duration ease-in-out 0s infinite alternate;
 }
 .cube .back {
   transform: rotate3d(1, 0, 0, 180deg) translateZ(50px);
   background-color: hsl(189, 100%, 56%);
-  animation: flash-back $flash-duration steps(2) 0s infinite alternate;
+  animation: flash-back $flash-duration ease-in-out 0s infinite alternate;
 }
 .cube .top {
   transform: rotate3d(1, 0, 0, 90deg) translateZ(50px);
   background-color: hsl(300, 100%, 53%);
-  animation: flash-top $flash-duration steps(2) $flash-delay infinite alternate;
+  animation: flash-top $flash-duration ease-in-out $flash-delay infinite alternate;
 }
 .cube .bottom {
   transform: rotate3d(1, 0, 0, -90deg) translateZ(50px);
   background-color: hsl(90, 100%, 49%);
-  animation: flash-bottom $flash-duration steps(2) $flash-delay infinite alternate;
+  animation: flash-bottom $flash-duration ease-in-out $flash-delay infinite alternate;
 }
 .cube .left {
   transform: rotate3d(0, 1, 0, -90deg) translateZ(50px);
   background-color: hsl(16, 100%, 50%);
-  animation: flash-left $flash-duration steps(2) 0s infinite alternate;
+  animation: flash-left $flash-duration ease-in-out 0s infinite alternate;
 }
 .cube .right {
   transform: rotate3d(0, 1, 0, 90deg) translateZ(50px);
   background-color: hsl(51, 100%, 50%);
-  animation: flash-right $flash-duration steps(2) $flash-delay infinite alternate;
+  animation: flash-right $flash-duration ease-in-out $flash-delay infinite alternate;
 }
 .cube > * {
   box-shadow: 0 0 20px 5px rgba(255, 255, 255, .8) inset;
