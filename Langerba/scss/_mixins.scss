@@ -20,25 +20,25 @@
 }
 //variables
 //default color
-$color0: #ffffff;
-.color0 {
-  color: $color0;
+$color-white: #ffffff;
+.color-white {
+  color: $color-white;
 }
-$color1: #252525;
-.color1 {
-  color: $color1;
+$color-darkBlack: #252525;
+.color-darkBlack {
+  color: $color-darkBlack;
 }
-$color2: #555555;
-.color2 {
-  color: $color2;
+$color-darkGray: #555555;
+.color-darkGray {
+  color: $color-darkGray;
 }
-$color3: #66b8e0;
-.color3 {
-  color: $color3;
+$color-lightBlue: #66b8e0;
+.color-lightBlue {
+  color: $color-lightBlue;
 }
-$color4: #7d7d7d;
-.color4 {
-  color: $color4;
+$color-gray: #7d7d7d;
+.color-gray {
+  color: $color-gray;
 }
 $color-main: #fc8f44;
 $color-header: #003c5a;

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    html, body {
+      width: 100%;
+    }
+    button {
+      background-color: transparent;
+    }
+    button:focus {
+      outline: none;
+    }
+    img {
+      vertical-align: top;
+      max-width: 100%;
+    }
+    a {
+      color: #000000;
+      text-decoration: none;
+    }
+    html {
+      min-height: 100%;
+    }
+    body {
+      display: flex;
+      background-image: linear-gradient(-45deg, #ae00ffcc, #333399cc);
+    }
+    .main-title, .section {
+      font-family: 'Noto Sans TC', sans-serif;
+    }
+    .container {
+      margin: 25px auto 0;
+      max-width: 720px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .main-title {
+      width: 100%;
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 30px;
+      color: #ffffff;
+    }
+    .section {
+      width: 100%;
+      padding: 0 30px;
+      margin-bottom: 30px;
+      box-sizing: border-box;
+    }
+    .icon {
+      margin: 10px 0 20px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 150px;
+      height: 150px;
+    }
+    .icon svg {
+      width: 100%;
+      height: 100%;
+    }
+    .text p {
+      display: block;
+      color: #ffffff;
+      font-size: 20px;
+    }
+    @media screen and (min-width: 1024px) {
+      .container {
+        max-width: 1200px;
+      }
+      .main-title {
+        margin-bottom: 40px;
+      }
+      .section {
+        flex-basis: 33.333333%;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+      }
+      .icon {
+        margin-bottom: 55px;
+        transform-style: preserve-3d;
+        transition: transform .3s;
+      }
+      .section:hover .icon {
+        transition: transform .7s;
+        transform: rotateY(180deg) scale(1.3);
+      }
+      .text {
+        margin-top: auto;
+        margin-bottom: auto;
+        flex-shrink: 1;
+      }
+      .text p {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: all .5s;
+        cursor: default;
+      }
+      .section:hover .text p {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="main-title">前端三大框簡介</h1>
+    <div class="section section-vue">
+      <div class="icon">
+        <svg id="vue" xmlns="http://www.w3.org/2000/svg" width="2500" height="2158" viewBox="0 0 256 221" preserveAspectRatio="xMinYMin meet">
+          <path d="M204.8 0H256L128 220.8 0 0h97.92L128 51.2 157.44 0h47.36z" fill="#41B883" />
+          <path d="M0 0l128 220.8L256 0h-51.2L128 132.48 50.56 0H0z" fill="#41B883" />
+          <path d="M50.56 0L128 133.12 204.8 0h-47.36L128 51.2 97.92 0H50.56z" fill="#35495E" />
+        </svg>
+      </div>
+      <div class="text">
+        <p>由 Google 前員工 Evan You 於2014年開發，是一個開源、輕量級、以視圖(View)層為基礎發展的 JavaScript library，設計理念是易用、靈活、高性能，入門門檻較低，所需要的背景知識與概念不需要像 Angualr 或 React 只要有基本的 HTML、CSS 以及 JavaScript 的知識，就可以快速上手。</p>
+      </div>
+    </div>
+    <div class="section section-react">
+      <div class="icon">
+        <svg id="react" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 128 128" viewBox="0 0 128 128">
+          <g fill="#61DAFB">
+            <circle cx="64" cy="64" r="11.4" />
+            <path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3-12.5 4.8-19.3 11.4-19.3 18.8s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zm-14.8-30.5c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zm-11.2 59.3c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zm-25.6 27.1c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zm25.6-27.1c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zm-54.5-16.2c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zm-24.7 29c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5-13.8-4-22.1-10-22.1-15.6zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zm60.8-20.3c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z" />
+          </g>
+        </svg>
+      </div>
+      <div class="text">
+        <p>
+          由 Facebook 開發，React 捨棄傳統的 HTML 開發模式，改由 JavaScript 來全面代管 HTML 的渲染與 DOM 操作。開發者不必先寫好 HTML 基礎結構後再用 JavaScript 操作 HTML DOM，而是將該如何組合與渲染 UI 以及 UI 的互動事件，都聲明在 JavaScript 中，然後 React 會根據你的定義將其動態的產生並操作真正的 HTML DOM，以實現 UI 畫面的渲染與變更。
+        </p>
+      </div>
+    </div>
+    <div class="section section-angular">
+      <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="2353" height="2500" viewBox="0 0 256 272" preserveAspectRatio="xMidYMid">
+          <path d="M.1 45.522L125.908.697l129.196 44.028-20.919 166.45-108.277 59.966-106.583-59.169L.1 45.522z" fill="#E23237" />
+          <path d="M255.104 44.725L125.908.697v270.444l108.277-59.866 20.919-166.55z" fill="#B52E31" />
+          <path d="M126.107 32.274L47.714 206.693l29.285-.498 15.739-39.347h70.325l17.233 39.845 27.99.498-82.179-174.917zm.2 55.882l26.496 55.383h-49.806l23.31-55.383z" fill="#FFF" />
+        </svg>
+      </div>
+      <div class="text">
+        <p>
+          由 Google 開發，最初發表於2010，是一個發展已經很成熟、基於 TypeScript 的開源框架，在貢獻者方面有強大後盾，Angular 相較於其他框架，是一個大而全、完整的平台，從開發到測試都一手包辦，但學習曲線較陡峭，要掌握 Angular 需要了解 TypeScript 和 MVC 的相關概念。
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
