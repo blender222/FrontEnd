@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>前端三大框架</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <style>
     * {
@@ -73,6 +73,7 @@
       display: block;
       color: #ffffff;
       font-size: 20px;
+      text-align: center;
     }
     @media screen and (min-width: 1024px) {
       .container {
@@ -88,12 +89,16 @@
         flex-direction: column;
       }
       .icon {
+        position: relative;
+        top: 30%;
+        transform: scale(1.7);
         margin-bottom: 55px;
         transform-style: preserve-3d;
-        transition: transform .3s;
+        transition: transform .3s, top .5s;
       }
       .section:hover .icon {
-        transition: transform .7s;
+        top: 0;
+        transition: transform .7s .1s, top .5s;
         transform: rotateY(180deg) scale(1.3);
       }
       .text {
@@ -120,7 +125,7 @@
     <h1 class="main-title">前端三大框架</h1>
     <div class="section section-vue">
       <div class="icon">
-        <svg id="vue" xmlns="http://www.w3.org/2000/svg" width="2500" height="2158" viewBox="0 0 256 221" preserveAspectRatio="xMinYMin meet">
+        <svg id="vue" xmlns="http://www.w3.org/2000/svg" width="2500" height="2158" viewBox="0 -18 256 238" preserveAspectRatio="xMinYMin meet">
           <path d="M204.8 0H256L128 220.8 0 0h97.92L128 51.2 157.44 0h47.36z" fill="#41B883" />
           <path d="M0 0l128 220.8L256 0h-51.2L128 132.48 50.56 0H0z" fill="#41B883" />
           <path d="M50.56 0L128 133.12 204.8 0h-47.36L128 51.2 97.92 0H50.56z" fill="#35495E" />
@@ -155,7 +160,7 @@
       </div>
       <div class="text">
         <p>
-          由 Google 開發，最初發表於2010，是一個發展已經很成熟、基於 TypeScript 的開源框架，在貢獻者方面有強大後盾，Angular 相較於其他框架，是一個大而全、完整的平台，從開發到測試都一手包辦，但學習曲線較陡峭，要掌握 Angular 需要了解 TypeScript 和 MVC 的相關概念。
+          由 Google 開發，最初發表於2010，是一個發展很成熟、基於 TypeScript 的開源框架，在貢獻者方面有著強大後盾，Angular 相較於其他框架，是一個大而全、完整的平台，從開發到測試都一手包辦，但學習曲線較陡峭，要掌握 Angular 需要了解 TypeScript 和 MVC 的相關概念。
         </p>
       </div>
     </div>
