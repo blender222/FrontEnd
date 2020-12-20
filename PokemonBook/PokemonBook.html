@@ -287,7 +287,7 @@
     $(function() {
       let $row_pokemons = $('.container-pokemons .row')
       let pathFile = `https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png`
-      let jsonData = $.getJSON("./json/data.json", function(data) {
+      let jsonData = $.getJSON("./data.json", function(data) {
         // pokemon types
         let html_types = ''
         $.each(data[0].type, function(key, val) {
