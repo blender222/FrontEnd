@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>寶可夢圖鑑</title>
+  <!-- Noto Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <!-- resources -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    html, body {
+      height: 100%;
+    }
+    button {
+      background-color: transparent;
+    }
+    button:focus {
+      outline: none;
+    }
+    img {
+      vertical-align: top;
+      max-width: 100%;
+    }
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  </style>
+  <style>
+    .container-header .title {
+      padding-top: 20px;
+    }
+    .container-header .title h1 {
+      font-weight: 700;
+    }
+    .container-header .buttonGroup {
+      padding: 25px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .container-header button {
+      padding: 10px 15px;
+      margin: 0 10px 10px;
+      background-color: #aaf;
+      border: none;
+      border-radius: 5px;
+      font-size: 22px;
+      font-weight: 500;
+    }
+    @media screen and (min-width: 768px) {
+      .container-header .buttonGroup {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+      }
+      .container-header button {
+        margin: 0 10px 0;
+      }
+    }
+    .container-header button:hover {
+      background-color: #99f;
+    }
+    .container-header button:active {
+      background-color: #88f;
+    }
+    .container-pokemons .col {
+      padding: 10px;
+    }
+    .container-pokemons .item {
+      padding: 10px;
+      background-color: rgba(155, 155, 155, .2);
+      border-radius: 10px;
+      transition: background-color .3s;
+    }
+    @media screen and (min-width: 768px) {
+      .container-pokemons .item:hover {
+        background-color: rgba(155, 155, 155, .7);
+      }
+    }
+    .img-pokemon {
+      width: 100%;
+      height: 100%;
+    }
+    .pokemonID {
+      font-size: 18px;
+      color: #999999;
+    }
+    .pokemonName {
+      font-size: 26px;
+      font-weight: 700;
+    }
+    .pokemonType {
+      display: inline-block;
+      padding: 5px 10px;
+      color: #ffffff;
+      border-radius: 5px;
+    }
+    .pokemonType + .pokemonType {
+      margin-left: 10px;
+    }
+    #pokemon-info {
+      display: none;
+    }
+    @media screen and (min-width: 768px) {
+      #pokemon-info {
+        --height: 400px;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: var(--height);
+        position: fixed;
+        left: 0;
+        bottom: calc(-1 * var(--height));
+        padding: 30px;
+        border-top-right-radius: 10px;
+        background-color: rgba(0, 0, 0, .7);
+        transition: bottom .4s;
+      }
+      #switch-check {
+        display: none;
+      }
+      #switch-check:checked ~  #pokemon-info{
+        top: initial;
+        bottom: 0;
+      }
+      #pokemon-info .switch-icon {
+        width: 60px;
+        height: 60px;
+        display: block;
+        position: absolute;
+        left: 10px;
+        bottom: calc(100% + 10px);
+        cursor: pointer;
+      }
+      #pokemon-info .switch-icon svg {
+        width: 100%;
+        height: 100%;
+      }
+      #pokemon-info .attr {
+        color: #ffffff;
+        font-size: 20px;
+        margin-bottom: 2px;
+      }
+      #pokemon-info .value-bar {
+        width: 0;
+        height: 20px;
+        margin-bottom: 5px;
+        background-color: rgba(255, 255, 255, .8);
+      }
+      #pokemon-info .HP + .value-bar {
+        background-color: #ff7777;
+      }
+      #pokemon-info .Attack + .value-bar {
+        background-color: #ffcc00;
+      }
+      #pokemon-info .Defense + .value-bar {
+        background-color: #77ff77;
+      }
+      #pokemon-info .SpecialAttack + .value-bar {
+        background-color: #ff3333;
+      }
+      #pokemon-info .SpecialDefense + .value-bar {
+        background-color: #33ff33;
+      }
+      #pokemon-info .Speed + .value-bar {
+        background-color: #7777ff;
+      }
+    }
+    /*#region type colors*/
+    .Fire {
+      background: #fd7d24;
+    }
+    .Water {
+      background: #4592c4;
+    }
+    .Grass {
+      background: #9bcc50;
+    }
+    .Poison {
+      background: #b97fc9;
+    }
+    .Bug {
+      background: #729f3f;
+    }
+    .Flying {
+      color: #555555;
+      background: #3effff;
+    }
+    .Electric {
+      color: #555555;
+      background: #eed535;
+    }
+    .Ground {
+      background: #ab9842;
+    }
+    .Fairy {
+      color: #555555;
+      background: #fdb9e9;
+    }
+    .Normal {
+      background: #a4acaf;
+    }
+    .Psychic {
+      background: #f366b9;
+    }
+    .Rock {
+      background: #a38c21;
+    }
+    .Fighting {
+      background: #d56723;
+    }
+    .Ice {
+      background: #51c4e7;
+    }
+    .Dark {
+      background: #707070;
+    }
+    .Dragon {
+      background: #f16e57;
+    }
+    .Steel {
+      background: #9eb7b8;
+    }
+    .Ghost {
+      background: #7b62a3;
+    }
+    /*#endregion type colors*/
+  </style>
+</head>
+
+<body>
+
+  <div class="container container-header text-center">
+    <div class="row">
+      <div class="col-12">
+        <div class="title">
+          <h1>寶可夢圖鑑</h1>
+        </div>
+      </div>
+      <div class="col-12 buttonGroup">
+        <button id="button-getAll">載入所有寶可夢</button>
+        <button id="button-getAllByAppendChild">載入所有寶可夢(AppendChild)</button>
+        <button id="reset">清空</button>
+      </div>
+    </div>
+  </div>
+  <div class="container container-pokemons">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6">
+
+    </div>
+  </div>
+  <input id="switch-check" type="checkbox">
+  <div id="pokemon-info">
+    <label class="switch-icon" for="switch-check">
+      <svg viewbox="0 0 512 512">
+        <use xlink:href="./svg/ball.svg#pokemon-ball"></use>
+      </svg>
+    </label>
+
+    <div class="attr HP">HP:</div>
+    <div class="value-bar"></div>
+    <div class="attr Attack">Attack:</div>
+    <div class="value-bar"></div>
+    <div class="attr Defense">Defense:</div>
+    <div class="value-bar"></div>
+    <div class="attr SpecialAttack">Special Attack:</div>
+    <div class="value-bar"></div>
+    <div class="attr SpecialDefense">Special Defense:</div>
+    <div class="value-bar"></div>
+    <div class="attr Speed">Speed:</div>
+    <div class="value-bar"></div>
+  </div>
+
+  <script>
+    $(function() {
+      let $row_pokemons = $('.container-pokemons .row')
+      let pathFile = `https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png`
+      let jsonData = $.getJSON("./json/data.json", function(data) {
+        // pokemon types
+        let html_types = ''
+        $.each(data[0].type, function(key, val) {
+          html_types += `<span class="pokemonType ${val}">${val}</span>`
+        })
+        // 生成第一張卡
+        let element_firstCard =
+          `
+            <div class="col">
+              <div class="item" data-id="${data[0].id}">
+                <div class="pic">
+                  <img src='${pathFile}' class="img-pokemon">
+                </div>
+                <div class="text">
+                  <div class="pokemonID">#${data[0].id.toString().padStart(3, '0')}</div>
+                  <h6 class="pokemonName">${data[0].name.chinese}</h6>
+                  ${html_types}
+                </div>
+              </div>
+            </div>
+          `
+        // 寫入畫面
+        let html_pokemons = element_firstCard
+        $row_pokemons.html(html_pokemons)
+        // 綁定attr顯示事件
+        showAttrData()
+      })
+    })
+
+    function getAllPokemons() {
+      reset()
+      $.getJSON("./json/data.json", function(data) {
+        let $row_pokemons = $('.container-pokemons .row')
+        let html_pokemons = ''
+        $.each(data, function(key, val) {
+          let fileName = val.id.toString().padStart(3, '0')
+          let pathFile = `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${fileName}.png`
+          let html_types = ''
+          // pokemon types
+          $.each(val.type, function(key, val) {
+            html_types += `<span class="pokemonType ${val}">${val}</span>`
+          })
+          // 生成全部card
+          html_pokemons +=
+            `
+              <div class="col">
+                <div class="item" data-id="${val.id}">
+                  <div class="pic">
+                    <img src='${pathFile}' class="img-pokemon">
+                  </div>
+                  <div class="text">
+                    <div class="pokemonID">#${val.id.toString().padStart(3, '0')}</div>
+                    <h6 class="pokemonName">${val.name.chinese}</h6>
+                    ${html_types}
+                  </div>
+                </div>
+              </div>
+            `
+        })
+        // 寫入畫面
+        $row_pokemons.html(html_pokemons)
+        // 綁定attr顯示事件
+        showAttrData()
+      })
+    }
+
+    function getAllPokemonsByAppendChild() {
+      reset()
+      $.getJSON("./json/data.json", function(data) {
+        let row_pokemons = document.querySelector('.container-pokemons .row')
+        $.each(data, function(key, val) {
+          let fileName = val.id.toString().padStart(3, '0')
+          let pathFile = `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${fileName}.png`
+          // pokemon types
+          let html_types = ''
+          $.each(val.type, function(key, val) {
+            html_types += `<span class="pokemonType ${val}">${val}</span>`
+          })
+          // 生成一張card的html
+          let html_pokemon =
+            `
+              <div class="item" data-id="${val.id}">
+                <div class="pic">
+                  <img src='${pathFile}' class="img-pokemon">
+                </div>
+                <div class="text">
+                  <div class="pokemonID">#${val.id.toString().padStart(3, '0')}</div>
+                  <h6 class="pokemonName">${val.name.chinese}</h6>
+                  ${html_types}
+                </div>
+              </div>
+            `
+          // 寫入畫面
+          let card = document.createElement('div')
+          card.classList.add("col")
+          card.innerHTML = html_pokemon
+          row_pokemons.appendChild(card)
+        })
+        // 綁定attr顯示事件
+        showAttrData()
+      })
+    }
+
+    function reset() {
+      $('.container-pokemons .row').html('')
+    }
+
+    function showAttrData() {
+      $('.container-pokemons .item').mouseenter(function() {
+        getAttr($(this))
+      })
+      $('.container-pokemons .item').mouseleave(function() {
+        $('#pokemon-info .value-bar').css('width', 0)
+        $('.HP').text(`HP:`)
+        $('.Attack').text(`Attack:`)
+        $('.Defense').text(`Defense:`)
+        $('.SpecialAttack').text(`SpecialAttack:`)
+        $('.SpecialDefense').text(`SpecialDefense:`)
+        $('.Speed').text(`Speed:`)
+      })
+    }
+
+    function getAttr(sender) {
+      $.getJSON("./json/data.json", function(data) {
+        let targetBase = data[sender.attr('data-id') - 1].base
+
+        $('.HP').text(`HP: ${targetBase.HP}`)
+        $('.Attack').text(`Attack: ${targetBase.Attack}`)
+        $('.Defense').text(`Defense: ${targetBase.Defense}`)
+        $('.SpecialAttack').text(`SpecialAttack: ${targetBase.SpecialAttack}`)
+        $('.SpecialDefense').text(`SpecialDefense: ${targetBase.SpecialDefense}`)
+        $('.Speed').text(`Speed: ${targetBase.Speed}`)
+
+        $('.HP + .value-bar').css('width', targetBase.HP * 1.2)
+        $('.Attack + .value-bar').css('width', targetBase.Attack * 1.2)
+        $('.Defense + .value-bar').css('width', targetBase.Defense * 1.2)
+        $('.SpecialAttack + .value-bar').css('width', targetBase.SpecialAttack * 1.2)
+        $('.SpecialDefense + .value-bar').css('width', targetBase.SpecialDefense * 1.2)
+        $('.Speed + .value-bar').css('width', targetBase.Speed * 1.2)
+      })
+    }
+    $('#button-getAll').on('click', getAllPokemons)
+    $('#button-getAllByAppendChild').on('click', getAllPokemonsByAppendChild)
+    $('#reset').on('click', reset)
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
