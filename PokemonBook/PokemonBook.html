@@ -319,7 +319,7 @@
 
     function getAllPokemons() {
       reset()
-      $.getJSON("./json/data.json", function(data) {
+      $.getJSON("./data.json", function(data) {
         let $row_pokemons = $('.container-pokemons .row')
         let html_pokemons = ''
         $.each(data, function(key, val) {
@@ -356,7 +356,7 @@
 
     function getAllPokemonsByAppendChild() {
       reset()
-      $.getJSON("./json/data.json", function(data) {
+      $.getJSON("./data.json", function(data) {
         let row_pokemons = document.querySelector('.container-pokemons .row')
         $.each(data, function(key, val) {
           let fileName = val.id.toString().padStart(3, '0')
@@ -411,7 +411,7 @@
     }
 
     function getAttr(sender) {
-      $.getJSON("./json/data.json", function(data) {
+      $.getJSON("./data.json", function(data) {
         let targetBase = data[sender.attr('data-id') - 1].base
 
         $('.HP').text(`HP: ${targetBase.HP}`)
