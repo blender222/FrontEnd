@@ -1611,8 +1611,9 @@
 .section-dialogBox {
   --color-main: #ccbf9a;
 }
-.section-dialogBox {
+.section-dialogBox .container {
   padding: 100px 0 200px;
+  overflow: hidden;
 }
 .section-dialogBox .col {
   margin: auto;
@@ -1641,6 +1642,7 @@
 }
 .section-dialogBox .dialogBox .message {
   padding: 50px 50px 70px;
+  box-sizing: border-box;
   font-style: italic;
   font-size: 16px;
   color: #ffffff;
