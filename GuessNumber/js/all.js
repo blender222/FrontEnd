@@ -10,7 +10,6 @@ window.onload = function () {
   const btn_guess = document.getElementById("guess");
 
   btn_start.onclick = start;
-  // btn_restart.onclick = start;
 
   input_userGuess.onkeyup = function (event) {
     if (event.code == "Enter" || event.code == "NumpadEnter") {
@@ -25,26 +24,25 @@ window.onload = function () {
   function resetButton() {
     if (answer == "") {
       // 停止狀態
-      btn_start.onclick = start;
-      btn_restart.onclick = null;
-      btn_cheat.onclick = null;
-      btn_guess.onclick = null;
-      btn_start.classList.remove("disabled");
-      btn_restart.classList.add("disabled");
-      btn_cheat.classList.add("disabled");
-      btn_guess.classList.add("disabled");
+      enableBtn(btn_start, start);
+      disableBtn(btn_restart);
+      disableBtn(btn_cheat);
+      disableBtn(btn_guess);
     } else {
       // 遊戲中狀態
-      btn_start.onclick = null;
-      btn_restart.onclick = start;
-      btn_cheat.onclick = cheat;
-      btn_guess.onclick = guessThis;
-      btn_start.classList.add("disabled");
-      btn_restart.classList.remove("disabled");
-      btn_cheat.classList.remove("disabled");
-      btn_guess.classList.remove("disabled");
+      disableBtn(btn_start);
+      enableBtn(btn_restart, start);
+      enableBtn(btn_cheat, cheat);
+      enableBtn(btn_guess, guessThis);
     }
-    // debugger;
+  }
+  function enableBtn(btn, enabledFunction) {
+    btn.onclick = enabledFunction;
+    btn.classList.remove("disabled");
+  }
+  function disableBtn(btn) {
+    btn.onclick = null;
+    btn.classList.add("disabled");
   }
 
   function start() {
