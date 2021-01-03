@@ -130,6 +130,15 @@
   }
 }
 .modal {
+  .container {
+    @media screen and (min-width: 768px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    @media screen and (min-width: 1200px) {
+      max-width: 1000px;
+    }
+  }
   .modal-dialog {
     max-width: 100%;
     @media screen and (min-width: 768px) {
@@ -172,6 +181,18 @@
       @media screen and (min-width: 768px) {
         max-width: 400px;
       }
+      animation: popUp .6s ease-in-out 0s 1 alternate;
+      @keyframes popUp {
+        0% {
+          transform: scale(.92);
+        }
+        50% {
+          transform: scale(1.02);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
     }
     .tagBox {
       position: absolute;
@@ -188,25 +209,49 @@
       border-radius: 0 7px 7px 0;
       font-size: 20px;
       font-weight: 400;
+      box-shadow: 1px 1px 3px 0 rgba($color: #000000, $alpha: 0.4);
     }
     .pokemonType + .pokemonType {
       margin-top: 10px;
     }
   }
   .attr {
+    margin-bottom: 3px;
+    color: #444444;
     font-size: 16px;
     @media screen and (min-width: 768px) {
       font-size: 18px;
+    }
+    &.Hp .value {
+      color: var(--color-Hp);
+    }
+    &.Attack .value {
+      color: var(--color-Attack);
+    }
+    &.Defense .value {
+      color: var(--color-Defense);
+    }
+    &.SpecialAttack .value {
+      color: var(--color-SpecialAttack);
+    }
+    &.SpecialDefense .value {
+      color: var(--color-SpecialDefense);
+    }
+    &.Speed .value {
+      color: var(--color-Speed);
     }
   }
   .value-bar {
     display: block;
     width: 0px;
-    height: 18px;
+    height: 15px;
     background-clip: padding-box;
-    transition: all .7s;
+    border-radius: 7px;
+    box-shadow: 1px 2px 2px 0 rgba($color: #000000, $alpha: 0.35),
+                2px 3px 2px 0 rgba($color: #ffffff, $alpha: 0.5) inset;
+    transition: all .8s;
     @media screen and (min-width: 768px) {
-      height: 20px;
+      height: 17px;
       margin-bottom: 5px;
     }
   }

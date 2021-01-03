@@ -20,13 +20,6 @@
 </head>
 
 <body>
-  <script>
-    $(function() {
-      $('.btn-bars').click(function() {
-        $('.menu').toggleClass('open')
-      })
-    })
-  </script>
   <!-- header -->
   <header class="header">
     <div class="container">
@@ -34,9 +27,10 @@
         <div class="col">
           <nav class="my-nav">
             <div class="brand">
-              <button class="my-btn btn-bars fs25" type="button"><i class="fas fa-bars"></i></button>
+              <label class="my-btn btn-bars fs25" type="button" for="menu-check"><i class="fas fa-bars"></i></label>
               <a href="#">Langerba</a>
             </div>
+            <input id="menu-check" type="checkbox">
             <div class="menu">
               <div class="container">
                 <ul class="list list1">
@@ -72,12 +66,12 @@
                 </ul>
               </div>
             </div>
-            <button class="my-btn btn-phone" type="submit">
-              <i class="fas fa-phone-alt"></i>
-            </button>
             <div class="phone-number">
               <a href="#">+1 800 598 78 87</a>
             </div>
+            <button class="my-btn btn-phone" type="submit">
+              <i class="fas fa-phone-alt"></i>
+            </button>
           </nav>
         </div>
       </div>
