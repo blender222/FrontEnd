@@ -7,7 +7,10 @@
       "chinese": "妙蛙種子",
       "french": "Bulbizarre"
     },
-    "type": ["Grass", "Poison"],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "base": {
       "HP": 45,
       "Attack": 49,
@@ -25,7 +28,10 @@
       "chinese": "妙蛙草",
       "french": "Herbizarre"
     },
-    "type": ["Grass", "Poison"],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "base": {
       "HP": 60,
       "Attack": 62,
@@ -43,7 +49,10 @@
       "chinese": "妙蛙花",
       "french": "Florizarre"
     },
-    "type": ["Grass", "Poison"],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "base": {
       "HP": 80,
       "Attack": 82,
@@ -61,7 +70,9 @@
       "chinese": "小火龍",
       "french": "Salamèche"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 39,
       "Attack": 52,
@@ -79,7 +90,9 @@
       "chinese": "火恐龍",
       "french": "Reptincel"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 58,
       "Attack": 64,
@@ -97,7 +110,10 @@
       "chinese": "噴火龍",
       "french": "Dracaufeu"
     },
-    "type": ["Fire", "Flying"],
+    "type": [
+      "Fire",
+      "Flying"
+    ],
     "base": {
       "HP": 78,
       "Attack": 84,
@@ -115,7 +131,9 @@
       "chinese": "傑尼龜",
       "french": "Carapuce"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 44,
       "Attack": 48,
@@ -133,7 +151,9 @@
       "chinese": "卡咪龜",
       "french": "Carabaffe"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 59,
       "Attack": 63,
@@ -151,7 +171,9 @@
       "chinese": "水箭龜",
       "french": "Tortank"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 79,
       "Attack": 83,
@@ -169,7 +191,9 @@
       "chinese": "綠毛蟲",
       "french": "Chenipan"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 45,
       "Attack": 30,
@@ -187,7 +211,9 @@
       "chinese": "鐵甲蛹",
       "french": "Chrysacier"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 50,
       "Attack": 20,
@@ -205,7 +231,10 @@
       "chinese": "巴大蝶",
       "french": "Papilusion"
     },
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "base": {
       "HP": 60,
       "Attack": 45,
@@ -223,7 +252,10 @@
       "chinese": "獨角蟲",
       "french": "Aspicot"
     },
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "base": {
       "HP": 40,
       "Attack": 35,
@@ -241,7 +273,10 @@
       "chinese": "鐵殼蛹",
       "french": "Coconfort"
     },
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "base": {
       "HP": 45,
       "Attack": 25,
@@ -259,7 +294,10 @@
       "chinese": "大針蜂",
       "french": "Dardargnan"
     },
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "base": {
       "HP": 65,
       "Attack": 90,
@@ -277,7 +315,10 @@
       "chinese": "波波",
       "french": "Roucool"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 40,
       "Attack": 45,
@@ -295,7 +336,10 @@
       "chinese": "比比鳥",
       "french": "Roucoups"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 63,
       "Attack": 60,
@@ -313,7 +357,10 @@
       "chinese": "大比鳥",
       "french": "Roucarnage"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 83,
       "Attack": 80,
@@ -331,7 +378,9 @@
       "chinese": "小拉達",
       "french": "Rattata"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 30,
       "Attack": 56,
@@ -349,7 +398,9 @@
       "chinese": "拉達",
       "french": "Rattatac"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 55,
       "Attack": 81,
@@ -367,7 +418,10 @@
       "chinese": "烈雀",
       "french": "Piafabec"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 40,
       "Attack": 60,
@@ -385,7 +439,10 @@
       "chinese": "大嘴雀",
       "french": "Rapasdepic"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 65,
       "Attack": 90,
@@ -403,7 +460,9 @@
       "chinese": "阿柏蛇",
       "french": "Abo"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 35,
       "Attack": 60,
@@ -421,7 +480,9 @@
       "chinese": "阿柏怪",
       "french": "Arbok"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 60,
       "Attack": 95,
@@ -439,7 +500,9 @@
       "chinese": "皮卡丘",
       "french": "Pikachu"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 35,
       "Attack": 55,
@@ -457,7 +520,9 @@
       "chinese": "雷丘",
       "french": "Raichu"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 60,
       "Attack": 90,
@@ -475,7 +540,9 @@
       "chinese": "穿山鼠",
       "french": "Sabelette"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 50,
       "Attack": 75,
@@ -493,7 +560,9 @@
       "chinese": "穿山王",
       "french": "Sablaireau"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 75,
       "Attack": 100,
@@ -511,7 +580,9 @@
       "chinese": "尼多蘭",
       "french": "Nidoran♀"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 55,
       "Attack": 47,
@@ -529,7 +600,9 @@
       "chinese": "尼多娜",
       "french": "Nidorina"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 70,
       "Attack": 62,
@@ -547,7 +620,10 @@
       "chinese": "尼多後",
       "french": "Nidoqueen"
     },
-    "type": ["Poison", "Ground"],
+    "type": [
+      "Poison",
+      "Ground"
+    ],
     "base": {
       "HP": 90,
       "Attack": 92,
@@ -565,7 +641,9 @@
       "chinese": "尼多朗",
       "french": "Nidoran♂"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 46,
       "Attack": 57,
@@ -583,7 +661,9 @@
       "chinese": "尼多力諾",
       "french": "Nidorino"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 61,
       "Attack": 72,
@@ -601,7 +681,10 @@
       "chinese": "尼多王",
       "french": "Nidoking"
     },
-    "type": ["Poison", "Ground"],
+    "type": [
+      "Poison",
+      "Ground"
+    ],
     "base": {
       "HP": 81,
       "Attack": 102,
@@ -619,7 +702,9 @@
       "chinese": "皮皮",
       "french": "Mélofée"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 70,
       "Attack": 45,
@@ -637,7 +722,9 @@
       "chinese": "皮可西",
       "french": "Mélodelfe"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 95,
       "Attack": 70,
@@ -655,7 +742,9 @@
       "chinese": "六尾",
       "french": "Goupix"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 38,
       "Attack": 41,
@@ -673,7 +762,9 @@
       "chinese": "九尾",
       "french": "Feunard"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 73,
       "Attack": 76,
@@ -691,7 +782,10 @@
       "chinese": "胖丁",
       "french": "Rondoudou"
     },
-    "type": ["Normal", "Fairy"],
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
     "base": {
       "HP": 115,
       "Attack": 45,
@@ -709,7 +803,10 @@
       "chinese": "胖可丁",
       "french": "Grodoudou"
     },
-    "type": ["Normal", "Fairy"],
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
     "base": {
       "HP": 140,
       "Attack": 70,
@@ -727,7 +824,10 @@
       "chinese": "超音蝠",
       "french": "Nosferapti"
     },
-    "type": ["Poison", "Flying"],
+    "type": [
+      "Poison",
+      "Flying"
+    ],
     "base": {
       "HP": 40,
       "Attack": 45,
@@ -745,7 +845,10 @@
       "chinese": "大嘴蝠",
       "french": "Nosferalto"
     },
-    "type": ["Poison", "Flying"],
+    "type": [
+      "Poison",
+      "Flying"
+    ],
     "base": {
       "HP": 75,
       "Attack": 80,
@@ -763,7 +866,10 @@
       "chinese": "走路草",
       "french": "Mystherbe"
     },
-    "type": ["Grass", "Poison"],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "base": {
       "HP": 45,
       "Attack": 50,
@@ -781,7 +887,10 @@
       "chinese": "臭臭花",
       "french": "Ortide"
     },
-    "type": ["Grass", "Poison"],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "base": {
       "HP": 60,
       "Attack": 65,
@@ -799,7 +908,10 @@
       "chinese": "霸王花",
       "french": "Rafflesia"
     },
-    "type": ["Grass", "Poison"],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "base": {
       "HP": 75,
       "Attack": 80,
@@ -817,7 +929,10 @@
       "chinese": "派拉斯",
       "french": "Paras"
     },
-    "type": ["Bug", "Grass"],
+    "type": [
+      "Bug",
+      "Grass"
+    ],
     "base": {
       "HP": 35,
       "Attack": 70,
@@ -835,7 +950,10 @@
       "chinese": "派拉斯特",
       "french": "Parasect"
     },
-    "type": ["Bug", "Grass"],
+    "type": [
+      "Bug",
+      "Grass"
+    ],
     "base": {
       "HP": 60,
       "Attack": 95,
@@ -853,7 +971,10 @@
       "chinese": "毛球",
       "french": "Mimitoss"
     },
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "base": {
       "HP": 60,
       "Attack": 55,
@@ -871,7 +992,10 @@
       "chinese": "摩魯蛾",
       "french": "Aéromite"
     },
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "base": {
       "HP": 70,
       "Attack": 65,
@@ -889,7 +1013,9 @@
       "chinese": "地鼠",
       "french": "Taupiqueur"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 10,
       "Attack": 55,
@@ -907,7 +1033,9 @@
       "chinese": "三地鼠",
       "french": "Triopikeur"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 35,
       "Attack": 100,
@@ -925,7 +1053,9 @@
       "chinese": "喵喵",
       "french": "Miaouss"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 40,
       "Attack": 45,
@@ -943,7 +1073,9 @@
       "chinese": "貓老大",
       "french": "Persian"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 65,
       "Attack": 70,
@@ -961,7 +1093,9 @@
       "chinese": "可達鴨",
       "french": "Psykokwak"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 50,
       "Attack": 52,
@@ -979,7 +1113,9 @@
       "chinese": "哥達鴨",
       "french": "Akwakwak"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 80,
       "Attack": 82,
@@ -997,7 +1133,9 @@
       "chinese": "猴怪",
       "french": "Férosinge"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 40,
       "Attack": 80,
@@ -1015,7 +1153,9 @@
       "chinese": "火暴猴",
       "french": "Colossinge"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 65,
       "Attack": 105,
@@ -1033,7 +1173,9 @@
       "chinese": "卡蒂狗",
       "french": "Caninos"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 55,
       "Attack": 70,
@@ -1051,7 +1193,9 @@
       "chinese": "風速狗",
       "french": "Arcanin"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 90,
       "Attack": 110,
@@ -1069,7 +1213,9 @@
       "chinese": "蚊香蝌蚪",
       "french": "Ptitard"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 40,
       "Attack": 50,
@@ -1087,7 +1233,9 @@
       "chinese": "蚊香君",
       "french": "Têtarte"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 65,
       "Attack": 65,
@@ -1105,7 +1253,10 @@
       "chinese": "蚊香泳士",
       "french": "Tartard"
     },
-    "type": ["Water", "Fighting"],
+    "type": [
+      "Water",
+      "Fighting"
+    ],
     "base": {
       "HP": 90,
       "Attack": 95,
@@ -1123,7 +1274,9 @@
       "chinese": "凱西",
       "french": "Abra"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 25,
       "Attack": 20,
@@ -1141,7 +1294,9 @@
       "chinese": "勇基拉",
       "french": "Kadabra"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 40,
       "Attack": 35,
@@ -1159,7 +1314,9 @@
       "chinese": "胡地",
       "french": "Alakazam"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 55,
       "Attack": 50,
@@ -1177,7 +1334,9 @@
       "chinese": "腕力",
       "french": "Machoc"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 70,
       "Attack": 80,
@@ -1195,7 +1354,9 @@
       "chinese": "豪力",
       "french": "Machopeur"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 80,
       "Attack": 100,
@@ -1213,7 +1374,9 @@
       "chinese": "怪力",
       "french": "Mackogneur"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 90,
       "Attack": 130,
@@ -1231,7 +1394,10 @@
       "chinese": "喇叭芽",
       "french": "Chétiflor"
     },
-    "type": ["Grass", "Poison"],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "base": {
       "HP": 50,
       "Attack": 75,
@@ -1249,7 +1415,10 @@
       "chinese": "口呆花",
       "french": "Boustiflor"
     },
-    "type": ["Grass", "Poison"],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "base": {
       "HP": 65,
       "Attack": 90,
@@ -1267,7 +1436,10 @@
       "chinese": "大食花",
       "french": "Empiflor"
     },
-    "type": ["Grass", "Poison"],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "base": {
       "HP": 80,
       "Attack": 105,
@@ -1285,7 +1457,10 @@
       "chinese": "瑪瑙水母",
       "french": "Tentacool"
     },
-    "type": ["Water", "Poison"],
+    "type": [
+      "Water",
+      "Poison"
+    ],
     "base": {
       "HP": 40,
       "Attack": 40,
@@ -1303,7 +1478,10 @@
       "chinese": "毒刺水母",
       "french": "Tentacruel"
     },
-    "type": ["Water", "Poison"],
+    "type": [
+      "Water",
+      "Poison"
+    ],
     "base": {
       "HP": 80,
       "Attack": 70,
@@ -1321,7 +1499,10 @@
       "chinese": "小拳石",
       "french": "Racaillou"
     },
-    "type": ["Rock", "Ground"],
+    "type": [
+      "Rock",
+      "Ground"
+    ],
     "base": {
       "HP": 40,
       "Attack": 80,
@@ -1339,7 +1520,10 @@
       "chinese": "隆隆石",
       "french": "Gravalanch"
     },
-    "type": ["Rock", "Ground"],
+    "type": [
+      "Rock",
+      "Ground"
+    ],
     "base": {
       "HP": 55,
       "Attack": 95,
@@ -1357,7 +1541,10 @@
       "chinese": "隆隆巖",
       "french": "Grolem"
     },
-    "type": ["Rock", "Ground"],
+    "type": [
+      "Rock",
+      "Ground"
+    ],
     "base": {
       "HP": 80,
       "Attack": 120,
@@ -1375,7 +1562,9 @@
       "chinese": "小火馬",
       "french": "Ponyta"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 50,
       "Attack": 85,
@@ -1393,7 +1582,9 @@
       "chinese": "烈焰馬",
       "french": "Galopa"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 65,
       "Attack": 100,
@@ -1411,7 +1602,10 @@
       "chinese": "呆呆獸",
       "french": "Ramoloss"
     },
-    "type": ["Water", "Psychic"],
+    "type": [
+      "Water",
+      "Psychic"
+    ],
     "base": {
       "HP": 90,
       "Attack": 65,
@@ -1429,7 +1623,10 @@
       "chinese": "呆殼獸",
       "french": "Flagadoss"
     },
-    "type": ["Water", "Psychic"],
+    "type": [
+      "Water",
+      "Psychic"
+    ],
     "base": {
       "HP": 95,
       "Attack": 75,
@@ -1447,7 +1644,10 @@
       "chinese": "小磁怪",
       "french": "Magnéti"
     },
-    "type": ["Electric", "Steel"],
+    "type": [
+      "Electric",
+      "Steel"
+    ],
     "base": {
       "HP": 25,
       "Attack": 35,
@@ -1465,7 +1665,10 @@
       "chinese": "三合一磁怪",
       "french": "Magnéton"
     },
-    "type": ["Electric", "Steel"],
+    "type": [
+      "Electric",
+      "Steel"
+    ],
     "base": {
       "HP": 50,
       "Attack": 60,
@@ -1483,7 +1686,10 @@
       "chinese": "大蔥鴨",
       "french": "Canarticho"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 52,
       "Attack": 90,
@@ -1501,7 +1707,10 @@
       "chinese": "嘟嘟",
       "french": "Doduo"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 35,
       "Attack": 85,
@@ -1519,7 +1728,10 @@
       "chinese": "嘟嘟利",
       "french": "Dodrio"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 60,
       "Attack": 110,
@@ -1537,7 +1749,9 @@
       "chinese": "小海獅",
       "french": "Otaria"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 65,
       "Attack": 45,
@@ -1555,7 +1769,10 @@
       "chinese": "白海獅",
       "french": "Lamantine"
     },
-    "type": ["Water", "Ice"],
+    "type": [
+      "Water",
+      "Ice"
+    ],
     "base": {
       "HP": 90,
       "Attack": 70,
@@ -1573,7 +1790,9 @@
       "chinese": "臭泥",
       "french": "Tadmorv"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 80,
       "Attack": 80,
@@ -1591,7 +1810,9 @@
       "chinese": "臭臭泥",
       "french": "Grotadmorv"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 105,
       "Attack": 105,
@@ -1609,7 +1830,9 @@
       "chinese": "大舌貝",
       "french": "Kokiyas"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 30,
       "Attack": 65,
@@ -1627,7 +1850,10 @@
       "chinese": "刺甲貝",
       "french": "Crustabri"
     },
-    "type": ["Water", "Ice"],
+    "type": [
+      "Water",
+      "Ice"
+    ],
     "base": {
       "HP": 50,
       "Attack": 95,
@@ -1645,7 +1871,10 @@
       "chinese": "鬼斯",
       "french": "Fantominus"
     },
-    "type": ["Ghost", "Poison"],
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
     "base": {
       "HP": 30,
       "Attack": 35,
@@ -1663,7 +1892,10 @@
       "chinese": "鬼斯通",
       "french": "Spectrum"
     },
-    "type": ["Ghost", "Poison"],
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
     "base": {
       "HP": 45,
       "Attack": 50,
@@ -1681,7 +1913,10 @@
       "chinese": "耿鬼",
       "french": "Ectoplasma"
     },
-    "type": ["Ghost", "Poison"],
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
     "base": {
       "HP": 60,
       "Attack": 65,
@@ -1699,7 +1934,10 @@
       "chinese": "大巖蛇",
       "french": "Onix"
     },
-    "type": ["Rock", "Ground"],
+    "type": [
+      "Rock",
+      "Ground"
+    ],
     "base": {
       "HP": 35,
       "Attack": 45,
@@ -1717,7 +1955,9 @@
       "chinese": "催眠貘",
       "french": "Soporifik"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 60,
       "Attack": 48,
@@ -1735,7 +1975,9 @@
       "chinese": "引夢貘人",
       "french": "Hypnomade"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 85,
       "Attack": 73,
@@ -1753,7 +1995,9 @@
       "chinese": "大鉗蟹",
       "french": "Krabby"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 30,
       "Attack": 105,
@@ -1771,7 +2015,9 @@
       "chinese": "巨鉗蟹",
       "french": "Krabboss"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 55,
       "Attack": 130,
@@ -1789,7 +2035,9 @@
       "chinese": "霹靂電球",
       "french": "Voltorbe"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 40,
       "Attack": 30,
@@ -1807,7 +2055,9 @@
       "chinese": "頑皮雷彈",
       "french": "Électrode"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 60,
       "Attack": 50,
@@ -1825,7 +2075,10 @@
       "chinese": "蛋蛋",
       "french": "Noeunoeuf"
     },
-    "type": ["Grass", "Psychic"],
+    "type": [
+      "Grass",
+      "Psychic"
+    ],
     "base": {
       "HP": 60,
       "Attack": 40,
@@ -1843,7 +2096,10 @@
       "chinese": "椰蛋樹",
       "french": "Noadkoko"
     },
-    "type": ["Grass", "Psychic"],
+    "type": [
+      "Grass",
+      "Psychic"
+    ],
     "base": {
       "HP": 95,
       "Attack": 95,
@@ -1861,7 +2117,9 @@
       "chinese": "卡拉卡拉",
       "french": "Osselait"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 50,
       "Attack": 50,
@@ -1879,7 +2137,9 @@
       "chinese": "嘎啦嘎啦",
       "french": "Ossatueur"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 60,
       "Attack": 80,
@@ -1897,7 +2157,9 @@
       "chinese": "飛腿郎",
       "french": "Kicklee"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 50,
       "Attack": 120,
@@ -1915,7 +2177,9 @@
       "chinese": "快拳郎",
       "french": "Tygnon"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 50,
       "Attack": 105,
@@ -1933,7 +2197,9 @@
       "chinese": "大舌頭",
       "french": "Excelangue"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 90,
       "Attack": 55,
@@ -1951,7 +2217,9 @@
       "chinese": "瓦斯彈",
       "french": "Smogo"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 40,
       "Attack": 65,
@@ -1969,7 +2237,9 @@
       "chinese": "雙彈瓦斯",
       "french": "Smogogo"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 65,
       "Attack": 90,
@@ -1987,7 +2257,10 @@
       "chinese": "獨角犀牛",
       "french": "Rhinocorne"
     },
-    "type": ["Ground", "Rock"],
+    "type": [
+      "Ground",
+      "Rock"
+    ],
     "base": {
       "HP": 80,
       "Attack": 85,
@@ -2005,7 +2278,10 @@
       "chinese": "鉆角犀獸",
       "french": "Rhinoféros"
     },
-    "type": ["Ground", "Rock"],
+    "type": [
+      "Ground",
+      "Rock"
+    ],
     "base": {
       "HP": 105,
       "Attack": 130,
@@ -2023,7 +2299,9 @@
       "chinese": "吉利蛋",
       "french": "Leveinard"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 250,
       "Attack": 5,
@@ -2041,7 +2319,9 @@
       "chinese": "蔓藤怪",
       "french": "Saquedeneu"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 65,
       "Attack": 55,
@@ -2059,7 +2339,9 @@
       "chinese": "袋獸",
       "french": "Kangourex"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 105,
       "Attack": 95,
@@ -2077,7 +2359,9 @@
       "chinese": "墨海馬",
       "french": "Hypotrempe"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 30,
       "Attack": 40,
@@ -2095,7 +2379,9 @@
       "chinese": "海刺龍",
       "french": "Hypocéan"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 55,
       "Attack": 65,
@@ -2113,7 +2399,9 @@
       "chinese": "角金魚",
       "french": "Poissirène"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 45,
       "Attack": 67,
@@ -2131,7 +2419,9 @@
       "chinese": "金魚王",
       "french": "Poissoroy"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 80,
       "Attack": 92,
@@ -2149,7 +2439,9 @@
       "chinese": "海星星",
       "french": "Stari"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 30,
       "Attack": 45,
@@ -2167,7 +2459,10 @@
       "chinese": "寶石海星",
       "french": "Staross"
     },
-    "type": ["Water", "Psychic"],
+    "type": [
+      "Water",
+      "Psychic"
+    ],
     "base": {
       "HP": 60,
       "Attack": 75,
@@ -2185,7 +2480,10 @@
       "chinese": "魔墻人偶",
       "french": "M. Mime"
     },
-    "type": ["Psychic", "Fairy"],
+    "type": [
+      "Psychic",
+      "Fairy"
+    ],
     "base": {
       "HP": 40,
       "Attack": 45,
@@ -2203,7 +2501,10 @@
       "chinese": "飛天螳螂",
       "french": "Insécateur"
     },
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "base": {
       "HP": 70,
       "Attack": 110,
@@ -2221,7 +2522,10 @@
       "chinese": "迷唇姐",
       "french": "Lippoutou"
     },
-    "type": ["Ice", "Psychic"],
+    "type": [
+      "Ice",
+      "Psychic"
+    ],
     "base": {
       "HP": 65,
       "Attack": 50,
@@ -2239,7 +2543,9 @@
       "chinese": "電擊獸",
       "french": "Élektek"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 65,
       "Attack": 83,
@@ -2257,7 +2563,9 @@
       "chinese": "鴨嘴火獸",
       "french": "Magmar"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 65,
       "Attack": 95,
@@ -2275,7 +2583,9 @@
       "chinese": "凱羅斯",
       "french": "Scarabrute"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 65,
       "Attack": 125,
@@ -2293,7 +2603,9 @@
       "chinese": "肯泰羅",
       "french": "Tauros"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 75,
       "Attack": 100,
@@ -2311,7 +2623,9 @@
       "chinese": "鯉魚王",
       "french": "Magicarpe"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 20,
       "Attack": 10,
@@ -2329,7 +2643,10 @@
       "chinese": "暴鯉龍",
       "french": "Léviator"
     },
-    "type": ["Water", "Flying"],
+    "type": [
+      "Water",
+      "Flying"
+    ],
     "base": {
       "HP": 95,
       "Attack": 125,
@@ -2347,7 +2664,10 @@
       "chinese": "拉普拉斯",
       "french": "Lokhlass"
     },
-    "type": ["Water", "Ice"],
+    "type": [
+      "Water",
+      "Ice"
+    ],
     "base": {
       "HP": 130,
       "Attack": 85,
@@ -2365,7 +2685,9 @@
       "chinese": "百變怪",
       "french": "Métamorph"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 48,
       "Attack": 48,
@@ -2383,7 +2705,9 @@
       "chinese": "伊布",
       "french": "Évoli"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 55,
       "Attack": 55,
@@ -2401,7 +2725,9 @@
       "chinese": "水伊布",
       "french": "Aquali"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 130,
       "Attack": 65,
@@ -2419,7 +2745,9 @@
       "chinese": "雷伊布",
       "french": "Voltali"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 65,
       "Attack": 65,
@@ -2437,7 +2765,9 @@
       "chinese": "火伊布",
       "french": "Pyroli"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 65,
       "Attack": 130,
@@ -2455,7 +2785,9 @@
       "chinese": "多邊獸",
       "french": "Porygon"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 65,
       "Attack": 60,
@@ -2473,7 +2805,10 @@
       "chinese": "菊石獸",
       "french": "Amonita"
     },
-    "type": ["Rock", "Water"],
+    "type": [
+      "Rock",
+      "Water"
+    ],
     "base": {
       "HP": 35,
       "Attack": 40,
@@ -2491,7 +2826,10 @@
       "chinese": "多刺菊石獸",
       "french": "Amonistar"
     },
-    "type": ["Rock", "Water"],
+    "type": [
+      "Rock",
+      "Water"
+    ],
     "base": {
       "HP": 70,
       "Attack": 60,
@@ -2509,7 +2847,10 @@
       "chinese": "化石盔",
       "french": "Kabuto"
     },
-    "type": ["Rock", "Water"],
+    "type": [
+      "Rock",
+      "Water"
+    ],
     "base": {
       "HP": 30,
       "Attack": 80,
@@ -2527,7 +2868,10 @@
       "chinese": "鐮刀盔",
       "french": "Kabutops"
     },
-    "type": ["Rock", "Water"],
+    "type": [
+      "Rock",
+      "Water"
+    ],
     "base": {
       "HP": 60,
       "Attack": 115,
@@ -2545,7 +2889,10 @@
       "chinese": "化石翼龍",
       "french": "Ptéra"
     },
-    "type": ["Rock", "Flying"],
+    "type": [
+      "Rock",
+      "Flying"
+    ],
     "base": {
       "HP": 80,
       "Attack": 105,
@@ -2563,7 +2910,9 @@
       "chinese": "卡比獸",
       "french": "Ronflex"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 160,
       "Attack": 110,
@@ -2581,7 +2930,10 @@
       "chinese": "急凍鳥",
       "french": "Artikodin"
     },
-    "type": ["Ice", "Flying"],
+    "type": [
+      "Ice",
+      "Flying"
+    ],
     "base": {
       "HP": 90,
       "Attack": 85,
@@ -2599,7 +2951,10 @@
       "chinese": "閃電鳥",
       "french": "Électhor"
     },
-    "type": ["Electric", "Flying"],
+    "type": [
+      "Electric",
+      "Flying"
+    ],
     "base": {
       "HP": 90,
       "Attack": 90,
@@ -2617,7 +2972,10 @@
       "chinese": "火焰鳥",
       "french": "Sulfura"
     },
-    "type": ["Fire", "Flying"],
+    "type": [
+      "Fire",
+      "Flying"
+    ],
     "base": {
       "HP": 90,
       "Attack": 100,
@@ -2635,7 +2993,9 @@
       "chinese": "迷你龍",
       "french": "Minidraco"
     },
-    "type": ["Dragon"],
+    "type": [
+      "Dragon"
+    ],
     "base": {
       "HP": 41,
       "Attack": 64,
@@ -2653,7 +3013,9 @@
       "chinese": "哈克龍",
       "french": "Draco"
     },
-    "type": ["Dragon"],
+    "type": [
+      "Dragon"
+    ],
     "base": {
       "HP": 61,
       "Attack": 84,
@@ -2671,7 +3033,10 @@
       "chinese": "快龍",
       "french": "Dracolosse"
     },
-    "type": ["Dragon", "Flying"],
+    "type": [
+      "Dragon",
+      "Flying"
+    ],
     "base": {
       "HP": 91,
       "Attack": 134,
@@ -2689,7 +3054,9 @@
       "chinese": "超夢",
       "french": "Mewtwo"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 106,
       "Attack": 110,
@@ -2707,7 +3074,9 @@
       "chinese": "夢幻",
       "french": "Mew"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 100,
       "Attack": 100,
@@ -2725,7 +3094,9 @@
       "chinese": "菊草葉",
       "french": "Germignon"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 45,
       "Attack": 49,
@@ -2743,7 +3114,9 @@
       "chinese": "月桂葉",
       "french": "Macronium"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 60,
       "Attack": 62,
@@ -2761,7 +3134,9 @@
       "chinese": "大竺葵",
       "french": "Méganium"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 80,
       "Attack": 82,
@@ -2779,7 +3154,9 @@
       "chinese": "火球鼠",
       "french": "Héricendre"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 39,
       "Attack": 52,
@@ -2797,7 +3174,9 @@
       "chinese": "火巖鼠",
       "french": "Feurisson"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 58,
       "Attack": 64,
@@ -2815,7 +3194,9 @@
       "chinese": "火暴獸",
       "french": "Typhlosion"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 78,
       "Attack": 84,
@@ -2833,7 +3214,9 @@
       "chinese": "小鋸鱷",
       "french": "Kaiminus"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 50,
       "Attack": 65,
@@ -2851,7 +3234,9 @@
       "chinese": "藍鱷",
       "french": "Crocrodil"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 65,
       "Attack": 80,
@@ -2869,7 +3254,9 @@
       "chinese": "大力鱷",
       "french": "Aligatueur"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 85,
       "Attack": 105,
@@ -2887,7 +3274,9 @@
       "chinese": "尾立",
       "french": "Fouinette"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 35,
       "Attack": 46,
@@ -2905,7 +3294,9 @@
       "chinese": "大尾立",
       "french": "Fouinar"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 85,
       "Attack": 76,
@@ -2923,7 +3314,10 @@
       "chinese": "咕咕",
       "french": "Hoothoot"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 60,
       "Attack": 30,
@@ -2941,7 +3335,10 @@
       "chinese": "貓頭夜鷹",
       "french": "Noarfang"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 100,
       "Attack": 50,
@@ -2959,7 +3356,10 @@
       "chinese": "芭瓢蟲",
       "french": "Coxy"
     },
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "base": {
       "HP": 40,
       "Attack": 20,
@@ -2977,7 +3377,10 @@
       "chinese": "安瓢蟲",
       "french": "Coxyclaque"
     },
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "base": {
       "HP": 55,
       "Attack": 35,
@@ -2995,7 +3398,10 @@
       "chinese": "圓絲蛛",
       "french": "Mimigal"
     },
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "base": {
       "HP": 40,
       "Attack": 60,
@@ -3013,7 +3419,10 @@
       "chinese": "阿利多斯",
       "french": "Migalos"
     },
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "base": {
       "HP": 70,
       "Attack": 90,
@@ -3031,7 +3440,10 @@
       "chinese": "叉字蝠",
       "french": "Nostenfer"
     },
-    "type": ["Poison", "Flying"],
+    "type": [
+      "Poison",
+      "Flying"
+    ],
     "base": {
       "HP": 85,
       "Attack": 90,
@@ -3049,7 +3461,10 @@
       "chinese": "燈籠魚",
       "french": "Loupio"
     },
-    "type": ["Water", "Electric"],
+    "type": [
+      "Water",
+      "Electric"
+    ],
     "base": {
       "HP": 75,
       "Attack": 38,
@@ -3067,7 +3482,10 @@
       "chinese": "電燈怪",
       "french": "Lanturn"
     },
-    "type": ["Water", "Electric"],
+    "type": [
+      "Water",
+      "Electric"
+    ],
     "base": {
       "HP": 125,
       "Attack": 58,
@@ -3085,7 +3503,9 @@
       "chinese": "皮丘",
       "french": "Pichu"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 20,
       "Attack": 40,
@@ -3103,7 +3523,9 @@
       "chinese": "皮寶寶",
       "french": "Mélo"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 50,
       "Attack": 25,
@@ -3121,7 +3543,10 @@
       "chinese": "寶寶丁",
       "french": "Toudoudou"
     },
-    "type": ["Normal", "Fairy"],
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
     "base": {
       "HP": 90,
       "Attack": 30,
@@ -3139,7 +3564,9 @@
       "chinese": "波克比",
       "french": "Togepi"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 35,
       "Attack": 20,
@@ -3157,7 +3584,10 @@
       "chinese": "波克基古",
       "french": "Togetic"
     },
-    "type": ["Fairy", "Flying"],
+    "type": [
+      "Fairy",
+      "Flying"
+    ],
     "base": {
       "HP": 55,
       "Attack": 40,
@@ -3175,7 +3605,10 @@
       "chinese": "天然雀",
       "french": "Natu"
     },
-    "type": ["Psychic", "Flying"],
+    "type": [
+      "Psychic",
+      "Flying"
+    ],
     "base": {
       "HP": 40,
       "Attack": 50,
@@ -3193,7 +3626,10 @@
       "chinese": "天然鳥",
       "french": "Xatu"
     },
-    "type": ["Psychic", "Flying"],
+    "type": [
+      "Psychic",
+      "Flying"
+    ],
     "base": {
       "HP": 65,
       "Attack": 75,
@@ -3211,7 +3647,9 @@
       "chinese": "咩利羊",
       "french": "Wattouat"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 55,
       "Attack": 40,
@@ -3229,7 +3667,9 @@
       "chinese": "茸茸羊",
       "french": "Lainergie"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 70,
       "Attack": 55,
@@ -3247,7 +3687,9 @@
       "chinese": "電龍",
       "french": "Pharamp"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 90,
       "Attack": 75,
@@ -3265,7 +3707,9 @@
       "chinese": "美麗花",
       "french": "Joliflor"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 75,
       "Attack": 80,
@@ -3283,7 +3727,10 @@
       "chinese": "瑪力露",
       "french": "Marill"
     },
-    "type": ["Water", "Fairy"],
+    "type": [
+      "Water",
+      "Fairy"
+    ],
     "base": {
       "HP": 70,
       "Attack": 20,
@@ -3301,7 +3748,10 @@
       "chinese": "瑪力露麗",
       "french": "Azumarill"
     },
-    "type": ["Water", "Fairy"],
+    "type": [
+      "Water",
+      "Fairy"
+    ],
     "base": {
       "HP": 100,
       "Attack": 50,
@@ -3316,10 +3766,12 @@
     "name": {
       "english": "Sudowoodo",
       "japanese": "ウソッキー",
-      "chinese": "樹才怪‎",
+      "chinese": "樹才怪\u200e",
       "french": "Simularbre"
     },
-    "type": ["Rock"],
+    "type": [
+      "Rock"
+    ],
     "base": {
       "HP": 70,
       "Attack": 100,
@@ -3337,7 +3789,9 @@
       "chinese": "蚊香蛙皇",
       "french": "Tarpaud"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 90,
       "Attack": 75,
@@ -3355,7 +3809,10 @@
       "chinese": "毽子草",
       "french": "Granivol"
     },
-    "type": ["Grass", "Flying"],
+    "type": [
+      "Grass",
+      "Flying"
+    ],
     "base": {
       "HP": 35,
       "Attack": 35,
@@ -3373,7 +3830,10 @@
       "chinese": "毽子花",
       "french": "Floravol"
     },
-    "type": ["Grass", "Flying"],
+    "type": [
+      "Grass",
+      "Flying"
+    ],
     "base": {
       "HP": 55,
       "Attack": 45,
@@ -3391,7 +3851,10 @@
       "chinese": "毽子棉",
       "french": "Cotovol"
     },
-    "type": ["Grass", "Flying"],
+    "type": [
+      "Grass",
+      "Flying"
+    ],
     "base": {
       "HP": 75,
       "Attack": 55,
@@ -3409,7 +3872,9 @@
       "chinese": "長尾怪手",
       "french": "Capumain"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 55,
       "Attack": 70,
@@ -3427,7 +3892,9 @@
       "chinese": "向日種子",
       "french": "Tournegrin"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 30,
       "Attack": 30,
@@ -3445,7 +3912,9 @@
       "chinese": "向日花怪",
       "french": "Héliatronc"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 75,
       "Attack": 75,
@@ -3463,7 +3932,10 @@
       "chinese": "蜻蜻蜓",
       "french": "Yanma"
     },
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "base": {
       "HP": 65,
       "Attack": 65,
@@ -3481,7 +3953,10 @@
       "chinese": "烏波",
       "french": "Axoloto"
     },
-    "type": ["Water", "Ground"],
+    "type": [
+      "Water",
+      "Ground"
+    ],
     "base": {
       "HP": 55,
       "Attack": 45,
@@ -3499,7 +3974,10 @@
       "chinese": "沼王",
       "french": "Maraiste"
     },
-    "type": ["Water", "Ground"],
+    "type": [
+      "Water",
+      "Ground"
+    ],
     "base": {
       "HP": 95,
       "Attack": 85,
@@ -3517,7 +3995,9 @@
       "chinese": "太陽伊布",
       "french": "Mentali"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 65,
       "Attack": 65,
@@ -3535,7 +4015,9 @@
       "chinese": "月亮伊布",
       "french": "Noctali"
     },
-    "type": ["Dark"],
+    "type": [
+      "Dark"
+    ],
     "base": {
       "HP": 95,
       "Attack": 65,
@@ -3553,7 +4035,10 @@
       "chinese": "黑暗鴉",
       "french": "Cornèbre"
     },
-    "type": ["Dark", "Flying"],
+    "type": [
+      "Dark",
+      "Flying"
+    ],
     "base": {
       "HP": 60,
       "Attack": 85,
@@ -3571,7 +4056,10 @@
       "chinese": "呆呆王",
       "french": "Roigada"
     },
-    "type": ["Water", "Psychic"],
+    "type": [
+      "Water",
+      "Psychic"
+    ],
     "base": {
       "HP": 95,
       "Attack": 75,
@@ -3589,7 +4077,9 @@
       "chinese": "夢妖",
       "french": "Feuforêve"
     },
-    "type": ["Ghost"],
+    "type": [
+      "Ghost"
+    ],
     "base": {
       "HP": 60,
       "Attack": 60,
@@ -3607,7 +4097,9 @@
       "chinese": "未知圖騰",
       "french": "Zarbi"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 48,
       "Attack": 72,
@@ -3625,7 +4117,9 @@
       "chinese": "果然翁",
       "french": "Qulbutoké"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 190,
       "Attack": 33,
@@ -3643,7 +4137,10 @@
       "chinese": "麒麟奇",
       "french": "Girafarig"
     },
-    "type": ["Normal", "Psychic"],
+    "type": [
+      "Normal",
+      "Psychic"
+    ],
     "base": {
       "HP": 70,
       "Attack": 80,
@@ -3661,7 +4158,9 @@
       "chinese": "榛果球",
       "french": "Pomdepik"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 50,
       "Attack": 65,
@@ -3679,7 +4178,10 @@
       "chinese": "佛烈托斯",
       "french": "Foretress"
     },
-    "type": ["Bug", "Steel"],
+    "type": [
+      "Bug",
+      "Steel"
+    ],
     "base": {
       "HP": 75,
       "Attack": 90,
@@ -3697,7 +4199,9 @@
       "chinese": "土龍弟弟",
       "french": "Insolourdo"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 100,
       "Attack": 70,
@@ -3715,7 +4219,10 @@
       "chinese": "天蠍",
       "french": "Scorplane"
     },
-    "type": ["Ground", "Flying"],
+    "type": [
+      "Ground",
+      "Flying"
+    ],
     "base": {
       "HP": 65,
       "Attack": 75,
@@ -3733,7 +4240,10 @@
       "chinese": "大鋼蛇",
       "french": "Steelix"
     },
-    "type": ["Steel", "Ground"],
+    "type": [
+      "Steel",
+      "Ground"
+    ],
     "base": {
       "HP": 75,
       "Attack": 85,
@@ -3751,7 +4261,9 @@
       "chinese": "布魯",
       "french": "Snubbull"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 60,
       "Attack": 80,
@@ -3769,7 +4281,9 @@
       "chinese": "布魯皇",
       "french": "Granbull"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 90,
       "Attack": 120,
@@ -3787,7 +4301,10 @@
       "chinese": "千針魚",
       "french": "Qwilfish"
     },
-    "type": ["Water", "Poison"],
+    "type": [
+      "Water",
+      "Poison"
+    ],
     "base": {
       "HP": 65,
       "Attack": 95,
@@ -3805,7 +4322,10 @@
       "chinese": "巨鉗螳螂",
       "french": "Cizayox"
     },
-    "type": ["Bug", "Steel"],
+    "type": [
+      "Bug",
+      "Steel"
+    ],
     "base": {
       "HP": 70,
       "Attack": 130,
@@ -3823,7 +4343,10 @@
       "chinese": "壺壺",
       "french": "Caratroc"
     },
-    "type": ["Bug", "Rock"],
+    "type": [
+      "Bug",
+      "Rock"
+    ],
     "base": {
       "HP": 20,
       "Attack": 10,
@@ -3841,7 +4364,10 @@
       "chinese": "赫拉克羅斯",
       "french": "Scarhino"
     },
-    "type": ["Bug", "Fighting"],
+    "type": [
+      "Bug",
+      "Fighting"
+    ],
     "base": {
       "HP": 80,
       "Attack": 125,
@@ -3859,7 +4385,10 @@
       "chinese": "狃拉",
       "french": "Farfuret"
     },
-    "type": ["Dark", "Ice"],
+    "type": [
+      "Dark",
+      "Ice"
+    ],
     "base": {
       "HP": 55,
       "Attack": 95,
@@ -3877,7 +4406,9 @@
       "chinese": "熊寶寶",
       "french": "Teddiursa"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 60,
       "Attack": 80,
@@ -3895,7 +4426,9 @@
       "chinese": "圈圈熊",
       "french": "Ursaring"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 90,
       "Attack": 130,
@@ -3913,7 +4446,9 @@
       "chinese": "熔巖蟲",
       "french": "Limagma"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 40,
       "Attack": 40,
@@ -3931,7 +4466,10 @@
       "chinese": "熔巖蝸牛",
       "french": "Volcaropod"
     },
-    "type": ["Fire", "Rock"],
+    "type": [
+      "Fire",
+      "Rock"
+    ],
     "base": {
       "HP": 60,
       "Attack": 50,
@@ -3949,7 +4487,10 @@
       "chinese": "小山豬",
       "french": "Marcacrin"
     },
-    "type": ["Ice", "Ground"],
+    "type": [
+      "Ice",
+      "Ground"
+    ],
     "base": {
       "HP": 50,
       "Attack": 50,
@@ -3967,7 +4508,10 @@
       "chinese": "長毛豬",
       "french": "Cochignon"
     },
-    "type": ["Ice", "Ground"],
+    "type": [
+      "Ice",
+      "Ground"
+    ],
     "base": {
       "HP": 100,
       "Attack": 100,
@@ -3985,7 +4529,10 @@
       "chinese": "太陽珊瑚",
       "french": "Corayon"
     },
-    "type": ["Water", "Rock"],
+    "type": [
+      "Water",
+      "Rock"
+    ],
     "base": {
       "HP": 65,
       "Attack": 55,
@@ -4003,7 +4550,9 @@
       "chinese": "鐵炮魚",
       "french": "Rémoraid"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 35,
       "Attack": 65,
@@ -4021,7 +4570,9 @@
       "chinese": "章魚桶",
       "french": "Octillery"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 75,
       "Attack": 105,
@@ -4039,7 +4590,10 @@
       "chinese": "信使鳥",
       "french": "Cadoizo"
     },
-    "type": ["Ice", "Flying"],
+    "type": [
+      "Ice",
+      "Flying"
+    ],
     "base": {
       "HP": 45,
       "Attack": 55,
@@ -4057,7 +4611,10 @@
       "chinese": "巨翅飛魚",
       "french": "Démanta"
     },
-    "type": ["Water", "Flying"],
+    "type": [
+      "Water",
+      "Flying"
+    ],
     "base": {
       "HP": 85,
       "Attack": 40,
@@ -4075,7 +4632,10 @@
       "chinese": "盔甲鳥",
       "french": "Airmure"
     },
-    "type": ["Steel", "Flying"],
+    "type": [
+      "Steel",
+      "Flying"
+    ],
     "base": {
       "HP": 65,
       "Attack": 80,
@@ -4093,7 +4653,10 @@
       "chinese": "戴魯比",
       "french": "Malosse"
     },
-    "type": ["Dark", "Fire"],
+    "type": [
+      "Dark",
+      "Fire"
+    ],
     "base": {
       "HP": 45,
       "Attack": 60,
@@ -4111,7 +4674,10 @@
       "chinese": "黑魯加",
       "french": "Démolosse"
     },
-    "type": ["Dark", "Fire"],
+    "type": [
+      "Dark",
+      "Fire"
+    ],
     "base": {
       "HP": 75,
       "Attack": 90,
@@ -4129,7 +4695,10 @@
       "chinese": "刺龍王",
       "french": "Hyporoi"
     },
-    "type": ["Water", "Dragon"],
+    "type": [
+      "Water",
+      "Dragon"
+    ],
     "base": {
       "HP": 75,
       "Attack": 95,
@@ -4147,7 +4716,9 @@
       "chinese": "小小象",
       "french": "Phanpy"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 90,
       "Attack": 60,
@@ -4165,7 +4736,9 @@
       "chinese": "頓甲",
       "french": "Donphan"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 90,
       "Attack": 120,
@@ -4183,7 +4756,9 @@
       "chinese": "多邊獸Ⅱ",
       "french": "Porygon2"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 85,
       "Attack": 80,
@@ -4201,7 +4776,9 @@
       "chinese": "驚角鹿",
       "french": "Cerfrousse"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 73,
       "Attack": 95,
@@ -4219,7 +4796,9 @@
       "chinese": "圖圖犬",
       "french": "Queulorior"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 55,
       "Attack": 20,
@@ -4237,7 +4816,9 @@
       "chinese": "無畏小子",
       "french": "Debugant"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 35,
       "Attack": 35,
@@ -4255,7 +4836,9 @@
       "chinese": "戰舞郎",
       "french": "Kapoera"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 50,
       "Attack": 95,
@@ -4273,7 +4856,10 @@
       "chinese": "迷唇娃",
       "french": "Lippouti"
     },
-    "type": ["Ice", "Psychic"],
+    "type": [
+      "Ice",
+      "Psychic"
+    ],
     "base": {
       "HP": 45,
       "Attack": 30,
@@ -4291,7 +4877,9 @@
       "chinese": "電擊怪",
       "french": "Élekid"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 45,
       "Attack": 63,
@@ -4309,7 +4897,9 @@
       "chinese": "鴨嘴寶寶",
       "french": "Magby"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 45,
       "Attack": 75,
@@ -4327,7 +4917,9 @@
       "chinese": "大奶罐",
       "french": "Écrémeuh"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 95,
       "Attack": 80,
@@ -4345,7 +4937,9 @@
       "chinese": "幸福蛋",
       "french": "Leuphorie"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 255,
       "Attack": 10,
@@ -4363,7 +4957,9 @@
       "chinese": "雷公",
       "french": "Raikou"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 90,
       "Attack": 85,
@@ -4381,7 +4977,9 @@
       "chinese": "炎帝",
       "french": "Entei"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 115,
       "Attack": 115,
@@ -4399,7 +4997,9 @@
       "chinese": "水君",
       "french": "Suicune"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 100,
       "Attack": 75,
@@ -4417,7 +5017,10 @@
       "chinese": "幼基拉斯",
       "french": "Embrylex"
     },
-    "type": ["Rock", "Ground"],
+    "type": [
+      "Rock",
+      "Ground"
+    ],
     "base": {
       "HP": 50,
       "Attack": 64,
@@ -4435,7 +5038,10 @@
       "chinese": "沙基拉斯",
       "french": "Ymphect"
     },
-    "type": ["Rock", "Ground"],
+    "type": [
+      "Rock",
+      "Ground"
+    ],
     "base": {
       "HP": 70,
       "Attack": 84,
@@ -4453,7 +5059,10 @@
       "chinese": "班基拉斯",
       "french": "Tyranocif"
     },
-    "type": ["Rock", "Dark"],
+    "type": [
+      "Rock",
+      "Dark"
+    ],
     "base": {
       "HP": 100,
       "Attack": 134,
@@ -4471,7 +5080,10 @@
       "chinese": "洛奇亞",
       "french": "Lugia"
     },
-    "type": ["Psychic", "Flying"],
+    "type": [
+      "Psychic",
+      "Flying"
+    ],
     "base": {
       "HP": 106,
       "Attack": 90,
@@ -4489,7 +5101,10 @@
       "chinese": "鳳王",
       "french": "Ho-Oh"
     },
-    "type": ["Fire", "Flying"],
+    "type": [
+      "Fire",
+      "Flying"
+    ],
     "base": {
       "HP": 106,
       "Attack": 130,
@@ -4507,7 +5122,10 @@
       "chinese": "時拉比",
       "french": "Celebi"
     },
-    "type": ["Psychic", "Grass"],
+    "type": [
+      "Psychic",
+      "Grass"
+    ],
     "base": {
       "HP": 100,
       "Attack": 100,
@@ -4525,7 +5143,9 @@
       "chinese": "木守宮",
       "french": "Arcko"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 40,
       "Attack": 45,
@@ -4543,7 +5163,9 @@
       "chinese": "森林蜥蜴",
       "french": "Massko"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 50,
       "Attack": 65,
@@ -4561,7 +5183,9 @@
       "chinese": "蜥蜴王",
       "french": "Jungko"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 70,
       "Attack": 85,
@@ -4579,7 +5203,9 @@
       "chinese": "火稚雞",
       "french": "Poussifeu"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 45,
       "Attack": 60,
@@ -4597,7 +5223,10 @@
       "chinese": "力壯雞",
       "french": "Galifeu"
     },
-    "type": ["Fire", "Fighting"],
+    "type": [
+      "Fire",
+      "Fighting"
+    ],
     "base": {
       "HP": 60,
       "Attack": 85,
@@ -4615,7 +5244,10 @@
       "chinese": "火焰雞",
       "french": "Braségali"
     },
-    "type": ["Fire", "Fighting"],
+    "type": [
+      "Fire",
+      "Fighting"
+    ],
     "base": {
       "HP": 80,
       "Attack": 120,
@@ -4633,7 +5265,9 @@
       "chinese": "水躍魚",
       "french": "Gobou"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 50,
       "Attack": 70,
@@ -4651,7 +5285,10 @@
       "chinese": "沼躍魚",
       "french": "Flobio"
     },
-    "type": ["Water", "Ground"],
+    "type": [
+      "Water",
+      "Ground"
+    ],
     "base": {
       "HP": 70,
       "Attack": 85,
@@ -4669,7 +5306,10 @@
       "chinese": "巨沼怪",
       "french": "Laggron"
     },
-    "type": ["Water", "Ground"],
+    "type": [
+      "Water",
+      "Ground"
+    ],
     "base": {
       "HP": 100,
       "Attack": 110,
@@ -4687,7 +5327,9 @@
       "chinese": "土狼犬",
       "french": "Medhyèna"
     },
-    "type": ["Dark"],
+    "type": [
+      "Dark"
+    ],
     "base": {
       "HP": 35,
       "Attack": 55,
@@ -4705,7 +5347,9 @@
       "chinese": "大狼犬",
       "french": "Grahyèna"
     },
-    "type": ["Dark"],
+    "type": [
+      "Dark"
+    ],
     "base": {
       "HP": 70,
       "Attack": 90,
@@ -4723,7 +5367,9 @@
       "chinese": "蛇紋熊",
       "french": "Zigzaton"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 38,
       "Attack": 30,
@@ -4741,7 +5387,9 @@
       "chinese": "直沖熊",
       "french": "Linéon"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 78,
       "Attack": 70,
@@ -4759,7 +5407,9 @@
       "chinese": "刺尾蟲",
       "french": "Chenipotte"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 45,
       "Attack": 45,
@@ -4777,7 +5427,9 @@
       "chinese": "甲殼繭",
       "french": "Armulys"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 50,
       "Attack": 35,
@@ -4795,7 +5447,10 @@
       "chinese": "狩獵鳳蝶",
       "french": "Charmillon"
     },
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "base": {
       "HP": 60,
       "Attack": 70,
@@ -4813,7 +5468,9 @@
       "chinese": "盾甲繭",
       "french": "Blindalys"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 50,
       "Attack": 35,
@@ -4831,7 +5488,10 @@
       "chinese": "毒粉蛾",
       "french": "Papinox"
     },
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "base": {
       "HP": 60,
       "Attack": 50,
@@ -4849,7 +5509,10 @@
       "chinese": "蓮葉童子",
       "french": "Nénupiot"
     },
-    "type": ["Water", "Grass"],
+    "type": [
+      "Water",
+      "Grass"
+    ],
     "base": {
       "HP": 40,
       "Attack": 30,
@@ -4867,7 +5530,10 @@
       "chinese": "蓮帽小童",
       "french": "Lombre"
     },
-    "type": ["Water", "Grass"],
+    "type": [
+      "Water",
+      "Grass"
+    ],
     "base": {
       "HP": 60,
       "Attack": 50,
@@ -4885,7 +5551,10 @@
       "chinese": "樂天河童",
       "french": "Ludicolo"
     },
-    "type": ["Water", "Grass"],
+    "type": [
+      "Water",
+      "Grass"
+    ],
     "base": {
       "HP": 80,
       "Attack": 70,
@@ -4903,7 +5572,9 @@
       "chinese": "橡實果",
       "french": "Grainipiot"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 40,
       "Attack": 40,
@@ -4921,7 +5592,10 @@
       "chinese": "長鼻葉",
       "french": "Pifeuil"
     },
-    "type": ["Grass", "Dark"],
+    "type": [
+      "Grass",
+      "Dark"
+    ],
     "base": {
       "HP": 70,
       "Attack": 70,
@@ -4939,7 +5613,10 @@
       "chinese": "狡猾天狗",
       "french": "Tengalice"
     },
-    "type": ["Grass", "Dark"],
+    "type": [
+      "Grass",
+      "Dark"
+    ],
     "base": {
       "HP": 90,
       "Attack": 100,
@@ -4957,7 +5634,10 @@
       "chinese": "傲骨燕",
       "french": "Nirondelle"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 40,
       "Attack": 55,
@@ -4975,7 +5655,10 @@
       "chinese": "大王燕",
       "french": "Hélédelle"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 60,
       "Attack": 85,
@@ -4993,7 +5676,10 @@
       "chinese": "長翅鷗",
       "french": "Goélise"
     },
-    "type": ["Water", "Flying"],
+    "type": [
+      "Water",
+      "Flying"
+    ],
     "base": {
       "HP": 40,
       "Attack": 30,
@@ -5011,7 +5697,10 @@
       "chinese": "大嘴鷗",
       "french": "Bekipan"
     },
-    "type": ["Water", "Flying"],
+    "type": [
+      "Water",
+      "Flying"
+    ],
     "base": {
       "HP": 60,
       "Attack": 50,
@@ -5029,7 +5718,10 @@
       "chinese": "拉魯拉絲",
       "french": "Tarsal"
     },
-    "type": ["Psychic", "Fairy"],
+    "type": [
+      "Psychic",
+      "Fairy"
+    ],
     "base": {
       "HP": 28,
       "Attack": 25,
@@ -5047,7 +5739,10 @@
       "chinese": "奇魯莉安",
       "french": "Kirlia"
     },
-    "type": ["Psychic", "Fairy"],
+    "type": [
+      "Psychic",
+      "Fairy"
+    ],
     "base": {
       "HP": 38,
       "Attack": 35,
@@ -5065,7 +5760,10 @@
       "chinese": "沙奈朵",
       "french": "Gardevoir"
     },
-    "type": ["Psychic", "Fairy"],
+    "type": [
+      "Psychic",
+      "Fairy"
+    ],
     "base": {
       "HP": 68,
       "Attack": 65,
@@ -5083,7 +5781,10 @@
       "chinese": "溜溜糖球",
       "french": "Arakdo"
     },
-    "type": ["Bug", "Water"],
+    "type": [
+      "Bug",
+      "Water"
+    ],
     "base": {
       "HP": 40,
       "Attack": 30,
@@ -5101,7 +5802,10 @@
       "chinese": "雨翅蛾",
       "french": "Maskadra"
     },
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "base": {
       "HP": 70,
       "Attack": 60,
@@ -5119,7 +5823,9 @@
       "chinese": "蘑蘑菇",
       "french": "Balignon"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 60,
       "Attack": 40,
@@ -5137,7 +5843,10 @@
       "chinese": "鬥笠菇",
       "french": "Chapignon"
     },
-    "type": ["Grass", "Fighting"],
+    "type": [
+      "Grass",
+      "Fighting"
+    ],
     "base": {
       "HP": 60,
       "Attack": 130,
@@ -5155,7 +5864,9 @@
       "chinese": "懶人獺",
       "french": "Parecool"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 60,
       "Attack": 60,
@@ -5173,7 +5884,9 @@
       "chinese": "過動猿",
       "french": "Vigoroth"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 80,
       "Attack": 80,
@@ -5191,7 +5904,9 @@
       "chinese": "請假王",
       "french": "Monaflèmit"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 150,
       "Attack": 160,
@@ -5209,7 +5924,10 @@
       "chinese": "土居忍士",
       "french": "Ningale"
     },
-    "type": ["Bug", "Ground"],
+    "type": [
+      "Bug",
+      "Ground"
+    ],
     "base": {
       "HP": 31,
       "Attack": 45,
@@ -5227,7 +5945,10 @@
       "chinese": "鐵面忍者",
       "french": "Ninjask"
     },
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "base": {
       "HP": 61,
       "Attack": 90,
@@ -5245,7 +5966,10 @@
       "chinese": "脫殼忍者",
       "french": "Munja"
     },
-    "type": ["Bug", "Ghost"],
+    "type": [
+      "Bug",
+      "Ghost"
+    ],
     "base": {
       "HP": 1,
       "Attack": 90,
@@ -5263,7 +5987,9 @@
       "chinese": "咕妞妞",
       "french": "Chuchmur"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 64,
       "Attack": 51,
@@ -5281,7 +6007,9 @@
       "chinese": "吼爆彈",
       "french": "Ramboum"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 84,
       "Attack": 71,
@@ -5299,7 +6027,9 @@
       "chinese": "爆音怪",
       "french": "Brouhabam"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 104,
       "Attack": 91,
@@ -5317,7 +6047,9 @@
       "chinese": "幕下力士",
       "french": "Makuhita"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 72,
       "Attack": 60,
@@ -5335,7 +6067,9 @@
       "chinese": "鐵掌力士",
       "french": "Hariyama"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 144,
       "Attack": 120,
@@ -5353,7 +6087,10 @@
       "chinese": "露力麗",
       "french": "Azurill"
     },
-    "type": ["Normal", "Fairy"],
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
     "base": {
       "HP": 50,
       "Attack": 20,
@@ -5371,7 +6108,9 @@
       "chinese": "朝北鼻",
       "french": "Tarinor"
     },
-    "type": ["Rock"],
+    "type": [
+      "Rock"
+    ],
     "base": {
       "HP": 30,
       "Attack": 45,
@@ -5389,7 +6128,9 @@
       "chinese": "向尾喵",
       "french": "Skitty"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 50,
       "Attack": 45,
@@ -5407,7 +6148,9 @@
       "chinese": "優雅貓",
       "french": "Delcatty"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 70,
       "Attack": 65,
@@ -5425,7 +6168,10 @@
       "chinese": "勾魂眼",
       "french": "Ténéfix"
     },
-    "type": ["Dark", "Ghost"],
+    "type": [
+      "Dark",
+      "Ghost"
+    ],
     "base": {
       "HP": 50,
       "Attack": 75,
@@ -5443,7 +6189,10 @@
       "chinese": "大嘴娃",
       "french": "Mysdibule"
     },
-    "type": ["Steel", "Fairy"],
+    "type": [
+      "Steel",
+      "Fairy"
+    ],
     "base": {
       "HP": 50,
       "Attack": 85,
@@ -5461,7 +6210,10 @@
       "chinese": "可可多拉",
       "french": "Galekid"
     },
-    "type": ["Steel", "Rock"],
+    "type": [
+      "Steel",
+      "Rock"
+    ],
     "base": {
       "HP": 50,
       "Attack": 70,
@@ -5479,7 +6231,10 @@
       "chinese": "可多拉",
       "french": "Galegon"
     },
-    "type": ["Steel", "Rock"],
+    "type": [
+      "Steel",
+      "Rock"
+    ],
     "base": {
       "HP": 60,
       "Attack": 90,
@@ -5497,7 +6252,10 @@
       "chinese": "波士可多拉",
       "french": "Galeking"
     },
-    "type": ["Steel", "Rock"],
+    "type": [
+      "Steel",
+      "Rock"
+    ],
     "base": {
       "HP": 70,
       "Attack": 110,
@@ -5515,7 +6273,10 @@
       "chinese": "瑪沙那",
       "french": "Méditikka"
     },
-    "type": ["Fighting", "Psychic"],
+    "type": [
+      "Fighting",
+      "Psychic"
+    ],
     "base": {
       "HP": 30,
       "Attack": 40,
@@ -5533,7 +6294,10 @@
       "chinese": "恰雷姆",
       "french": "Charmina"
     },
-    "type": ["Fighting", "Psychic"],
+    "type": [
+      "Fighting",
+      "Psychic"
+    ],
     "base": {
       "HP": 60,
       "Attack": 60,
@@ -5551,7 +6315,9 @@
       "chinese": "落雷獸",
       "french": "Dynavolt"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 40,
       "Attack": 45,
@@ -5569,7 +6335,9 @@
       "chinese": "雷電獸",
       "french": "Élecsprint"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 70,
       "Attack": 75,
@@ -5587,7 +6355,9 @@
       "chinese": "正電拍拍",
       "french": "Posipi"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 60,
       "Attack": 50,
@@ -5605,7 +6375,9 @@
       "chinese": "負電拍拍",
       "french": "Négapi"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 60,
       "Attack": 40,
@@ -5623,7 +6395,9 @@
       "chinese": "電螢蟲",
       "french": "Muciole"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 65,
       "Attack": 73,
@@ -5641,7 +6415,9 @@
       "chinese": "甜甜螢",
       "french": "Lumivole"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 65,
       "Attack": 47,
@@ -5659,7 +6435,10 @@
       "chinese": "毒薔薇",
       "french": "Rosélia"
     },
-    "type": ["Grass", "Poison"],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "base": {
       "HP": 50,
       "Attack": 60,
@@ -5677,7 +6456,9 @@
       "chinese": "溶食獸",
       "french": "Gloupti"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 70,
       "Attack": 43,
@@ -5695,7 +6476,9 @@
       "chinese": "吞食獸",
       "french": "Avaltout"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 100,
       "Attack": 73,
@@ -5713,7 +6496,10 @@
       "chinese": "利牙魚",
       "french": "Carvanha"
     },
-    "type": ["Water", "Dark"],
+    "type": [
+      "Water",
+      "Dark"
+    ],
     "base": {
       "HP": 45,
       "Attack": 90,
@@ -5731,7 +6517,10 @@
       "chinese": "巨牙鯊",
       "french": "Sharpedo"
     },
-    "type": ["Water", "Dark"],
+    "type": [
+      "Water",
+      "Dark"
+    ],
     "base": {
       "HP": 70,
       "Attack": 120,
@@ -5749,7 +6538,9 @@
       "chinese": "吼吼鯨",
       "french": "Wailmer"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 130,
       "Attack": 70,
@@ -5767,7 +6558,9 @@
       "chinese": "吼鯨王",
       "french": "Wailord"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 170,
       "Attack": 90,
@@ -5785,7 +6578,10 @@
       "chinese": "呆火駝",
       "french": "Chamallot"
     },
-    "type": ["Fire", "Ground"],
+    "type": [
+      "Fire",
+      "Ground"
+    ],
     "base": {
       "HP": 60,
       "Attack": 60,
@@ -5803,7 +6599,10 @@
       "chinese": "噴火駝",
       "french": "Camérupt"
     },
-    "type": ["Fire", "Ground"],
+    "type": [
+      "Fire",
+      "Ground"
+    ],
     "base": {
       "HP": 70,
       "Attack": 100,
@@ -5821,7 +6620,9 @@
       "chinese": "煤炭龜",
       "french": "Chartor"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 70,
       "Attack": 85,
@@ -5839,7 +6640,9 @@
       "chinese": "跳跳豬",
       "french": "Spoink"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 60,
       "Attack": 25,
@@ -5857,7 +6660,9 @@
       "chinese": "噗噗豬",
       "french": "Groret"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 80,
       "Attack": 45,
@@ -5875,7 +6680,9 @@
       "chinese": "晃晃斑",
       "french": "Spinda"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 60,
       "Attack": 60,
@@ -5893,7 +6700,9 @@
       "chinese": "大顎蟻",
       "french": "Kraknoix"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 45,
       "Attack": 100,
@@ -5911,7 +6720,10 @@
       "chinese": "超音波幼蟲",
       "french": "Vibraninf"
     },
-    "type": ["Ground", "Dragon"],
+    "type": [
+      "Ground",
+      "Dragon"
+    ],
     "base": {
       "HP": 50,
       "Attack": 70,
@@ -5929,7 +6741,10 @@
       "chinese": "沙漠蜻蜓",
       "french": "Libégon"
     },
-    "type": ["Ground", "Dragon"],
+    "type": [
+      "Ground",
+      "Dragon"
+    ],
     "base": {
       "HP": 80,
       "Attack": 100,
@@ -5947,7 +6762,9 @@
       "chinese": "刺球仙人掌",
       "french": "Cacnea"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 50,
       "Attack": 85,
@@ -5965,7 +6782,10 @@
       "chinese": "夢歌仙人掌",
       "french": "Cacturne"
     },
-    "type": ["Grass", "Dark"],
+    "type": [
+      "Grass",
+      "Dark"
+    ],
     "base": {
       "HP": 70,
       "Attack": 115,
@@ -5983,7 +6803,10 @@
       "chinese": "青綿鳥",
       "french": "Tylton"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 45,
       "Attack": 40,
@@ -6001,7 +6824,10 @@
       "chinese": "七夕青鳥",
       "french": "Altaria"
     },
-    "type": ["Dragon", "Flying"],
+    "type": [
+      "Dragon",
+      "Flying"
+    ],
     "base": {
       "HP": 75,
       "Attack": 70,
@@ -6019,7 +6845,9 @@
       "chinese": "貓鼬斬",
       "french": "Mangriff"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 73,
       "Attack": 115,
@@ -6037,7 +6865,9 @@
       "chinese": "飯匙蛇",
       "french": "Séviper"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 73,
       "Attack": 100,
@@ -6055,7 +6885,10 @@
       "chinese": "月石",
       "french": "Séléroc"
     },
-    "type": ["Rock", "Psychic"],
+    "type": [
+      "Rock",
+      "Psychic"
+    ],
     "base": {
       "HP": 90,
       "Attack": 55,
@@ -6073,7 +6906,10 @@
       "chinese": "太陽巖",
       "french": "Solaroc"
     },
-    "type": ["Rock", "Psychic"],
+    "type": [
+      "Rock",
+      "Psychic"
+    ],
     "base": {
       "HP": 90,
       "Attack": 95,
@@ -6091,7 +6927,10 @@
       "chinese": "泥泥鰍",
       "french": "Barloche"
     },
-    "type": ["Water", "Ground"],
+    "type": [
+      "Water",
+      "Ground"
+    ],
     "base": {
       "HP": 50,
       "Attack": 48,
@@ -6109,7 +6948,10 @@
       "chinese": "鯰魚王",
       "french": "Barbicha"
     },
-    "type": ["Water", "Ground"],
+    "type": [
+      "Water",
+      "Ground"
+    ],
     "base": {
       "HP": 110,
       "Attack": 78,
@@ -6127,7 +6969,9 @@
       "chinese": "龍蝦小兵",
       "french": "Écrapince"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 43,
       "Attack": 80,
@@ -6145,7 +6989,10 @@
       "chinese": "鐵螯龍蝦",
       "french": "Colhomard"
     },
-    "type": ["Water", "Dark"],
+    "type": [
+      "Water",
+      "Dark"
+    ],
     "base": {
       "HP": 63,
       "Attack": 120,
@@ -6163,7 +7010,10 @@
       "chinese": "天秤偶",
       "french": "Balbuto"
     },
-    "type": ["Ground", "Psychic"],
+    "type": [
+      "Ground",
+      "Psychic"
+    ],
     "base": {
       "HP": 40,
       "Attack": 40,
@@ -6181,7 +7031,10 @@
       "chinese": "念力土偶",
       "french": "Kaorine"
     },
-    "type": ["Ground", "Psychic"],
+    "type": [
+      "Ground",
+      "Psychic"
+    ],
     "base": {
       "HP": 60,
       "Attack": 70,
@@ -6199,7 +7052,10 @@
       "chinese": "觸手百合",
       "french": "Lilia"
     },
-    "type": ["Rock", "Grass"],
+    "type": [
+      "Rock",
+      "Grass"
+    ],
     "base": {
       "HP": 66,
       "Attack": 41,
@@ -6217,7 +7073,10 @@
       "chinese": "搖籃百合",
       "french": "Vacilys"
     },
-    "type": ["Rock", "Grass"],
+    "type": [
+      "Rock",
+      "Grass"
+    ],
     "base": {
       "HP": 86,
       "Attack": 81,
@@ -6235,7 +7094,10 @@
       "chinese": "太古羽蟲",
       "french": "Anorith"
     },
-    "type": ["Rock", "Bug"],
+    "type": [
+      "Rock",
+      "Bug"
+    ],
     "base": {
       "HP": 45,
       "Attack": 95,
@@ -6253,7 +7115,10 @@
       "chinese": "太古盔甲",
       "french": "Armaldo"
     },
-    "type": ["Rock", "Bug"],
+    "type": [
+      "Rock",
+      "Bug"
+    ],
     "base": {
       "HP": 75,
       "Attack": 125,
@@ -6271,7 +7136,9 @@
       "chinese": "醜醜魚",
       "french": "Barpau"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 20,
       "Attack": 15,
@@ -6289,7 +7156,9 @@
       "chinese": "美納斯",
       "french": "Milobellus"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 95,
       "Attack": 60,
@@ -6307,7 +7176,9 @@
       "chinese": "飄浮泡泡",
       "french": "Morphéo"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 70,
       "Attack": 70,
@@ -6325,7 +7196,9 @@
       "chinese": "變隱龍",
       "french": "Kecleon"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 60,
       "Attack": 90,
@@ -6343,7 +7216,9 @@
       "chinese": "怨影娃娃",
       "french": "Polichombr"
     },
-    "type": ["Ghost"],
+    "type": [
+      "Ghost"
+    ],
     "base": {
       "HP": 44,
       "Attack": 75,
@@ -6361,7 +7236,9 @@
       "chinese": "詛咒娃娃",
       "french": "Branette"
     },
-    "type": ["Ghost"],
+    "type": [
+      "Ghost"
+    ],
     "base": {
       "HP": 64,
       "Attack": 115,
@@ -6379,7 +7256,9 @@
       "chinese": "夜巡靈",
       "french": "Skelénox"
     },
-    "type": ["Ghost"],
+    "type": [
+      "Ghost"
+    ],
     "base": {
       "HP": 20,
       "Attack": 40,
@@ -6397,7 +7276,9 @@
       "chinese": "仿徨夜靈",
       "french": "Téraclope"
     },
-    "type": ["Ghost"],
+    "type": [
+      "Ghost"
+    ],
     "base": {
       "HP": 40,
       "Attack": 70,
@@ -6415,7 +7296,10 @@
       "chinese": "熱帶龍",
       "french": "Tropius"
     },
-    "type": ["Grass", "Flying"],
+    "type": [
+      "Grass",
+      "Flying"
+    ],
     "base": {
       "HP": 99,
       "Attack": 68,
@@ -6433,7 +7317,9 @@
       "chinese": "風鈴鈴",
       "french": "Éoko"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 75,
       "Attack": 50,
@@ -6451,7 +7337,9 @@
       "chinese": "阿勃梭魯",
       "french": "Absol"
     },
-    "type": ["Dark"],
+    "type": [
+      "Dark"
+    ],
     "base": {
       "HP": 65,
       "Attack": 130,
@@ -6469,7 +7357,9 @@
       "chinese": "小果然",
       "french": "Okéoké"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 95,
       "Attack": 23,
@@ -6487,7 +7377,9 @@
       "chinese": "雪童子",
       "french": "Stalgamin"
     },
-    "type": ["Ice"],
+    "type": [
+      "Ice"
+    ],
     "base": {
       "HP": 50,
       "Attack": 50,
@@ -6505,7 +7397,9 @@
       "chinese": "冰鬼護",
       "french": "Oniglali"
     },
-    "type": ["Ice"],
+    "type": [
+      "Ice"
+    ],
     "base": {
       "HP": 80,
       "Attack": 80,
@@ -6523,7 +7417,10 @@
       "chinese": "海豹球",
       "french": "Obalie"
     },
-    "type": ["Ice", "Water"],
+    "type": [
+      "Ice",
+      "Water"
+    ],
     "base": {
       "HP": 70,
       "Attack": 40,
@@ -6541,7 +7438,10 @@
       "chinese": "海魔獅",
       "french": "Phogleur"
     },
-    "type": ["Ice", "Water"],
+    "type": [
+      "Ice",
+      "Water"
+    ],
     "base": {
       "HP": 90,
       "Attack": 60,
@@ -6559,7 +7459,10 @@
       "chinese": "帝牙海獅",
       "french": "Kaimorse"
     },
-    "type": ["Ice", "Water"],
+    "type": [
+      "Ice",
+      "Water"
+    ],
     "base": {
       "HP": 110,
       "Attack": 80,
@@ -6577,7 +7480,9 @@
       "chinese": "珍珠貝",
       "french": "Coquiperl"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 35,
       "Attack": 64,
@@ -6595,7 +7500,9 @@
       "chinese": "獵斑魚",
       "french": "Serpang"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 55,
       "Attack": 104,
@@ -6613,7 +7520,9 @@
       "chinese": "櫻花魚",
       "french": "Rosabyss"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 55,
       "Attack": 84,
@@ -6631,7 +7540,10 @@
       "chinese": "古空棘魚",
       "french": "Relicanth"
     },
-    "type": ["Water", "Rock"],
+    "type": [
+      "Water",
+      "Rock"
+    ],
     "base": {
       "HP": 100,
       "Attack": 90,
@@ -6649,7 +7561,9 @@
       "chinese": "愛心魚",
       "french": "Lovdisc"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 43,
       "Attack": 30,
@@ -6667,7 +7581,9 @@
       "chinese": "寶貝龍",
       "french": "Draby"
     },
-    "type": ["Dragon"],
+    "type": [
+      "Dragon"
+    ],
     "base": {
       "HP": 45,
       "Attack": 75,
@@ -6685,7 +7601,9 @@
       "chinese": "甲殼龍",
       "french": "Drackhaus"
     },
-    "type": ["Dragon"],
+    "type": [
+      "Dragon"
+    ],
     "base": {
       "HP": 65,
       "Attack": 95,
@@ -6703,7 +7621,10 @@
       "chinese": "暴飛龍",
       "french": "Drattak"
     },
-    "type": ["Dragon", "Flying"],
+    "type": [
+      "Dragon",
+      "Flying"
+    ],
     "base": {
       "HP": 95,
       "Attack": 135,
@@ -6721,7 +7642,10 @@
       "chinese": "鐵啞鈴",
       "french": "Terhal"
     },
-    "type": ["Steel", "Psychic"],
+    "type": [
+      "Steel",
+      "Psychic"
+    ],
     "base": {
       "HP": 40,
       "Attack": 55,
@@ -6739,7 +7663,10 @@
       "chinese": "金屬怪",
       "french": "Métang"
     },
-    "type": ["Steel", "Psychic"],
+    "type": [
+      "Steel",
+      "Psychic"
+    ],
     "base": {
       "HP": 60,
       "Attack": 75,
@@ -6757,7 +7684,10 @@
       "chinese": "巨金怪",
       "french": "Métalosse"
     },
-    "type": ["Steel", "Psychic"],
+    "type": [
+      "Steel",
+      "Psychic"
+    ],
     "base": {
       "HP": 80,
       "Attack": 135,
@@ -6775,7 +7705,9 @@
       "chinese": "雷吉洛克",
       "french": "Regirock"
     },
-    "type": ["Rock"],
+    "type": [
+      "Rock"
+    ],
     "base": {
       "HP": 80,
       "Attack": 100,
@@ -6793,7 +7725,9 @@
       "chinese": "雷吉艾斯",
       "french": "Regice"
     },
-    "type": ["Ice"],
+    "type": [
+      "Ice"
+    ],
     "base": {
       "HP": 80,
       "Attack": 50,
@@ -6811,7 +7745,9 @@
       "chinese": "雷吉斯奇魯",
       "french": "Registeel"
     },
-    "type": ["Steel"],
+    "type": [
+      "Steel"
+    ],
     "base": {
       "HP": 80,
       "Attack": 75,
@@ -6829,7 +7765,10 @@
       "chinese": "拉帝亞斯",
       "french": "Latias"
     },
-    "type": ["Dragon", "Psychic"],
+    "type": [
+      "Dragon",
+      "Psychic"
+    ],
     "base": {
       "HP": 80,
       "Attack": 80,
@@ -6847,7 +7786,10 @@
       "chinese": "拉帝歐斯",
       "french": "Latios"
     },
-    "type": ["Dragon", "Psychic"],
+    "type": [
+      "Dragon",
+      "Psychic"
+    ],
     "base": {
       "HP": 80,
       "Attack": 90,
@@ -6865,7 +7807,9 @@
       "chinese": "蓋歐卡",
       "french": "Kyogre"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 100,
       "Attack": 100,
@@ -6883,7 +7827,9 @@
       "chinese": "固拉多",
       "french": "Groudon"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 100,
       "Attack": 150,
@@ -6901,7 +7847,10 @@
       "chinese": "烈空坐",
       "french": "Rayquaza"
     },
-    "type": ["Dragon", "Flying"],
+    "type": [
+      "Dragon",
+      "Flying"
+    ],
     "base": {
       "HP": 105,
       "Attack": 150,
@@ -6919,7 +7868,10 @@
       "chinese": "基拉祈",
       "french": "Jirachi"
     },
-    "type": ["Steel", "Psychic"],
+    "type": [
+      "Steel",
+      "Psychic"
+    ],
     "base": {
       "HP": 100,
       "Attack": 100,
@@ -6937,7 +7889,9 @@
       "chinese": "代歐奇希斯",
       "french": "Deoxys"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 50,
       "Attack": 150,
@@ -6955,7 +7909,9 @@
       "chinese": "草苗龜",
       "french": "Tortipouss"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 55,
       "Attack": 68,
@@ -6973,7 +7929,9 @@
       "chinese": "樹林龜",
       "french": "Boskara"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 75,
       "Attack": 89,
@@ -6991,7 +7949,10 @@
       "chinese": "土台龜",
       "french": "Torterra"
     },
-    "type": ["Grass", "Ground"],
+    "type": [
+      "Grass",
+      "Ground"
+    ],
     "base": {
       "HP": 95,
       "Attack": 109,
@@ -7009,7 +7970,9 @@
       "chinese": "小火焰猴",
       "french": "Ouisticram"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 44,
       "Attack": 58,
@@ -7027,7 +7990,10 @@
       "chinese": "猛火猴",
       "french": "Chimpenfeu"
     },
-    "type": ["Fire", "Fighting"],
+    "type": [
+      "Fire",
+      "Fighting"
+    ],
     "base": {
       "HP": 64,
       "Attack": 78,
@@ -7045,7 +8011,10 @@
       "chinese": "烈焰猴",
       "french": "Simiabraz"
     },
-    "type": ["Fire", "Fighting"],
+    "type": [
+      "Fire",
+      "Fighting"
+    ],
     "base": {
       "HP": 76,
       "Attack": 104,
@@ -7063,7 +8032,9 @@
       "chinese": "波加曼",
       "french": "Tiplouf"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 53,
       "Attack": 51,
@@ -7081,7 +8052,9 @@
       "chinese": "波皇子",
       "french": "Prinplouf"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 64,
       "Attack": 66,
@@ -7099,7 +8072,10 @@
       "chinese": "帝王拿波",
       "french": "Pingoléon"
     },
-    "type": ["Water", "Steel"],
+    "type": [
+      "Water",
+      "Steel"
+    ],
     "base": {
       "HP": 84,
       "Attack": 86,
@@ -7117,7 +8093,10 @@
       "chinese": "姆克兒",
       "french": "Étourmi"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 40,
       "Attack": 55,
@@ -7135,7 +8114,10 @@
       "chinese": "姆克鳥",
       "french": "Étourvol"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 55,
       "Attack": 75,
@@ -7153,7 +8135,10 @@
       "chinese": "姆克鷹",
       "french": "Étouraptor"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 85,
       "Attack": 120,
@@ -7171,7 +8156,9 @@
       "chinese": "大牙貍",
       "french": "Keunotor"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 59,
       "Attack": 45,
@@ -7189,7 +8176,10 @@
       "chinese": "大尾貍",
       "french": "Castorno"
     },
-    "type": ["Normal", "Water"],
+    "type": [
+      "Normal",
+      "Water"
+    ],
     "base": {
       "HP": 79,
       "Attack": 85,
@@ -7207,7 +8197,9 @@
       "chinese": "圓法師",
       "french": "Crikzik"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 37,
       "Attack": 25,
@@ -7225,7 +8217,9 @@
       "chinese": "音箱蟀",
       "french": "Mélokrik"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 77,
       "Attack": 85,
@@ -7243,7 +8237,9 @@
       "chinese": "小貓怪",
       "french": "Lixy"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 45,
       "Attack": 65,
@@ -7261,7 +8257,9 @@
       "chinese": "勒克貓",
       "french": "Luxio"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 60,
       "Attack": 85,
@@ -7279,7 +8277,9 @@
       "chinese": "倫琴貓",
       "french": "Luxray"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 80,
       "Attack": 120,
@@ -7297,7 +8297,10 @@
       "chinese": "含羞苞",
       "french": "Rozbouton"
     },
-    "type": ["Grass", "Poison"],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "base": {
       "HP": 40,
       "Attack": 30,
@@ -7315,7 +8318,10 @@
       "chinese": "羅絲雷朵",
       "french": "Roserade"
     },
-    "type": ["Grass", "Poison"],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "base": {
       "HP": 60,
       "Attack": 70,
@@ -7333,7 +8339,9 @@
       "chinese": "頭蓋龍",
       "french": "Kranidos"
     },
-    "type": ["Rock"],
+    "type": [
+      "Rock"
+    ],
     "base": {
       "HP": 67,
       "Attack": 125,
@@ -7351,7 +8359,9 @@
       "chinese": "戰槌龍",
       "french": "Charkos"
     },
-    "type": ["Rock"],
+    "type": [
+      "Rock"
+    ],
     "base": {
       "HP": 97,
       "Attack": 165,
@@ -7369,7 +8379,10 @@
       "chinese": "盾甲龍",
       "french": "Dinoclier"
     },
-    "type": ["Rock", "Steel"],
+    "type": [
+      "Rock",
+      "Steel"
+    ],
     "base": {
       "HP": 30,
       "Attack": 42,
@@ -7387,7 +8400,10 @@
       "chinese": "護城龍",
       "french": "Bastiodon"
     },
-    "type": ["Rock", "Steel"],
+    "type": [
+      "Rock",
+      "Steel"
+    ],
     "base": {
       "HP": 60,
       "Attack": 52,
@@ -7405,7 +8421,9 @@
       "chinese": "結草兒",
       "french": "Cheniti"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 40,
       "Attack": 29,
@@ -7423,7 +8441,10 @@
       "chinese": "結草貴婦",
       "french": "Cheniselle"
     },
-    "type": ["Bug", "Grass"],
+    "type": [
+      "Bug",
+      "Grass"
+    ],
     "base": {
       "HP": 60,
       "Attack": 59,
@@ -7441,7 +8462,10 @@
       "chinese": "紳士蛾",
       "french": "Papilord"
     },
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "base": {
       "HP": 70,
       "Attack": 94,
@@ -7459,7 +8483,10 @@
       "chinese": "三蜜蜂",
       "french": "Apitrini"
     },
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "base": {
       "HP": 30,
       "Attack": 30,
@@ -7477,7 +8504,10 @@
       "chinese": "蜂女王",
       "french": "Apireine"
     },
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "base": {
       "HP": 70,
       "Attack": 80,
@@ -7495,7 +8525,9 @@
       "chinese": "帕奇利茲",
       "french": "Pachirisu"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 60,
       "Attack": 45,
@@ -7513,7 +8545,9 @@
       "chinese": "泳圈鼬",
       "french": "Mustébouée"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 55,
       "Attack": 65,
@@ -7531,7 +8565,9 @@
       "chinese": "浮潛鼬",
       "french": "Mustéflott"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 85,
       "Attack": 105,
@@ -7549,7 +8585,9 @@
       "chinese": "櫻花寶",
       "french": "Ceribou"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 45,
       "Attack": 35,
@@ -7567,7 +8605,9 @@
       "chinese": "櫻花兒",
       "french": "Ceriflor"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 70,
       "Attack": 60,
@@ -7585,7 +8625,9 @@
       "chinese": "無殼海兔",
       "french": "Sancoki"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 76,
       "Attack": 48,
@@ -7603,7 +8645,10 @@
       "chinese": "海兔獸",
       "french": "Tritosor"
     },
-    "type": ["Water", "Ground"],
+    "type": [
+      "Water",
+      "Ground"
+    ],
     "base": {
       "HP": 111,
       "Attack": 83,
@@ -7621,7 +8666,9 @@
       "chinese": "雙尾怪手",
       "french": "Capidextre"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 75,
       "Attack": 100,
@@ -7639,7 +8686,10 @@
       "chinese": "飄飄球",
       "french": "Baudrive"
     },
-    "type": ["Ghost", "Flying"],
+    "type": [
+      "Ghost",
+      "Flying"
+    ],
     "base": {
       "HP": 90,
       "Attack": 50,
@@ -7657,7 +8707,10 @@
       "chinese": "隨風球",
       "french": "Grodrive"
     },
-    "type": ["Ghost", "Flying"],
+    "type": [
+      "Ghost",
+      "Flying"
+    ],
     "base": {
       "HP": 150,
       "Attack": 80,
@@ -7675,7 +8728,9 @@
       "chinese": "卷卷耳",
       "french": "Laporeille"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 55,
       "Attack": 66,
@@ -7693,7 +8748,9 @@
       "chinese": "長耳兔",
       "french": "Lockpin"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 65,
       "Attack": 76,
@@ -7711,7 +8768,9 @@
       "chinese": "夢妖魔",
       "french": "Magirêve"
     },
-    "type": ["Ghost"],
+    "type": [
+      "Ghost"
+    ],
     "base": {
       "HP": 60,
       "Attack": 60,
@@ -7729,7 +8788,10 @@
       "chinese": "烏鴉頭頭",
       "french": "Corboss"
     },
-    "type": ["Dark", "Flying"],
+    "type": [
+      "Dark",
+      "Flying"
+    ],
     "base": {
       "HP": 100,
       "Attack": 125,
@@ -7747,7 +8809,9 @@
       "chinese": "魅力喵",
       "french": "Chaglam"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 49,
       "Attack": 55,
@@ -7765,7 +8829,9 @@
       "chinese": "東施喵",
       "french": "Chaffreux"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 71,
       "Attack": 82,
@@ -7783,7 +8849,9 @@
       "chinese": "鈴鐺響",
       "french": "Korillon"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 45,
       "Attack": 30,
@@ -7801,7 +8869,10 @@
       "chinese": "臭鼬噗",
       "french": "Moufouette"
     },
-    "type": ["Poison", "Dark"],
+    "type": [
+      "Poison",
+      "Dark"
+    ],
     "base": {
       "HP": 63,
       "Attack": 63,
@@ -7819,7 +8890,10 @@
       "chinese": "坦克臭鼬",
       "french": "Moufflair"
     },
-    "type": ["Poison", "Dark"],
+    "type": [
+      "Poison",
+      "Dark"
+    ],
     "base": {
       "HP": 103,
       "Attack": 93,
@@ -7837,7 +8911,10 @@
       "chinese": "銅鏡怪",
       "french": "Archéomire"
     },
-    "type": ["Steel", "Psychic"],
+    "type": [
+      "Steel",
+      "Psychic"
+    ],
     "base": {
       "HP": 57,
       "Attack": 24,
@@ -7855,7 +8932,10 @@
       "chinese": "青銅鐘",
       "french": "Archéodong"
     },
-    "type": ["Steel", "Psychic"],
+    "type": [
+      "Steel",
+      "Psychic"
+    ],
     "base": {
       "HP": 67,
       "Attack": 89,
@@ -7873,7 +8953,9 @@
       "chinese": "盆才怪",
       "french": "Manzaï"
     },
-    "type": ["Rock"],
+    "type": [
+      "Rock"
+    ],
     "base": {
       "HP": 50,
       "Attack": 80,
@@ -7891,7 +8973,10 @@
       "chinese": "魔尼尼",
       "french": "Mime Jr"
     },
-    "type": ["Psychic", "Fairy"],
+    "type": [
+      "Psychic",
+      "Fairy"
+    ],
     "base": {
       "HP": 20,
       "Attack": 25,
@@ -7909,7 +8994,9 @@
       "chinese": "小福蛋",
       "french": "Ptiravi"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 100,
       "Attack": 5,
@@ -7927,7 +9014,10 @@
       "chinese": "聒噪鳥",
       "french": "Pijako"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 76,
       "Attack": 65,
@@ -7945,7 +9035,10 @@
       "chinese": "花巖怪",
       "french": "Spiritomb"
     },
-    "type": ["Ghost", "Dark"],
+    "type": [
+      "Ghost",
+      "Dark"
+    ],
     "base": {
       "HP": 50,
       "Attack": 92,
@@ -7963,7 +9056,10 @@
       "chinese": "圓陸鯊",
       "french": "Griknot"
     },
-    "type": ["Dragon", "Ground"],
+    "type": [
+      "Dragon",
+      "Ground"
+    ],
     "base": {
       "HP": 58,
       "Attack": 70,
@@ -7981,7 +9077,10 @@
       "chinese": "尖牙陸鯊",
       "french": "Carmache"
     },
-    "type": ["Dragon", "Ground"],
+    "type": [
+      "Dragon",
+      "Ground"
+    ],
     "base": {
       "HP": 68,
       "Attack": 90,
@@ -7999,7 +9098,10 @@
       "chinese": "烈咬陸鯊",
       "french": "Carchacrok"
     },
-    "type": ["Dragon", "Ground"],
+    "type": [
+      "Dragon",
+      "Ground"
+    ],
     "base": {
       "HP": 108,
       "Attack": 130,
@@ -8017,7 +9119,9 @@
       "chinese": "小卡比獸",
       "french": "Goinfrex"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 135,
       "Attack": 85,
@@ -8035,7 +9139,9 @@
       "chinese": "利歐路",
       "french": "Riolu"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 40,
       "Attack": 70,
@@ -8053,7 +9159,10 @@
       "chinese": "路卡利歐",
       "french": "Lucario"
     },
-    "type": ["Fighting", "Steel"],
+    "type": [
+      "Fighting",
+      "Steel"
+    ],
     "base": {
       "HP": 70,
       "Attack": 110,
@@ -8071,7 +9180,9 @@
       "chinese": "沙河馬",
       "french": "Hippopotas"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 68,
       "Attack": 72,
@@ -8089,7 +9200,9 @@
       "chinese": "河馬獸",
       "french": "Hippodocus"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 108,
       "Attack": 112,
@@ -8107,7 +9220,10 @@
       "chinese": "鉗尾蠍",
       "french": "Rapion"
     },
-    "type": ["Poison", "Bug"],
+    "type": [
+      "Poison",
+      "Bug"
+    ],
     "base": {
       "HP": 40,
       "Attack": 50,
@@ -8125,7 +9241,10 @@
       "chinese": "龍王蠍",
       "french": "Drascore"
     },
-    "type": ["Poison", "Dark"],
+    "type": [
+      "Poison",
+      "Dark"
+    ],
     "base": {
       "HP": 70,
       "Attack": 90,
@@ -8143,7 +9262,10 @@
       "chinese": "不良蛙",
       "french": "Cradopaud"
     },
-    "type": ["Poison", "Fighting"],
+    "type": [
+      "Poison",
+      "Fighting"
+    ],
     "base": {
       "HP": 48,
       "Attack": 61,
@@ -8161,7 +9283,10 @@
       "chinese": "毒骷蛙",
       "french": "Coatox"
     },
-    "type": ["Poison", "Fighting"],
+    "type": [
+      "Poison",
+      "Fighting"
+    ],
     "base": {
       "HP": 83,
       "Attack": 106,
@@ -8179,7 +9304,9 @@
       "chinese": "尖牙籠",
       "french": "Vortente"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 74,
       "Attack": 100,
@@ -8197,7 +9324,9 @@
       "chinese": "熒光魚",
       "french": "Écayon"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 49,
       "Attack": 49,
@@ -8215,7 +9344,9 @@
       "chinese": "霓虹魚",
       "french": "Luminéon"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 69,
       "Attack": 69,
@@ -8233,7 +9364,10 @@
       "chinese": "小球飛魚",
       "french": "Babimanta"
     },
-    "type": ["Water", "Flying"],
+    "type": [
+      "Water",
+      "Flying"
+    ],
     "base": {
       "HP": 45,
       "Attack": 20,
@@ -8251,7 +9385,10 @@
       "chinese": "雪笠怪",
       "french": "Blizzi"
     },
-    "type": ["Grass", "Ice"],
+    "type": [
+      "Grass",
+      "Ice"
+    ],
     "base": {
       "HP": 60,
       "Attack": 62,
@@ -8269,7 +9406,10 @@
       "chinese": "暴雪王",
       "french": "Blizzaroi"
     },
-    "type": ["Grass", "Ice"],
+    "type": [
+      "Grass",
+      "Ice"
+    ],
     "base": {
       "HP": 90,
       "Attack": 92,
@@ -8287,7 +9427,10 @@
       "chinese": "瑪狃拉",
       "french": "Dimoret"
     },
-    "type": ["Dark", "Ice"],
+    "type": [
+      "Dark",
+      "Ice"
+    ],
     "base": {
       "HP": 70,
       "Attack": 120,
@@ -8305,7 +9448,10 @@
       "chinese": "自爆磁怪",
       "french": "Magnézone"
     },
-    "type": ["Electric", "Steel"],
+    "type": [
+      "Electric",
+      "Steel"
+    ],
     "base": {
       "HP": 70,
       "Attack": 70,
@@ -8323,7 +9469,9 @@
       "chinese": "大舌舔",
       "french": "Coudlangue"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 110,
       "Attack": 85,
@@ -8341,7 +9489,10 @@
       "chinese": "超甲狂犀",
       "french": "Rhinastoc"
     },
-    "type": ["Ground", "Rock"],
+    "type": [
+      "Ground",
+      "Rock"
+    ],
     "base": {
       "HP": 115,
       "Attack": 140,
@@ -8359,7 +9510,9 @@
       "chinese": "巨蔓藤",
       "french": "Bouldeneu"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 100,
       "Attack": 100,
@@ -8377,7 +9530,9 @@
       "chinese": "電擊魔獸",
       "french": "Élekable"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 75,
       "Attack": 123,
@@ -8395,7 +9550,9 @@
       "chinese": "鴨嘴炎獸",
       "french": "Maganon"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 75,
       "Attack": 95,
@@ -8413,7 +9570,10 @@
       "chinese": "波克基斯",
       "french": "Togekiss"
     },
-    "type": ["Fairy", "Flying"],
+    "type": [
+      "Fairy",
+      "Flying"
+    ],
     "base": {
       "HP": 85,
       "Attack": 50,
@@ -8431,7 +9591,10 @@
       "chinese": "遠古巨蜓",
       "french": "Yanmega"
     },
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "base": {
       "HP": 86,
       "Attack": 76,
@@ -8449,7 +9612,9 @@
       "chinese": "葉伊布",
       "french": "Phyllali"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 65,
       "Attack": 110,
@@ -8467,7 +9632,9 @@
       "chinese": "冰伊布",
       "french": "Givrali"
     },
-    "type": ["Ice"],
+    "type": [
+      "Ice"
+    ],
     "base": {
       "HP": 65,
       "Attack": 60,
@@ -8485,7 +9652,10 @@
       "chinese": "天蠍王",
       "french": "Scorvol"
     },
-    "type": ["Ground", "Flying"],
+    "type": [
+      "Ground",
+      "Flying"
+    ],
     "base": {
       "HP": 75,
       "Attack": 95,
@@ -8503,7 +9673,10 @@
       "chinese": "象牙豬",
       "french": "Mammochon"
     },
-    "type": ["Ice", "Ground"],
+    "type": [
+      "Ice",
+      "Ground"
+    ],
     "base": {
       "HP": 110,
       "Attack": 130,
@@ -8521,7 +9694,9 @@
       "chinese": "多邊獸Ｚ",
       "french": "Porygon-Z"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 85,
       "Attack": 80,
@@ -8539,7 +9714,10 @@
       "chinese": "艾路雷朵",
       "french": "Gallame"
     },
-    "type": ["Psychic", "Fighting"],
+    "type": [
+      "Psychic",
+      "Fighting"
+    ],
     "base": {
       "HP": 68,
       "Attack": 125,
@@ -8557,7 +9735,10 @@
       "chinese": "大朝北鼻",
       "french": "Tarinorme"
     },
-    "type": ["Rock", "Steel"],
+    "type": [
+      "Rock",
+      "Steel"
+    ],
     "base": {
       "HP": 60,
       "Attack": 55,
@@ -8575,7 +9756,9 @@
       "chinese": "黑夜魔靈",
       "french": "Noctunoir"
     },
-    "type": ["Ghost"],
+    "type": [
+      "Ghost"
+    ],
     "base": {
       "HP": 45,
       "Attack": 100,
@@ -8593,7 +9776,10 @@
       "chinese": "雪妖女",
       "french": "Momartik"
     },
-    "type": ["Ice", "Ghost"],
+    "type": [
+      "Ice",
+      "Ghost"
+    ],
     "base": {
       "HP": 70,
       "Attack": 80,
@@ -8611,7 +9797,10 @@
       "chinese": "洛托姆",
       "french": "Motisma"
     },
-    "type": ["Electric", "Ghost"],
+    "type": [
+      "Electric",
+      "Ghost"
+    ],
     "base": {
       "HP": 50,
       "Attack": 50,
@@ -8629,7 +9818,9 @@
       "chinese": "由克希",
       "french": "Créhelf"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 75,
       "Attack": 75,
@@ -8647,7 +9838,9 @@
       "chinese": "艾姆利多",
       "french": "Créfollet"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 80,
       "Attack": 105,
@@ -8665,7 +9858,9 @@
       "chinese": "亞克諾姆",
       "french": "Créfadet"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 75,
       "Attack": 125,
@@ -8683,7 +9878,10 @@
       "chinese": "帝牙盧卡",
       "french": "Dialga"
     },
-    "type": ["Steel", "Dragon"],
+    "type": [
+      "Steel",
+      "Dragon"
+    ],
     "base": {
       "HP": 100,
       "Attack": 120,
@@ -8701,7 +9899,10 @@
       "chinese": "帕路奇亞",
       "french": "Palkia"
     },
-    "type": ["Water", "Dragon"],
+    "type": [
+      "Water",
+      "Dragon"
+    ],
     "base": {
       "HP": 90,
       "Attack": 120,
@@ -8719,7 +9920,10 @@
       "chinese": "席多藍恩",
       "french": "Heatran"
     },
-    "type": ["Fire", "Steel"],
+    "type": [
+      "Fire",
+      "Steel"
+    ],
     "base": {
       "HP": 91,
       "Attack": 90,
@@ -8737,7 +9941,9 @@
       "chinese": "雷吉奇卡斯",
       "french": "Regigigas"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 110,
       "Attack": 160,
@@ -8755,7 +9961,10 @@
       "chinese": "騎拉帝納",
       "french": "Giratina"
     },
-    "type": ["Ghost", "Dragon"],
+    "type": [
+      "Ghost",
+      "Dragon"
+    ],
     "base": {
       "HP": 150,
       "Attack": 100,
@@ -8773,7 +9982,9 @@
       "chinese": "克雷色利亞",
       "french": "Cresselia"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 120,
       "Attack": 70,
@@ -8791,7 +10002,9 @@
       "chinese": "霏歐納",
       "french": "Phione"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 80,
       "Attack": 80,
@@ -8809,7 +10022,9 @@
       "chinese": "瑪納霏",
       "french": "Manaphy"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 100,
       "Attack": 100,
@@ -8827,7 +10042,9 @@
       "chinese": "達克萊伊",
       "french": "Darkrai"
     },
-    "type": ["Dark"],
+    "type": [
+      "Dark"
+    ],
     "base": {
       "HP": 70,
       "Attack": 90,
@@ -8845,7 +10062,9 @@
       "chinese": "謝米",
       "french": "Shaymin"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 100,
       "Attack": 100,
@@ -8863,7 +10082,9 @@
       "chinese": "阿爾宙斯",
       "french": "Arceus"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 120,
       "Attack": 120,
@@ -8881,7 +10102,10 @@
       "chinese": "比克提尼",
       "french": "Victini"
     },
-    "type": ["Psychic", "Fire"],
+    "type": [
+      "Psychic",
+      "Fire"
+    ],
     "base": {
       "HP": 100,
       "Attack": 100,
@@ -8899,7 +10123,9 @@
       "chinese": "藤藤蛇",
       "french": "Vipélierre"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 45,
       "Attack": 45,
@@ -8917,7 +10143,9 @@
       "chinese": "青藤蛇",
       "french": "Lianaja"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 60,
       "Attack": 60,
@@ -8935,7 +10163,9 @@
       "chinese": "君主蛇",
       "french": "Majaspic"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 75,
       "Attack": 75,
@@ -8953,7 +10183,9 @@
       "chinese": "暖暖豬",
       "french": "Gruikui"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 65,
       "Attack": 63,
@@ -8971,7 +10203,10 @@
       "chinese": "炒炒豬",
       "french": "Grotichon"
     },
-    "type": ["Fire", "Fighting"],
+    "type": [
+      "Fire",
+      "Fighting"
+    ],
     "base": {
       "HP": 90,
       "Attack": 93,
@@ -8989,7 +10224,10 @@
       "chinese": "炎武王",
       "french": "Roitiflam"
     },
-    "type": ["Fire", "Fighting"],
+    "type": [
+      "Fire",
+      "Fighting"
+    ],
     "base": {
       "HP": 110,
       "Attack": 123,
@@ -9007,7 +10245,9 @@
       "chinese": "水水獺",
       "french": "Moustillon"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 55,
       "Attack": 55,
@@ -9025,7 +10265,9 @@
       "chinese": "雙刃丸",
       "french": "Mateloutre"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 75,
       "Attack": 75,
@@ -9043,7 +10285,9 @@
       "chinese": "大劍鬼",
       "french": "Clamiral"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 95,
       "Attack": 100,
@@ -9061,7 +10305,9 @@
       "chinese": "探探鼠",
       "french": "Ratentif"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 45,
       "Attack": 55,
@@ -9079,7 +10325,9 @@
       "chinese": "步哨鼠",
       "french": "Miradar"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 60,
       "Attack": 85,
@@ -9097,7 +10345,9 @@
       "chinese": "小約克",
       "french": "Ponchiot"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 45,
       "Attack": 60,
@@ -9115,7 +10365,9 @@
       "chinese": "哈約克",
       "french": "Ponchien"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 65,
       "Attack": 80,
@@ -9133,7 +10385,9 @@
       "chinese": "長毛狗",
       "french": "Mastouffe"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 85,
       "Attack": 110,
@@ -9151,7 +10405,9 @@
       "chinese": "扒手貓",
       "french": "Chacripan"
     },
-    "type": ["Dark"],
+    "type": [
+      "Dark"
+    ],
     "base": {
       "HP": 41,
       "Attack": 50,
@@ -9169,7 +10425,9 @@
       "chinese": "酷豹",
       "french": "Léopardus"
     },
-    "type": ["Dark"],
+    "type": [
+      "Dark"
+    ],
     "base": {
       "HP": 64,
       "Attack": 88,
@@ -9187,7 +10445,9 @@
       "chinese": "花椰猴",
       "french": "Feuillajou"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 50,
       "Attack": 53,
@@ -9205,7 +10465,9 @@
       "chinese": "花椰猿",
       "french": "Feuiloutan"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 75,
       "Attack": 98,
@@ -9223,7 +10485,9 @@
       "chinese": "爆香猴",
       "french": "Flamajou"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 50,
       "Attack": 53,
@@ -9241,7 +10505,9 @@
       "chinese": "爆香猿",
       "french": "Flamoutan"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 75,
       "Attack": 98,
@@ -9259,7 +10525,9 @@
       "chinese": "冷水猴",
       "french": "Flotajou"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 50,
       "Attack": 53,
@@ -9277,7 +10545,9 @@
       "chinese": "冷水猿",
       "french": "Flotoutan"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 75,
       "Attack": 98,
@@ -9295,7 +10565,9 @@
       "chinese": "食夢夢",
       "french": "Munna"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 76,
       "Attack": 25,
@@ -9313,7 +10585,9 @@
       "chinese": "夢夢蝕",
       "french": "Mushana"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 116,
       "Attack": 55,
@@ -9331,7 +10605,10 @@
       "chinese": "豆豆鴿",
       "french": "Poichigeon"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 50,
       "Attack": 55,
@@ -9349,7 +10626,10 @@
       "chinese": "咕咕鴿",
       "french": "Colombeau"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 62,
       "Attack": 77,
@@ -9367,7 +10647,10 @@
       "chinese": "高傲雉雞",
       "french": "Déflaisan"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 80,
       "Attack": 115,
@@ -9385,7 +10668,9 @@
       "chinese": "斑斑馬",
       "french": "Zébibron"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 45,
       "Attack": 60,
@@ -9403,7 +10688,9 @@
       "chinese": "雷電斑馬",
       "french": "Zéblitz"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 75,
       "Attack": 100,
@@ -9421,7 +10708,9 @@
       "chinese": "石丸子",
       "french": "Nodulithe"
     },
-    "type": ["Rock"],
+    "type": [
+      "Rock"
+    ],
     "base": {
       "HP": 55,
       "Attack": 75,
@@ -9439,7 +10728,9 @@
       "chinese": "地幔巖",
       "french": "Géolithe"
     },
-    "type": ["Rock"],
+    "type": [
+      "Rock"
+    ],
     "base": {
       "HP": 70,
       "Attack": 105,
@@ -9457,7 +10748,9 @@
       "chinese": "龐巖怪",
       "french": "Gigalithe"
     },
-    "type": ["Rock"],
+    "type": [
+      "Rock"
+    ],
     "base": {
       "HP": 85,
       "Attack": 135,
@@ -9475,7 +10768,10 @@
       "chinese": "滾滾蝙蝠",
       "french": "Chovsourir"
     },
-    "type": ["Psychic", "Flying"],
+    "type": [
+      "Psychic",
+      "Flying"
+    ],
     "base": {
       "HP": 65,
       "Attack": 45,
@@ -9493,7 +10789,10 @@
       "chinese": "心蝙蝠",
       "french": "Rhinolove"
     },
-    "type": ["Psychic", "Flying"],
+    "type": [
+      "Psychic",
+      "Flying"
+    ],
     "base": {
       "HP": 67,
       "Attack": 57,
@@ -9511,7 +10810,9 @@
       "chinese": "螺釘地鼠",
       "french": "Rototaupe"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 60,
       "Attack": 85,
@@ -9529,7 +10830,10 @@
       "chinese": "龍頭地鼠",
       "french": "Minotaupe"
     },
-    "type": ["Ground", "Steel"],
+    "type": [
+      "Ground",
+      "Steel"
+    ],
     "base": {
       "HP": 110,
       "Attack": 135,
@@ -9547,7 +10851,9 @@
       "chinese": "差不多娃娃",
       "french": "Nanméouïe"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 103,
       "Attack": 60,
@@ -9565,7 +10871,9 @@
       "chinese": "搬運小匠",
       "french": "Charpenti"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 75,
       "Attack": 80,
@@ -9583,7 +10891,9 @@
       "chinese": "鐵骨土人",
       "french": "Ouvrifier"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 85,
       "Attack": 105,
@@ -9601,7 +10911,9 @@
       "chinese": "修建老匠",
       "french": "Bétochef"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 105,
       "Attack": 140,
@@ -9619,7 +10931,9 @@
       "chinese": "圓蝌蚪",
       "french": "Tritonde"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 50,
       "Attack": 50,
@@ -9637,7 +10951,10 @@
       "chinese": "藍蟾蜍",
       "french": "Batracné"
     },
-    "type": ["Water", "Ground"],
+    "type": [
+      "Water",
+      "Ground"
+    ],
     "base": {
       "HP": 75,
       "Attack": 65,
@@ -9655,7 +10972,10 @@
       "chinese": "蟾蜍王",
       "french": "Crapustule"
     },
-    "type": ["Water", "Ground"],
+    "type": [
+      "Water",
+      "Ground"
+    ],
     "base": {
       "HP": 105,
       "Attack": 95,
@@ -9673,7 +10993,9 @@
       "chinese": "投摔鬼",
       "french": "Judokrak"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 120,
       "Attack": 100,
@@ -9691,7 +11013,9 @@
       "chinese": "打擊鬼",
       "french": "Karaclée"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 75,
       "Attack": 125,
@@ -9709,7 +11033,10 @@
       "chinese": "蟲寶包",
       "french": "Larveyette"
     },
-    "type": ["Bug", "Grass"],
+    "type": [
+      "Bug",
+      "Grass"
+    ],
     "base": {
       "HP": 45,
       "Attack": 53,
@@ -9727,7 +11054,10 @@
       "chinese": "寶包繭",
       "french": "Couverdure"
     },
-    "type": ["Bug", "Grass"],
+    "type": [
+      "Bug",
+      "Grass"
+    ],
     "base": {
       "HP": 55,
       "Attack": 63,
@@ -9745,7 +11075,10 @@
       "chinese": "保姆蟲",
       "french": "Manternel"
     },
-    "type": ["Bug", "Grass"],
+    "type": [
+      "Bug",
+      "Grass"
+    ],
     "base": {
       "HP": 75,
       "Attack": 103,
@@ -9763,7 +11096,10 @@
       "chinese": "百足蜈蚣",
       "french": "Venipatte"
     },
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "base": {
       "HP": 30,
       "Attack": 45,
@@ -9781,7 +11117,10 @@
       "chinese": "車輪球",
       "french": "Scobolide"
     },
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "base": {
       "HP": 40,
       "Attack": 55,
@@ -9799,7 +11138,10 @@
       "chinese": "蜈蚣王",
       "french": "Brutapode"
     },
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "base": {
       "HP": 60,
       "Attack": 100,
@@ -9817,7 +11159,10 @@
       "chinese": "木棉球",
       "french": "Doudouvet"
     },
-    "type": ["Grass", "Fairy"],
+    "type": [
+      "Grass",
+      "Fairy"
+    ],
     "base": {
       "HP": 40,
       "Attack": 27,
@@ -9835,7 +11180,10 @@
       "chinese": "風妖精",
       "french": "Farfaduvet"
     },
-    "type": ["Grass", "Fairy"],
+    "type": [
+      "Grass",
+      "Fairy"
+    ],
     "base": {
       "HP": 60,
       "Attack": 67,
@@ -9853,7 +11201,9 @@
       "chinese": "百合根娃娃",
       "french": "Chlorobule"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 45,
       "Attack": 35,
@@ -9871,7 +11221,9 @@
       "chinese": "裙兒小姐",
       "french": "Fragilady"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 70,
       "Attack": 60,
@@ -9889,7 +11241,9 @@
       "chinese": "野蠻鱸魚",
       "french": "Bargantua"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 70,
       "Attack": 92,
@@ -9907,7 +11261,10 @@
       "chinese": "黑眼鱷",
       "french": "Mascaïman"
     },
-    "type": ["Ground", "Dark"],
+    "type": [
+      "Ground",
+      "Dark"
+    ],
     "base": {
       "HP": 50,
       "Attack": 72,
@@ -9925,7 +11282,10 @@
       "chinese": "混混鱷",
       "french": "Escroco"
     },
-    "type": ["Ground", "Dark"],
+    "type": [
+      "Ground",
+      "Dark"
+    ],
     "base": {
       "HP": 60,
       "Attack": 82,
@@ -9943,7 +11303,10 @@
       "chinese": "流氓鱷",
       "french": "Crocorible"
     },
-    "type": ["Ground", "Dark"],
+    "type": [
+      "Ground",
+      "Dark"
+    ],
     "base": {
       "HP": 95,
       "Attack": 117,
@@ -9961,7 +11324,9 @@
       "chinese": "火紅不倒翁",
       "french": "Darumarond"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 70,
       "Attack": 90,
@@ -9979,7 +11344,9 @@
       "chinese": "達摩狒狒",
       "french": "Darumacho"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 105,
       "Attack": 140,
@@ -9997,7 +11364,9 @@
       "chinese": "沙鈴仙人掌",
       "french": "Maracachi"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 75,
       "Attack": 86,
@@ -10015,7 +11384,10 @@
       "chinese": "石居蟹",
       "french": "Crabicoque"
     },
-    "type": ["Bug", "Rock"],
+    "type": [
+      "Bug",
+      "Rock"
+    ],
     "base": {
       "HP": 50,
       "Attack": 65,
@@ -10033,7 +11405,10 @@
       "chinese": "巖殿居蟹",
       "french": "Crabaraque"
     },
-    "type": ["Bug", "Rock"],
+    "type": [
+      "Bug",
+      "Rock"
+    ],
     "base": {
       "HP": 70,
       "Attack": 105,
@@ -10051,7 +11426,10 @@
       "chinese": "滑滑小子",
       "french": "Baggiguane"
     },
-    "type": ["Dark", "Fighting"],
+    "type": [
+      "Dark",
+      "Fighting"
+    ],
     "base": {
       "HP": 50,
       "Attack": 75,
@@ -10069,7 +11447,10 @@
       "chinese": "頭巾混混",
       "french": "Baggaïd"
     },
-    "type": ["Dark", "Fighting"],
+    "type": [
+      "Dark",
+      "Fighting"
+    ],
     "base": {
       "HP": 65,
       "Attack": 90,
@@ -10087,7 +11468,10 @@
       "chinese": "象征鳥",
       "french": "Cryptéro"
     },
-    "type": ["Psychic", "Flying"],
+    "type": [
+      "Psychic",
+      "Flying"
+    ],
     "base": {
       "HP": 72,
       "Attack": 58,
@@ -10105,7 +11489,9 @@
       "chinese": "哭哭面具",
       "french": "Tutafeh"
     },
-    "type": ["Ghost"],
+    "type": [
+      "Ghost"
+    ],
     "base": {
       "HP": 38,
       "Attack": 30,
@@ -10123,7 +11509,9 @@
       "chinese": "死神棺",
       "french": "Tutankafer"
     },
-    "type": ["Ghost"],
+    "type": [
+      "Ghost"
+    ],
     "base": {
       "HP": 58,
       "Attack": 50,
@@ -10141,7 +11529,10 @@
       "chinese": "原蓋海龜",
       "french": "Carapagos"
     },
-    "type": ["Water", "Rock"],
+    "type": [
+      "Water",
+      "Rock"
+    ],
     "base": {
       "HP": 54,
       "Attack": 78,
@@ -10159,7 +11550,10 @@
       "chinese": "肋骨海龜",
       "french": "Mégapagos"
     },
-    "type": ["Water", "Rock"],
+    "type": [
+      "Water",
+      "Rock"
+    ],
     "base": {
       "HP": 74,
       "Attack": 108,
@@ -10177,7 +11571,10 @@
       "chinese": "始祖小鳥",
       "french": "Arkéapti"
     },
-    "type": ["Rock", "Flying"],
+    "type": [
+      "Rock",
+      "Flying"
+    ],
     "base": {
       "HP": 55,
       "Attack": 112,
@@ -10195,7 +11592,10 @@
       "chinese": "始祖大鳥",
       "french": "Aéroptéryx"
     },
-    "type": ["Rock", "Flying"],
+    "type": [
+      "Rock",
+      "Flying"
+    ],
     "base": {
       "HP": 75,
       "Attack": 140,
@@ -10213,7 +11613,9 @@
       "chinese": "破破袋",
       "french": "Miamiasme"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 50,
       "Attack": 50,
@@ -10231,7 +11633,9 @@
       "chinese": "灰塵山",
       "french": "Miasmax"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 80,
       "Attack": 95,
@@ -10249,7 +11653,9 @@
       "chinese": "索羅亞",
       "french": "Zorua"
     },
-    "type": ["Dark"],
+    "type": [
+      "Dark"
+    ],
     "base": {
       "HP": 40,
       "Attack": 65,
@@ -10267,7 +11673,9 @@
       "chinese": "索羅亞克",
       "french": "Zoroark"
     },
-    "type": ["Dark"],
+    "type": [
+      "Dark"
+    ],
     "base": {
       "HP": 60,
       "Attack": 105,
@@ -10285,7 +11693,9 @@
       "chinese": "泡沫栗鼠",
       "french": "Chinchidou"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 55,
       "Attack": 50,
@@ -10303,7 +11713,9 @@
       "chinese": "奇諾栗鼠",
       "french": "Pashmilla"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 75,
       "Attack": 95,
@@ -10321,7 +11733,9 @@
       "chinese": "哥德寶寶",
       "french": "Scrutella"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 45,
       "Attack": 30,
@@ -10339,7 +11753,9 @@
       "chinese": "哥德小童",
       "french": "Mesmérella"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 60,
       "Attack": 45,
@@ -10357,7 +11773,9 @@
       "chinese": "哥德小姐",
       "french": "Sidérella"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 70,
       "Attack": 55,
@@ -10375,7 +11793,9 @@
       "chinese": "單卵細胞球",
       "french": "Nucléos"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 45,
       "Attack": 30,
@@ -10393,7 +11813,9 @@
       "chinese": "雙卵細胞球",
       "french": "Méios"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 65,
       "Attack": 40,
@@ -10411,7 +11833,9 @@
       "chinese": "人造細胞卵",
       "french": "Symbios"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 110,
       "Attack": 65,
@@ -10429,7 +11853,10 @@
       "chinese": "鴨寶寶",
       "french": "Couaneton"
     },
-    "type": ["Water", "Flying"],
+    "type": [
+      "Water",
+      "Flying"
+    ],
     "base": {
       "HP": 62,
       "Attack": 44,
@@ -10447,7 +11874,10 @@
       "chinese": "舞天鵝",
       "french": "Lakmécygne"
     },
-    "type": ["Water", "Flying"],
+    "type": [
+      "Water",
+      "Flying"
+    ],
     "base": {
       "HP": 75,
       "Attack": 87,
@@ -10465,7 +11895,9 @@
       "chinese": "迷你冰",
       "french": "Sorbébé"
     },
-    "type": ["Ice"],
+    "type": [
+      "Ice"
+    ],
     "base": {
       "HP": 36,
       "Attack": 50,
@@ -10483,7 +11915,9 @@
       "chinese": "多多冰",
       "french": "Sorboul"
     },
-    "type": ["Ice"],
+    "type": [
+      "Ice"
+    ],
     "base": {
       "HP": 51,
       "Attack": 65,
@@ -10501,7 +11935,9 @@
       "chinese": "雙倍多多冰",
       "french": "Sorbouboul"
     },
-    "type": ["Ice"],
+    "type": [
+      "Ice"
+    ],
     "base": {
       "HP": 71,
       "Attack": 95,
@@ -10519,7 +11955,10 @@
       "chinese": "四季鹿",
       "french": "Vivaldaim"
     },
-    "type": ["Normal", "Grass"],
+    "type": [
+      "Normal",
+      "Grass"
+    ],
     "base": {
       "HP": 60,
       "Attack": 60,
@@ -10537,7 +11976,10 @@
       "chinese": "萌芽鹿",
       "french": "Haydaim"
     },
-    "type": ["Normal", "Grass"],
+    "type": [
+      "Normal",
+      "Grass"
+    ],
     "base": {
       "HP": 80,
       "Attack": 100,
@@ -10555,7 +11997,10 @@
       "chinese": "電飛鼠",
       "french": "Emolga"
     },
-    "type": ["Electric", "Flying"],
+    "type": [
+      "Electric",
+      "Flying"
+    ],
     "base": {
       "HP": 55,
       "Attack": 75,
@@ -10573,7 +12018,9 @@
       "chinese": "蓋蓋蟲",
       "french": "Carabing"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 50,
       "Attack": 75,
@@ -10591,7 +12038,10 @@
       "chinese": "騎士蝸牛",
       "french": "Lançargot"
     },
-    "type": ["Bug", "Steel"],
+    "type": [
+      "Bug",
+      "Steel"
+    ],
     "base": {
       "HP": 70,
       "Attack": 135,
@@ -10609,7 +12059,10 @@
       "chinese": "哎呀球菇",
       "french": "Trompignon"
     },
-    "type": ["Grass", "Poison"],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "base": {
       "HP": 69,
       "Attack": 55,
@@ -10627,7 +12080,10 @@
       "chinese": "敗露球菇",
       "french": "Gaulet"
     },
-    "type": ["Grass", "Poison"],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "base": {
       "HP": 114,
       "Attack": 85,
@@ -10645,7 +12101,10 @@
       "chinese": "輕飄飄",
       "french": "Viskuse"
     },
-    "type": ["Water", "Ghost"],
+    "type": [
+      "Water",
+      "Ghost"
+    ],
     "base": {
       "HP": 55,
       "Attack": 40,
@@ -10663,7 +12122,10 @@
       "chinese": "胖嘟嘟",
       "french": "Moyade"
     },
-    "type": ["Water", "Ghost"],
+    "type": [
+      "Water",
+      "Ghost"
+    ],
     "base": {
       "HP": 100,
       "Attack": 60,
@@ -10681,7 +12143,9 @@
       "chinese": "保姆曼波",
       "french": "Mamanbo"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 165,
       "Attack": 75,
@@ -10699,7 +12163,10 @@
       "chinese": "電電蟲",
       "french": "Statitik"
     },
-    "type": ["Bug", "Electric"],
+    "type": [
+      "Bug",
+      "Electric"
+    ],
     "base": {
       "HP": 50,
       "Attack": 47,
@@ -10717,7 +12184,10 @@
       "chinese": "電蜘蛛",
       "french": "Mygavolt"
     },
-    "type": ["Bug", "Electric"],
+    "type": [
+      "Bug",
+      "Electric"
+    ],
     "base": {
       "HP": 70,
       "Attack": 77,
@@ -10735,7 +12205,10 @@
       "chinese": "種子鐵球",
       "french": "Grindur"
     },
-    "type": ["Grass", "Steel"],
+    "type": [
+      "Grass",
+      "Steel"
+    ],
     "base": {
       "HP": 44,
       "Attack": 50,
@@ -10753,7 +12226,10 @@
       "chinese": "堅果啞鈴",
       "french": "Noacier"
     },
-    "type": ["Grass", "Steel"],
+    "type": [
+      "Grass",
+      "Steel"
+    ],
     "base": {
       "HP": 74,
       "Attack": 94,
@@ -10771,7 +12247,9 @@
       "chinese": "齒輪兒",
       "french": "Tic"
     },
-    "type": ["Steel"],
+    "type": [
+      "Steel"
+    ],
     "base": {
       "HP": 40,
       "Attack": 55,
@@ -10789,7 +12267,9 @@
       "chinese": "齒輪組",
       "french": "Clic"
     },
-    "type": ["Steel"],
+    "type": [
+      "Steel"
+    ],
     "base": {
       "HP": 60,
       "Attack": 80,
@@ -10807,7 +12287,9 @@
       "chinese": "齒輪怪",
       "french": "Cliticlic"
     },
-    "type": ["Steel"],
+    "type": [
+      "Steel"
+    ],
     "base": {
       "HP": 60,
       "Attack": 100,
@@ -10825,7 +12307,9 @@
       "chinese": "麻麻小魚",
       "french": "Anchwatt"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 35,
       "Attack": 55,
@@ -10843,7 +12327,9 @@
       "chinese": "麻麻鰻",
       "french": "Lampéroie"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 65,
       "Attack": 85,
@@ -10861,7 +12347,9 @@
       "chinese": "麻麻鰻魚王",
       "french": "Ohmassacre"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 85,
       "Attack": 115,
@@ -10879,7 +12367,9 @@
       "chinese": "小灰怪",
       "french": "Lewsor"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 55,
       "Attack": 55,
@@ -10897,7 +12387,9 @@
       "chinese": "大宇怪",
       "french": "Neitram"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 75,
       "Attack": 75,
@@ -10915,7 +12407,10 @@
       "chinese": "燭光靈",
       "french": "Funécire"
     },
-    "type": ["Ghost", "Fire"],
+    "type": [
+      "Ghost",
+      "Fire"
+    ],
     "base": {
       "HP": 50,
       "Attack": 30,
@@ -10933,7 +12428,10 @@
       "chinese": "燈火幽靈",
       "french": "Mélancolux"
     },
-    "type": ["Ghost", "Fire"],
+    "type": [
+      "Ghost",
+      "Fire"
+    ],
     "base": {
       "HP": 60,
       "Attack": 40,
@@ -10951,7 +12449,10 @@
       "chinese": "水晶燈火靈",
       "french": "Lugulabre"
     },
-    "type": ["Ghost", "Fire"],
+    "type": [
+      "Ghost",
+      "Fire"
+    ],
     "base": {
       "HP": 60,
       "Attack": 55,
@@ -10969,7 +12470,9 @@
       "chinese": "牙牙",
       "french": "Coupenotte"
     },
-    "type": ["Dragon"],
+    "type": [
+      "Dragon"
+    ],
     "base": {
       "HP": 46,
       "Attack": 87,
@@ -10987,7 +12490,9 @@
       "chinese": "斧牙龍",
       "french": "Incisache"
     },
-    "type": ["Dragon"],
+    "type": [
+      "Dragon"
+    ],
     "base": {
       "HP": 66,
       "Attack": 117,
@@ -11005,7 +12510,9 @@
       "chinese": "雙斧戰龍",
       "french": "Tranchodon"
     },
-    "type": ["Dragon"],
+    "type": [
+      "Dragon"
+    ],
     "base": {
       "HP": 76,
       "Attack": 147,
@@ -11023,7 +12530,9 @@
       "chinese": "噴嚏熊",
       "french": "Polarhume"
     },
-    "type": ["Ice"],
+    "type": [
+      "Ice"
+    ],
     "base": {
       "HP": 55,
       "Attack": 70,
@@ -11041,7 +12550,9 @@
       "chinese": "凍原熊",
       "french": "Polagriffe"
     },
-    "type": ["Ice"],
+    "type": [
+      "Ice"
+    ],
     "base": {
       "HP": 95,
       "Attack": 130,
@@ -11059,7 +12570,9 @@
       "chinese": "幾何雪花",
       "french": "Hexagel"
     },
-    "type": ["Ice"],
+    "type": [
+      "Ice"
+    ],
     "base": {
       "HP": 80,
       "Attack": 50,
@@ -11077,7 +12590,9 @@
       "chinese": "小嘴蝸",
       "french": "Escargaume"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 50,
       "Attack": 40,
@@ -11095,7 +12610,9 @@
       "chinese": "敏捷蟲",
       "french": "Limaspeed"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 80,
       "Attack": 70,
@@ -11113,7 +12630,10 @@
       "chinese": "泥巴魚",
       "french": "Limonde"
     },
-    "type": ["Ground", "Electric"],
+    "type": [
+      "Ground",
+      "Electric"
+    ],
     "base": {
       "HP": 109,
       "Attack": 66,
@@ -11131,7 +12651,9 @@
       "chinese": "功夫鼬",
       "french": "Kungfouine"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 45,
       "Attack": 85,
@@ -11149,7 +12671,9 @@
       "chinese": "師父鼬",
       "french": "Shaofouine"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 65,
       "Attack": 125,
@@ -11167,7 +12691,9 @@
       "chinese": "赤面龍",
       "french": "Drakkarmin"
     },
-    "type": ["Dragon"],
+    "type": [
+      "Dragon"
+    ],
     "base": {
       "HP": 77,
       "Attack": 120,
@@ -11185,7 +12711,10 @@
       "chinese": "泥偶小人",
       "french": "Gringolem"
     },
-    "type": ["Ground", "Ghost"],
+    "type": [
+      "Ground",
+      "Ghost"
+    ],
     "base": {
       "HP": 59,
       "Attack": 74,
@@ -11203,7 +12732,10 @@
       "chinese": "泥偶巨人",
       "french": "Golemastoc"
     },
-    "type": ["Ground", "Ghost"],
+    "type": [
+      "Ground",
+      "Ghost"
+    ],
     "base": {
       "HP": 89,
       "Attack": 124,
@@ -11221,7 +12753,10 @@
       "chinese": "駒刀小兵",
       "french": "Scalpion"
     },
-    "type": ["Dark", "Steel"],
+    "type": [
+      "Dark",
+      "Steel"
+    ],
     "base": {
       "HP": 45,
       "Attack": 85,
@@ -11239,7 +12774,10 @@
       "chinese": "劈斬司令",
       "french": "Scalproie"
     },
-    "type": ["Dark", "Steel"],
+    "type": [
+      "Dark",
+      "Steel"
+    ],
     "base": {
       "HP": 65,
       "Attack": 125,
@@ -11257,7 +12795,9 @@
       "chinese": "爆炸頭水牛",
       "french": "Frison"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 95,
       "Attack": 110,
@@ -11275,7 +12815,10 @@
       "chinese": "毛頭小鷹",
       "french": "Furaiglon"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 70,
       "Attack": 83,
@@ -11293,7 +12836,10 @@
       "chinese": "勇士雄鷹",
       "french": "Gueriaigle"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 100,
       "Attack": 123,
@@ -11311,7 +12857,10 @@
       "chinese": "禿鷹丫頭",
       "french": "Vostourno"
     },
-    "type": ["Dark", "Flying"],
+    "type": [
+      "Dark",
+      "Flying"
+    ],
     "base": {
       "HP": 70,
       "Attack": 55,
@@ -11329,7 +12878,10 @@
       "chinese": "禿鷹娜",
       "french": "Vaututrice"
     },
-    "type": ["Dark", "Flying"],
+    "type": [
+      "Dark",
+      "Flying"
+    ],
     "base": {
       "HP": 110,
       "Attack": 65,
@@ -11347,7 +12899,9 @@
       "chinese": "熔蟻獸",
       "french": "Aflamanoir"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 85,
       "Attack": 97,
@@ -11365,7 +12919,10 @@
       "chinese": "鐵蟻",
       "french": "Fermite"
     },
-    "type": ["Bug", "Steel"],
+    "type": [
+      "Bug",
+      "Steel"
+    ],
     "base": {
       "HP": 58,
       "Attack": 109,
@@ -11383,7 +12940,10 @@
       "chinese": "單首龍",
       "french": "Solochi"
     },
-    "type": ["Dark", "Dragon"],
+    "type": [
+      "Dark",
+      "Dragon"
+    ],
     "base": {
       "HP": 52,
       "Attack": 65,
@@ -11401,7 +12961,10 @@
       "chinese": "雙首暴龍",
       "french": "Diamat"
     },
-    "type": ["Dark", "Dragon"],
+    "type": [
+      "Dark",
+      "Dragon"
+    ],
     "base": {
       "HP": 72,
       "Attack": 85,
@@ -11419,7 +12982,10 @@
       "chinese": "三首惡龍",
       "french": "Trioxhydre"
     },
-    "type": ["Dark", "Dragon"],
+    "type": [
+      "Dark",
+      "Dragon"
+    ],
     "base": {
       "HP": 92,
       "Attack": 105,
@@ -11437,7 +13003,10 @@
       "chinese": "燃燒蟲",
       "french": "Pyronille"
     },
-    "type": ["Bug", "Fire"],
+    "type": [
+      "Bug",
+      "Fire"
+    ],
     "base": {
       "HP": 55,
       "Attack": 85,
@@ -11455,7 +13024,10 @@
       "chinese": "火神蛾",
       "french": "Pyrax"
     },
-    "type": ["Bug", "Fire"],
+    "type": [
+      "Bug",
+      "Fire"
+    ],
     "base": {
       "HP": 85,
       "Attack": 60,
@@ -11473,7 +13045,10 @@
       "chinese": "勾帕路翁",
       "french": "Cobaltium"
     },
-    "type": ["Steel", "Fighting"],
+    "type": [
+      "Steel",
+      "Fighting"
+    ],
     "base": {
       "HP": 91,
       "Attack": 90,
@@ -11491,7 +13066,10 @@
       "chinese": "代拉基翁",
       "french": "Terrakium"
     },
-    "type": ["Rock", "Fighting"],
+    "type": [
+      "Rock",
+      "Fighting"
+    ],
     "base": {
       "HP": 91,
       "Attack": 129,
@@ -11509,7 +13087,10 @@
       "chinese": "畢力吉翁",
       "french": "Viridium"
     },
-    "type": ["Grass", "Fighting"],
+    "type": [
+      "Grass",
+      "Fighting"
+    ],
     "base": {
       "HP": 91,
       "Attack": 90,
@@ -11527,7 +13108,9 @@
       "chinese": "龍卷雲",
       "french": "Boréas"
     },
-    "type": ["Flying"],
+    "type": [
+      "Flying"
+    ],
     "base": {
       "HP": 79,
       "Attack": 115,
@@ -11545,7 +13128,10 @@
       "chinese": "雷電雲",
       "french": "Fulguris"
     },
-    "type": ["Electric", "Flying"],
+    "type": [
+      "Electric",
+      "Flying"
+    ],
     "base": {
       "HP": 79,
       "Attack": 115,
@@ -11563,7 +13149,10 @@
       "chinese": "萊希拉姆",
       "french": "Reshiram"
     },
-    "type": ["Dragon", "Fire"],
+    "type": [
+      "Dragon",
+      "Fire"
+    ],
     "base": {
       "HP": 100,
       "Attack": 120,
@@ -11581,7 +13170,10 @@
       "chinese": "捷克羅姆",
       "french": "Zekrom"
     },
-    "type": ["Dragon", "Electric"],
+    "type": [
+      "Dragon",
+      "Electric"
+    ],
     "base": {
       "HP": 100,
       "Attack": 150,
@@ -11599,7 +13191,10 @@
       "chinese": "土地雲",
       "french": "Démétéros"
     },
-    "type": ["Ground", "Flying"],
+    "type": [
+      "Ground",
+      "Flying"
+    ],
     "base": {
       "HP": 89,
       "Attack": 125,
@@ -11617,7 +13212,10 @@
       "chinese": "酋雷姆",
       "french": "Kyurem"
     },
-    "type": ["Dragon", "Ice"],
+    "type": [
+      "Dragon",
+      "Ice"
+    ],
     "base": {
       "HP": 125,
       "Attack": 130,
@@ -11635,7 +13233,10 @@
       "chinese": "凱路迪歐",
       "french": "Keldeo"
     },
-    "type": ["Water", "Fighting"],
+    "type": [
+      "Water",
+      "Fighting"
+    ],
     "base": {
       "HP": 91,
       "Attack": 72,
@@ -11653,7 +13254,10 @@
       "chinese": "美洛耶塔",
       "french": "Meloetta"
     },
-    "type": ["Normal", "Psychic"],
+    "type": [
+      "Normal",
+      "Psychic"
+    ],
     "base": {
       "HP": 100,
       "Attack": 77,
@@ -11671,7 +13275,10 @@
       "chinese": "蓋諾賽克特",
       "french": "Genesect"
     },
-    "type": ["Bug", "Steel"],
+    "type": [
+      "Bug",
+      "Steel"
+    ],
     "base": {
       "HP": 71,
       "Attack": 120,
@@ -11689,7 +13296,9 @@
       "chinese": "哈力栗",
       "french": "Marisson"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 56,
       "Attack": 61,
@@ -11707,7 +13316,9 @@
       "chinese": "胖胖哈力",
       "french": "Boguérisse"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 61,
       "Attack": 78,
@@ -11725,7 +13336,10 @@
       "chinese": "布里卡隆",
       "french": "Blindépique"
     },
-    "type": ["Grass", "Fighting"],
+    "type": [
+      "Grass",
+      "Fighting"
+    ],
     "base": {
       "HP": 88,
       "Attack": 107,
@@ -11743,7 +13357,9 @@
       "chinese": "火狐貍",
       "french": "Feunnec"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 40,
       "Attack": 45,
@@ -11761,7 +13377,9 @@
       "chinese": "長尾火狐",
       "french": "Roussil"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 59,
       "Attack": 59,
@@ -11779,7 +13397,10 @@
       "chinese": "妖火紅狐",
       "french": "Goupelin"
     },
-    "type": ["Fire", "Psychic"],
+    "type": [
+      "Fire",
+      "Psychic"
+    ],
     "base": {
       "HP": 75,
       "Attack": 69,
@@ -11797,7 +13418,9 @@
       "chinese": "呱呱泡蛙",
       "french": "Grenousse"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 41,
       "Attack": 56,
@@ -11815,7 +13438,9 @@
       "chinese": "呱頭蛙",
       "french": "Croâporal"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 54,
       "Attack": 63,
@@ -11833,7 +13458,10 @@
       "chinese": "甲賀忍蛙",
       "french": "Amphinobi"
     },
-    "type": ["Water", "Dark"],
+    "type": [
+      "Water",
+      "Dark"
+    ],
     "base": {
       "HP": 72,
       "Attack": 95,
@@ -11851,7 +13479,9 @@
       "chinese": "掘掘兔",
       "french": "Sapereau"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 38,
       "Attack": 36,
@@ -11869,7 +13499,10 @@
       "chinese": "掘地兔",
       "french": "Excavarenne"
     },
-    "type": ["Normal", "Ground"],
+    "type": [
+      "Normal",
+      "Ground"
+    ],
     "base": {
       "HP": 85,
       "Attack": 56,
@@ -11887,7 +13520,10 @@
       "chinese": "小箭雀",
       "french": "Passerouge"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 45,
       "Attack": 50,
@@ -11905,7 +13541,10 @@
       "chinese": "火箭雀",
       "french": "Braisillon"
     },
-    "type": ["Fire", "Flying"],
+    "type": [
+      "Fire",
+      "Flying"
+    ],
     "base": {
       "HP": 62,
       "Attack": 73,
@@ -11923,7 +13562,10 @@
       "chinese": "烈箭鷹",
       "french": "Flambusard"
     },
-    "type": ["Fire", "Flying"],
+    "type": [
+      "Fire",
+      "Flying"
+    ],
     "base": {
       "HP": 78,
       "Attack": 81,
@@ -11941,7 +13583,9 @@
       "chinese": "粉蝶蟲",
       "french": "Lépidonille"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 38,
       "Attack": 35,
@@ -11959,7 +13603,9 @@
       "chinese": "粉蝶蛹",
       "french": "Pérégrain"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 45,
       "Attack": 22,
@@ -11977,7 +13623,10 @@
       "chinese": "彩粉蝶",
       "french": "Prismillon"
     },
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "base": {
       "HP": 80,
       "Attack": 52,
@@ -11995,7 +13644,10 @@
       "chinese": "小獅獅",
       "french": "Hélionceau"
     },
-    "type": ["Fire", "Normal"],
+    "type": [
+      "Fire",
+      "Normal"
+    ],
     "base": {
       "HP": 62,
       "Attack": 50,
@@ -12013,7 +13665,10 @@
       "chinese": "火炎獅",
       "french": "Némélios"
     },
-    "type": ["Fire", "Normal"],
+    "type": [
+      "Fire",
+      "Normal"
+    ],
     "base": {
       "HP": 86,
       "Attack": 68,
@@ -12031,7 +13686,9 @@
       "chinese": "花蓓蓓",
       "french": "Flabébé"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 44,
       "Attack": 38,
@@ -12049,7 +13706,9 @@
       "chinese": "花葉蒂",
       "french": "FLOETTE"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 54,
       "Attack": 45,
@@ -12067,7 +13726,9 @@
       "chinese": "花潔夫人",
       "french": "Florges"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 78,
       "Attack": 65,
@@ -12085,7 +13746,9 @@
       "chinese": "坐騎小羊",
       "french": "Cabriolaine"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 66,
       "Attack": 65,
@@ -12103,7 +13766,9 @@
       "chinese": "坐騎山羊",
       "french": "Chevroum"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 123,
       "Attack": 100,
@@ -12121,7 +13786,9 @@
       "chinese": "頑皮熊貓",
       "french": "Pandespiègle"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 67,
       "Attack": 82,
@@ -12139,7 +13806,10 @@
       "chinese": "流氓熊貓",
       "french": "Pandarbare"
     },
-    "type": ["Fighting", "Dark"],
+    "type": [
+      "Fighting",
+      "Dark"
+    ],
     "base": {
       "HP": 95,
       "Attack": 124,
@@ -12157,7 +13827,9 @@
       "chinese": "多麗米亞",
       "french": "Couafarel"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 75,
       "Attack": 80,
@@ -12175,7 +13847,9 @@
       "chinese": "妙喵",
       "french": "Psystigri"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 62,
       "Attack": 48,
@@ -12193,7 +13867,9 @@
       "chinese": "超能妙喵",
       "french": "Mistigrix"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 74,
       "Attack": 48,
@@ -12211,7 +13887,10 @@
       "chinese": "獨劍鞘",
       "french": "Monorpale"
     },
-    "type": ["Steel", "Ghost"],
+    "type": [
+      "Steel",
+      "Ghost"
+    ],
     "base": {
       "HP": 45,
       "Attack": 80,
@@ -12229,7 +13908,10 @@
       "chinese": "雙劍鞘",
       "french": "Dimoclès"
     },
-    "type": ["Steel", "Ghost"],
+    "type": [
+      "Steel",
+      "Ghost"
+    ],
     "base": {
       "HP": 59,
       "Attack": 110,
@@ -12247,7 +13929,10 @@
       "chinese": "堅盾劍怪",
       "french": "Exagide"
     },
-    "type": ["Steel", "Ghost"],
+    "type": [
+      "Steel",
+      "Ghost"
+    ],
     "base": {
       "HP": 60,
       "Attack": 50,
@@ -12265,7 +13950,9 @@
       "chinese": "粉香香",
       "french": "Fluvetin"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 78,
       "Attack": 52,
@@ -12283,7 +13970,9 @@
       "chinese": "芳香精",
       "french": "Cocotine"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 101,
       "Attack": 72,
@@ -12301,7 +13990,9 @@
       "chinese": "綿綿泡芙",
       "french": "Sucroquin"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 62,
       "Attack": 48,
@@ -12319,7 +14010,9 @@
       "chinese": "胖甜妮",
       "french": "Cupcanaille"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 82,
       "Attack": 80,
@@ -12337,7 +14030,10 @@
       "chinese": "好啦魷",
       "french": "Sepiatop"
     },
-    "type": ["Dark", "Psychic"],
+    "type": [
+      "Dark",
+      "Psychic"
+    ],
     "base": {
       "HP": 53,
       "Attack": 54,
@@ -12355,7 +14051,10 @@
       "chinese": "烏賊王",
       "french": "Sepiatroce"
     },
-    "type": ["Dark", "Psychic"],
+    "type": [
+      "Dark",
+      "Psychic"
+    ],
     "base": {
       "HP": 86,
       "Attack": 92,
@@ -12373,7 +14072,10 @@
       "chinese": "龜腳腳",
       "french": "Opermine"
     },
-    "type": ["Rock", "Water"],
+    "type": [
+      "Rock",
+      "Water"
+    ],
     "base": {
       "HP": 42,
       "Attack": 52,
@@ -12391,7 +14093,10 @@
       "chinese": "龜足巨鎧",
       "french": "Golgopathe"
     },
-    "type": ["Rock", "Water"],
+    "type": [
+      "Rock",
+      "Water"
+    ],
     "base": {
       "HP": 72,
       "Attack": 105,
@@ -12409,7 +14114,10 @@
       "chinese": "垃垃藻",
       "french": "Venalgue"
     },
-    "type": ["Poison", "Water"],
+    "type": [
+      "Poison",
+      "Water"
+    ],
     "base": {
       "HP": 50,
       "Attack": 60,
@@ -12427,7 +14135,10 @@
       "chinese": "毒藻龍",
       "french": "Kravarech"
     },
-    "type": ["Poison", "Dragon"],
+    "type": [
+      "Poison",
+      "Dragon"
+    ],
     "base": {
       "HP": 65,
       "Attack": 75,
@@ -12445,7 +14156,9 @@
       "chinese": "鐵臂槍蝦",
       "french": "Flingouste"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 50,
       "Attack": 53,
@@ -12463,7 +14176,9 @@
       "chinese": "鋼炮臂蝦",
       "french": "Gamblast"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 71,
       "Attack": 73,
@@ -12481,7 +14196,10 @@
       "chinese": "傘電蜥",
       "french": "Galvaran"
     },
-    "type": ["Electric", "Normal"],
+    "type": [
+      "Electric",
+      "Normal"
+    ],
     "base": {
       "HP": 44,
       "Attack": 38,
@@ -12499,7 +14217,10 @@
       "chinese": "光電傘蜥",
       "french": "Iguolta"
     },
-    "type": ["Electric", "Normal"],
+    "type": [
+      "Electric",
+      "Normal"
+    ],
     "base": {
       "HP": 62,
       "Attack": 55,
@@ -12517,7 +14238,10 @@
       "chinese": "寶寶暴龍",
       "french": "Ptyranidur"
     },
-    "type": ["Rock", "Dragon"],
+    "type": [
+      "Rock",
+      "Dragon"
+    ],
     "base": {
       "HP": 58,
       "Attack": 89,
@@ -12535,7 +14259,10 @@
       "chinese": "怪顎龍",
       "french": "Rexillius"
     },
-    "type": ["Rock", "Dragon"],
+    "type": [
+      "Rock",
+      "Dragon"
+    ],
     "base": {
       "HP": 82,
       "Attack": 121,
@@ -12553,7 +14280,10 @@
       "chinese": "冰雪龍",
       "french": "Amagara"
     },
-    "type": ["Rock", "Ice"],
+    "type": [
+      "Rock",
+      "Ice"
+    ],
     "base": {
       "HP": 77,
       "Attack": 59,
@@ -12571,7 +14301,10 @@
       "chinese": "冰雪巨龍",
       "french": "Dragmara"
     },
-    "type": ["Rock", "Ice"],
+    "type": [
+      "Rock",
+      "Ice"
+    ],
     "base": {
       "HP": 123,
       "Attack": 77,
@@ -12589,7 +14322,9 @@
       "chinese": "仙子伊布",
       "french": "Nymphali"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 95,
       "Attack": 65,
@@ -12607,7 +14342,10 @@
       "chinese": "摔角鷹人",
       "french": "Brutalibré"
     },
-    "type": ["Fighting", "Flying"],
+    "type": [
+      "Fighting",
+      "Flying"
+    ],
     "base": {
       "HP": 78,
       "Attack": 92,
@@ -12625,7 +14363,10 @@
       "chinese": "咚咚鼠",
       "french": "DEDENNE"
     },
-    "type": ["Electric", "Fairy"],
+    "type": [
+      "Electric",
+      "Fairy"
+    ],
     "base": {
       "HP": 67,
       "Attack": 58,
@@ -12643,7 +14384,10 @@
       "chinese": "小碎鉆",
       "french": "Strassie"
     },
-    "type": ["Rock", "Fairy"],
+    "type": [
+      "Rock",
+      "Fairy"
+    ],
     "base": {
       "HP": 50,
       "Attack": 50,
@@ -12661,7 +14405,9 @@
       "chinese": "黏黏寶",
       "french": "Mucuscule"
     },
-    "type": ["Dragon"],
+    "type": [
+      "Dragon"
+    ],
     "base": {
       "HP": 45,
       "Attack": 50,
@@ -12679,7 +14425,9 @@
       "chinese": "黏美兒",
       "french": "Colimucus"
     },
-    "type": ["Dragon"],
+    "type": [
+      "Dragon"
+    ],
     "base": {
       "HP": 68,
       "Attack": 75,
@@ -12697,7 +14445,9 @@
       "chinese": "黏美龍",
       "french": "Muplodocus"
     },
-    "type": ["Dragon"],
+    "type": [
+      "Dragon"
+    ],
     "base": {
       "HP": 90,
       "Attack": 100,
@@ -12715,7 +14465,10 @@
       "chinese": "鑰圈兒",
       "french": "Trousselin"
     },
-    "type": ["Steel", "Fairy"],
+    "type": [
+      "Steel",
+      "Fairy"
+    ],
     "base": {
       "HP": 57,
       "Attack": 80,
@@ -12733,7 +14486,10 @@
       "chinese": "小木靈",
       "french": "Brocélôme"
     },
-    "type": ["Ghost", "Grass"],
+    "type": [
+      "Ghost",
+      "Grass"
+    ],
     "base": {
       "HP": 43,
       "Attack": 70,
@@ -12751,7 +14507,10 @@
       "chinese": "朽木妖",
       "french": "Desséliande"
     },
-    "type": ["Ghost", "Grass"],
+    "type": [
+      "Ghost",
+      "Grass"
+    ],
     "base": {
       "HP": 85,
       "Attack": 110,
@@ -12769,7 +14528,10 @@
       "chinese": "南瓜精",
       "french": "Pitrouille"
     },
-    "type": ["Ghost", "Grass"],
+    "type": [
+      "Ghost",
+      "Grass"
+    ],
     "base": {
       "HP": 59,
       "Attack": 66,
@@ -12787,7 +14549,10 @@
       "chinese": "南瓜怪人",
       "french": "Banshitrouye"
     },
-    "type": ["Ghost", "Grass"],
+    "type": [
+      "Ghost",
+      "Grass"
+    ],
     "base": {
       "HP": 85,
       "Attack": 100,
@@ -12805,7 +14570,9 @@
       "chinese": "冰寶",
       "french": "Grelaçon"
     },
-    "type": ["Ice"],
+    "type": [
+      "Ice"
+    ],
     "base": {
       "HP": 55,
       "Attack": 69,
@@ -12823,7 +14590,9 @@
       "chinese": "冰巖怪",
       "french": "Séracrawl"
     },
-    "type": ["Ice"],
+    "type": [
+      "Ice"
+    ],
     "base": {
       "HP": 95,
       "Attack": 117,
@@ -12841,7 +14610,10 @@
       "chinese": "嗡蝠",
       "french": "Sonistrelle"
     },
-    "type": ["Flying", "Dragon"],
+    "type": [
+      "Flying",
+      "Dragon"
+    ],
     "base": {
       "HP": 40,
       "Attack": 30,
@@ -12859,7 +14631,10 @@
       "chinese": "音波龍",
       "french": "Bruyverne"
     },
-    "type": ["Flying", "Dragon"],
+    "type": [
+      "Flying",
+      "Dragon"
+    ],
     "base": {
       "HP": 85,
       "Attack": 70,
@@ -12877,7 +14652,9 @@
       "chinese": "哲爾尼亞斯",
       "french": "Xerneas"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 126,
       "Attack": 131,
@@ -12895,7 +14672,10 @@
       "chinese": "伊裴爾塔爾",
       "french": "Yveltal"
     },
-    "type": ["Dark", "Flying"],
+    "type": [
+      "Dark",
+      "Flying"
+    ],
     "base": {
       "HP": 126,
       "Attack": 131,
@@ -12913,7 +14693,10 @@
       "chinese": "基格爾德",
       "french": "Zygarde"
     },
-    "type": ["Dragon", "Ground"],
+    "type": [
+      "Dragon",
+      "Ground"
+    ],
     "base": {
       "HP": 108,
       "Attack": 100,
@@ -12931,7 +14714,10 @@
       "chinese": "蒂安希",
       "french": "Diancie"
     },
-    "type": ["Rock", "Fairy"],
+    "type": [
+      "Rock",
+      "Fairy"
+    ],
     "base": {
       "HP": 50,
       "Attack": 100,
@@ -12949,7 +14735,10 @@
       "chinese": "胡帕",
       "french": "Hoopa"
     },
-    "type": ["Psychic", "Ghost"],
+    "type": [
+      "Psychic",
+      "Ghost"
+    ],
     "base": {
       "HP": 80,
       "Attack": 110,
@@ -12967,7 +14756,10 @@
       "chinese": "波爾凱尼恩",
       "french": "Volcanion"
     },
-    "type": ["Fire", "Water"],
+    "type": [
+      "Fire",
+      "Water"
+    ],
     "base": {
       "HP": 80,
       "Attack": 110,
@@ -12985,7 +14777,10 @@
       "chinese": "木木梟",
       "french": "Brindibou"
     },
-    "type": ["Grass", "Flying"],
+    "type": [
+      "Grass",
+      "Flying"
+    ],
     "base": {
       "HP": 68,
       "Attack": 55,
@@ -13003,7 +14798,10 @@
       "chinese": "投羽梟",
       "french": "Efflèche"
     },
-    "type": ["Grass", "Flying"],
+    "type": [
+      "Grass",
+      "Flying"
+    ],
     "base": {
       "HP": 78,
       "Attack": 75,
@@ -13021,7 +14819,10 @@
       "chinese": "狙射樹梟",
       "french": "Archéduc"
     },
-    "type": ["Grass", "Ghost"],
+    "type": [
+      "Grass",
+      "Ghost"
+    ],
     "base": {
       "HP": 78,
       "Attack": 107,
@@ -13039,7 +14840,9 @@
       "chinese": "火斑喵",
       "french": "Flamiaou"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 45,
       "Attack": 65,
@@ -13057,7 +14860,9 @@
       "chinese": "炎熱喵",
       "french": "Matoufeu"
     },
-    "type": ["Fire"],
+    "type": [
+      "Fire"
+    ],
     "base": {
       "HP": 65,
       "Attack": 85,
@@ -13075,7 +14880,10 @@
       "chinese": "熾焰咆哮虎",
       "french": "Félinferno"
     },
-    "type": ["Fire", "Dark"],
+    "type": [
+      "Fire",
+      "Dark"
+    ],
     "base": {
       "HP": 95,
       "Attack": 115,
@@ -13093,7 +14901,9 @@
       "chinese": "球球海獅",
       "french": "Otaquin"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 50,
       "Attack": 54,
@@ -13111,7 +14921,9 @@
       "chinese": "花漾海獅",
       "french": "Otarlette"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 60,
       "Attack": 69,
@@ -13129,7 +14941,10 @@
       "chinese": "西獅海壬",
       "french": "Oratoria"
     },
-    "type": ["Water", "Fairy"],
+    "type": [
+      "Water",
+      "Fairy"
+    ],
     "base": {
       "HP": 80,
       "Attack": 74,
@@ -13147,7 +14962,10 @@
       "chinese": "小篤兒",
       "french": "Picassaut"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 35,
       "Attack": 75,
@@ -13165,7 +14983,10 @@
       "chinese": "喇叭啄鳥",
       "french": "Piclairon"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 55,
       "Attack": 85,
@@ -13183,7 +15004,10 @@
       "chinese": "銃嘴大鳥",
       "french": "Bazoucan"
     },
-    "type": ["Normal", "Flying"],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
     "base": {
       "HP": 80,
       "Attack": 120,
@@ -13201,7 +15025,9 @@
       "chinese": "貓鼬少",
       "french": "Manglouton"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 48,
       "Attack": 70,
@@ -13219,7 +15045,9 @@
       "chinese": "貓鼬探長",
       "french": "Argouste"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 88,
       "Attack": 110,
@@ -13237,7 +15065,9 @@
       "chinese": "強顎雞母蟲",
       "french": "Larvibule"
     },
-    "type": ["Bug"],
+    "type": [
+      "Bug"
+    ],
     "base": {
       "HP": 47,
       "Attack": 62,
@@ -13255,7 +15085,10 @@
       "chinese": "蟲電寶",
       "french": "Chrysapile"
     },
-    "type": ["Bug", "Electric"],
+    "type": [
+      "Bug",
+      "Electric"
+    ],
     "base": {
       "HP": 57,
       "Attack": 82,
@@ -13273,7 +15106,10 @@
       "chinese": "鍬農炮蟲",
       "french": "Lucanon"
     },
-    "type": ["Bug", "Electric"],
+    "type": [
+      "Bug",
+      "Electric"
+    ],
     "base": {
       "HP": 77,
       "Attack": 70,
@@ -13291,7 +15127,9 @@
       "chinese": "好勝蟹",
       "french": "Crabagarre"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 47,
       "Attack": 82,
@@ -13309,7 +15147,10 @@
       "chinese": "好勝毛蟹",
       "french": "Crabominable"
     },
-    "type": ["Fighting", "Ice"],
+    "type": [
+      "Fighting",
+      "Ice"
+    ],
     "base": {
       "HP": 97,
       "Attack": 132,
@@ -13327,7 +15168,10 @@
       "chinese": "花舞鳥",
       "french": "Plumeline"
     },
-    "type": ["Fire", "Flying"],
+    "type": [
+      "Fire",
+      "Flying"
+    ],
     "base": {
       "HP": 75,
       "Attack": 70,
@@ -13345,7 +15189,10 @@
       "chinese": "萌虻",
       "french": "Bombydou"
     },
-    "type": ["Bug", "Fairy"],
+    "type": [
+      "Bug",
+      "Fairy"
+    ],
     "base": {
       "HP": 40,
       "Attack": 45,
@@ -13363,7 +15210,10 @@
       "chinese": "蝶結萌虻",
       "french": "Rubombelle"
     },
-    "type": ["Bug", "Fairy"],
+    "type": [
+      "Bug",
+      "Fairy"
+    ],
     "base": {
       "HP": 60,
       "Attack": 55,
@@ -13381,7 +15231,9 @@
       "chinese": "巖狗狗",
       "french": "Rocabot"
     },
-    "type": ["Rock"],
+    "type": [
+      "Rock"
+    ],
     "base": {
       "HP": 45,
       "Attack": 65,
@@ -13399,7 +15251,9 @@
       "chinese": "鬃巖狼人",
       "french": "Lougaroc"
     },
-    "type": ["Rock"],
+    "type": [
+      "Rock"
+    ],
     "base": {
       "HP": 75,
       "Attack": 115,
@@ -13417,7 +15271,9 @@
       "chinese": "弱丁魚",
       "french": "Froussardine"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 45,
       "Attack": 20,
@@ -13435,7 +15291,10 @@
       "chinese": "好壞星",
       "french": "Vorastérie"
     },
-    "type": ["Poison", "Water"],
+    "type": [
+      "Poison",
+      "Water"
+    ],
     "base": {
       "HP": 50,
       "Attack": 53,
@@ -13453,7 +15312,10 @@
       "chinese": "超壞星",
       "french": "Prédastérie"
     },
-    "type": ["Poison", "Water"],
+    "type": [
+      "Poison",
+      "Water"
+    ],
     "base": {
       "HP": 50,
       "Attack": 63,
@@ -13471,7 +15333,9 @@
       "chinese": "泥驢仔",
       "french": "Tiboudet"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 70,
       "Attack": 100,
@@ -13489,7 +15353,9 @@
       "chinese": "重泥挽馬",
       "french": "Bourrinos"
     },
-    "type": ["Ground"],
+    "type": [
+      "Ground"
+    ],
     "base": {
       "HP": 100,
       "Attack": 125,
@@ -13507,7 +15373,10 @@
       "chinese": "滴蛛",
       "french": "Araqua"
     },
-    "type": ["Water", "Bug"],
+    "type": [
+      "Water",
+      "Bug"
+    ],
     "base": {
       "HP": 38,
       "Attack": 40,
@@ -13525,7 +15394,10 @@
       "chinese": "滴蛛霸",
       "french": "Tarenbulle"
     },
-    "type": ["Water", "Bug"],
+    "type": [
+      "Water",
+      "Bug"
+    ],
     "base": {
       "HP": 68,
       "Attack": 70,
@@ -13543,7 +15415,9 @@
       "chinese": "偽螳草",
       "french": "Mimantis"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 40,
       "Attack": 55,
@@ -13561,7 +15435,9 @@
       "chinese": "蘭螳花",
       "french": "Floramantis"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 70,
       "Attack": 105,
@@ -13579,7 +15455,10 @@
       "chinese": "睡睡菇",
       "french": "Spododo"
     },
-    "type": ["Grass", "Fairy"],
+    "type": [
+      "Grass",
+      "Fairy"
+    ],
     "base": {
       "HP": 40,
       "Attack": 35,
@@ -13597,7 +15476,10 @@
       "chinese": "燈罩夜菇",
       "french": "Lampignon"
     },
-    "type": ["Grass", "Fairy"],
+    "type": [
+      "Grass",
+      "Fairy"
+    ],
     "base": {
       "HP": 60,
       "Attack": 45,
@@ -13615,7 +15497,10 @@
       "chinese": "夜盜火蜥",
       "french": "Tritox"
     },
-    "type": ["Poison", "Fire"],
+    "type": [
+      "Poison",
+      "Fire"
+    ],
     "base": {
       "HP": 48,
       "Attack": 44,
@@ -13633,7 +15518,10 @@
       "chinese": "焰後蜥",
       "french": "Malamandre"
     },
-    "type": ["Poison", "Fire"],
+    "type": [
+      "Poison",
+      "Fire"
+    ],
     "base": {
       "HP": 68,
       "Attack": 64,
@@ -13651,7 +15539,10 @@
       "chinese": "童偶熊",
       "french": "Nounourson"
     },
-    "type": ["Normal", "Fighting"],
+    "type": [
+      "Normal",
+      "Fighting"
+    ],
     "base": {
       "HP": 70,
       "Attack": 75,
@@ -13669,7 +15560,10 @@
       "chinese": "穿著熊",
       "french": "Chelours"
     },
-    "type": ["Normal", "Fighting"],
+    "type": [
+      "Normal",
+      "Fighting"
+    ],
     "base": {
       "HP": 120,
       "Attack": 125,
@@ -13687,7 +15581,9 @@
       "chinese": "甜竹竹",
       "french": "Croquine"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 42,
       "Attack": 30,
@@ -13705,7 +15601,9 @@
       "chinese": "甜舞妮",
       "french": "Candine"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 52,
       "Attack": 40,
@@ -13723,7 +15621,9 @@
       "chinese": "甜冷美後",
       "french": "Sucreine"
     },
-    "type": ["Grass"],
+    "type": [
+      "Grass"
+    ],
     "base": {
       "HP": 72,
       "Attack": 120,
@@ -13741,7 +15641,9 @@
       "chinese": "花療環環",
       "french": "Guérilande"
     },
-    "type": ["Fairy"],
+    "type": [
+      "Fairy"
+    ],
     "base": {
       "HP": 51,
       "Attack": 52,
@@ -13759,7 +15661,10 @@
       "chinese": "智揮猩",
       "french": "Gouroutan"
     },
-    "type": ["Normal", "Psychic"],
+    "type": [
+      "Normal",
+      "Psychic"
+    ],
     "base": {
       "HP": 90,
       "Attack": 60,
@@ -13777,7 +15682,9 @@
       "chinese": "投擲猴",
       "french": "Quartermac"
     },
-    "type": ["Fighting"],
+    "type": [
+      "Fighting"
+    ],
     "base": {
       "HP": 100,
       "Attack": 120,
@@ -13795,7 +15702,10 @@
       "chinese": "膽小蟲",
       "french": "Sovkipou"
     },
-    "type": ["Bug", "Water"],
+    "type": [
+      "Bug",
+      "Water"
+    ],
     "base": {
       "HP": 25,
       "Attack": 35,
@@ -13813,7 +15723,10 @@
       "chinese": "具甲武者",
       "french": "Sarmuraï"
     },
-    "type": ["Bug", "Water"],
+    "type": [
+      "Bug",
+      "Water"
+    ],
     "base": {
       "HP": 75,
       "Attack": 125,
@@ -13831,7 +15744,10 @@
       "chinese": "沙丘娃",
       "french": "Bacabouh"
     },
-    "type": ["Ghost", "Ground"],
+    "type": [
+      "Ghost",
+      "Ground"
+    ],
     "base": {
       "HP": 55,
       "Attack": 55,
@@ -13849,7 +15765,10 @@
       "chinese": "噬沙堡爺",
       "french": "Trépassable"
     },
-    "type": ["Ghost", "Ground"],
+    "type": [
+      "Ghost",
+      "Ground"
+    ],
     "base": {
       "HP": 85,
       "Attack": 75,
@@ -13867,7 +15786,9 @@
       "chinese": "拳海參",
       "french": "Concombaffe"
     },
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "base": {
       "HP": 55,
       "Attack": 60,
@@ -13885,7 +15806,9 @@
       "chinese": "屬性：空",
       "french": "Silvallié"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 95,
       "Attack": 95,
@@ -13903,7 +15826,9 @@
       "chinese": "銀伴戰獸",
       "french": "Météno"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 95,
       "Attack": 95,
@@ -13921,7 +15846,10 @@
       "chinese": "小隕星",
       "french": "Dodoala"
     },
-    "type": ["Rock", "Flying"],
+    "type": [
+      "Rock",
+      "Flying"
+    ],
     "base": {
       "HP": 60,
       "Attack": 60,
@@ -13939,7 +15867,9 @@
       "chinese": "樹枕尾熊",
       "french": "Boumata"
     },
-    "type": ["Normal"],
+    "type": [
+      "Normal"
+    ],
     "base": {
       "HP": 65,
       "Attack": 115,
@@ -13957,7 +15887,10 @@
       "chinese": "爆焰龜獸",
       "french": "Togedemaru"
     },
-    "type": ["Fire", "Dragon"],
+    "type": [
+      "Fire",
+      "Dragon"
+    ],
     "base": {
       "HP": 60,
       "Attack": 78,
@@ -13975,7 +15908,10 @@
       "chinese": "托戈德瑪爾",
       "french": "Mimiqui"
     },
-    "type": ["Electric", "Steel"],
+    "type": [
+      "Electric",
+      "Steel"
+    ],
     "base": {
       "HP": 65,
       "Attack": 98,
@@ -13993,7 +15929,10 @@
       "chinese": "謎擬Ｑ",
       "french": "Denticrisse"
     },
-    "type": ["Ghost", "Fairy"],
+    "type": [
+      "Ghost",
+      "Fairy"
+    ],
     "base": {
       "HP": 55,
       "Attack": 90,
@@ -14011,7 +15950,10 @@
       "chinese": "磨牙彩皮魚",
       "french": "Draïeul"
     },
-    "type": ["Water", "Psychic"],
+    "type": [
+      "Water",
+      "Psychic"
+    ],
     "base": {
       "HP": 68,
       "Attack": 105,
@@ -14029,7 +15971,10 @@
       "chinese": "老翁龍",
       "french": "Sinistrail"
     },
-    "type": ["Normal", "Dragon"],
+    "type": [
+      "Normal",
+      "Dragon"
+    ],
     "base": {
       "HP": 78,
       "Attack": 60,
@@ -14047,7 +15992,10 @@
       "chinese": "破破舵輪",
       "french": "Bébécaille"
     },
-    "type": ["Ghost", "Grass"],
+    "type": [
+      "Ghost",
+      "Grass"
+    ],
     "base": {
       "HP": 70,
       "Attack": 131,
@@ -14065,7 +16013,9 @@
       "chinese": "心鱗寶",
       "french": "Écaïd"
     },
-    "type": ["Dragon"],
+    "type": [
+      "Dragon"
+    ],
     "base": {
       "HP": 45,
       "Attack": 55,
@@ -14083,7 +16033,10 @@
       "chinese": "鱗甲龍",
       "french": "Ékaïser"
     },
-    "type": ["Dragon", "Fighting"],
+    "type": [
+      "Dragon",
+      "Fighting"
+    ],
     "base": {
       "HP": 55,
       "Attack": 75,
@@ -14101,7 +16054,10 @@
       "chinese": "杖尾鱗甲龍",
       "french": "Tokorico"
     },
-    "type": ["Dragon", "Fighting"],
+    "type": [
+      "Dragon",
+      "Fighting"
+    ],
     "base": {
       "HP": 75,
       "Attack": 110,
@@ -14119,7 +16075,10 @@
       "chinese": "卡璞・鳴鳴",
       "french": "Tokopiyon"
     },
-    "type": ["Electric", "Fairy"],
+    "type": [
+      "Electric",
+      "Fairy"
+    ],
     "base": {
       "HP": 70,
       "Attack": 115,
@@ -14137,7 +16096,10 @@
       "chinese": "卡璞・蝶蝶",
       "french": "Tokotoro"
     },
-    "type": ["Psychic", "Fairy"],
+    "type": [
+      "Psychic",
+      "Fairy"
+    ],
     "base": {
       "HP": 70,
       "Attack": 85,
@@ -14155,7 +16117,10 @@
       "chinese": "卡璞・哞哞",
       "french": "Tokopisco"
     },
-    "type": ["Grass", "Fairy"],
+    "type": [
+      "Grass",
+      "Fairy"
+    ],
     "base": {
       "HP": 70,
       "Attack": 130,
@@ -14173,7 +16138,10 @@
       "chinese": "卡璞・鰭鰭",
       "french": "Cosmog"
     },
-    "type": ["Water", "Fairy"],
+    "type": [
+      "Water",
+      "Fairy"
+    ],
     "base": {
       "HP": 70,
       "Attack": 75,
@@ -14191,7 +16159,9 @@
       "chinese": "科斯莫古",
       "french": "Cosmovum"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 43,
       "Attack": 29,
@@ -14209,7 +16179,9 @@
       "chinese": "科斯莫姆",
       "french": "Solgaleo"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 43,
       "Attack": 29,
@@ -14227,7 +16199,10 @@
       "chinese": "索爾迦雷歐",
       "french": "Lunala"
     },
-    "type": ["Psychic", "Steel"],
+    "type": [
+      "Psychic",
+      "Steel"
+    ],
     "base": {
       "HP": 137,
       "Attack": 137,
@@ -14245,7 +16220,10 @@
       "chinese": "露奈雅拉",
       "french": "Zéroïd"
     },
-    "type": ["Psychic", "Ghost"],
+    "type": [
+      "Psychic",
+      "Ghost"
+    ],
     "base": {
       "HP": 137,
       "Attack": 113,
@@ -14263,7 +16241,10 @@
       "chinese": "虛吾伊德",
       "french": "Mouscoto"
     },
-    "type": ["Rock", "Poison"],
+    "type": [
+      "Rock",
+      "Poison"
+    ],
     "base": {
       "HP": 109,
       "Attack": 53,
@@ -14281,7 +16262,10 @@
       "chinese": "爆肌蚊",
       "french": "Cancrelove"
     },
-    "type": ["Bug", "Fighting"],
+    "type": [
+      "Bug",
+      "Fighting"
+    ],
     "base": {
       "HP": 107,
       "Attack": 139,
@@ -14299,7 +16283,10 @@
       "chinese": "費洛美螂",
       "french": "Câblifère"
     },
-    "type": ["Bug", "Fighting"],
+    "type": [
+      "Bug",
+      "Fighting"
+    ],
     "base": {
       "HP": 71,
       "Attack": 137,
@@ -14317,7 +16304,9 @@
       "chinese": "電束木",
       "french": "Bamboiselle"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 83,
       "Attack": 89,
@@ -14335,7 +16324,10 @@
       "chinese": "鐵火輝夜",
       "french": "Katagami"
     },
-    "type": ["Steel", "Flying"],
+    "type": [
+      "Steel",
+      "Flying"
+    ],
     "base": {
       "HP": 97,
       "Attack": 101,
@@ -14353,7 +16345,10 @@
       "chinese": "紙禦劍",
       "french": "Engloutyran"
     },
-    "type": ["Grass", "Steel"],
+    "type": [
+      "Grass",
+      "Steel"
+    ],
     "base": {
       "HP": 59,
       "Attack": 181,
@@ -14371,7 +16366,10 @@
       "chinese": "惡食大王",
       "french": "Necrozma"
     },
-    "type": ["Dark", "Dragon"],
+    "type": [
+      "Dark",
+      "Dragon"
+    ],
     "base": {
       "HP": 223,
       "Attack": 101,
@@ -14389,7 +16387,9 @@
       "chinese": "奈克洛茲瑪",
       "french": "Magearna"
     },
-    "type": ["Psychic"],
+    "type": [
+      "Psychic"
+    ],
     "base": {
       "HP": 97,
       "Attack": 107,
@@ -14407,7 +16407,10 @@
       "chinese": "瑪機雅娜",
       "french": "Marshadow"
     },
-    "type": ["Steel", "Fairy"],
+    "type": [
+      "Steel",
+      "Fairy"
+    ],
     "base": {
       "HP": 80,
       "Attack": 95,
@@ -14425,7 +16428,10 @@
       "chinese": "瑪夏多",
       "french": "Vémini"
     },
-    "type": ["Fighting", "Ghost"],
+    "type": [
+      "Fighting",
+      "Ghost"
+    ],
     "base": {
       "HP": 90,
       "Attack": 125,
@@ -14443,7 +16449,9 @@
       "chinese": "毒貝比",
       "french": "Mandrillon"
     },
-    "type": ["Poison"],
+    "type": [
+      "Poison"
+    ],
     "base": {
       "HP": 67,
       "Attack": 73,
@@ -14461,7 +16469,10 @@
       "chinese": "四顎針龍",
       "french": "Ama-Ama"
     },
-    "type": ["Poison", "Dragon"],
+    "type": [
+      "Poison",
+      "Dragon"
+    ],
     "base": {
       "HP": 73,
       "Attack": 73,
@@ -14479,7 +16490,10 @@
       "chinese": "壘磊石",
       "french": "Pierroteknik"
     },
-    "type": ["Rock", "Steel"],
+    "type": [
+      "Rock",
+      "Steel"
+    ],
     "base": {
       "HP": 61,
       "Attack": 131,
@@ -14497,7 +16511,10 @@
       "chinese": "砰頭小醜",
       "french": "Zeraora"
     },
-    "type": ["Fire", "Ghost"],
+    "type": [
+      "Fire",
+      "Ghost"
+    ],
     "base": {
       "HP": 53,
       "Attack": 127,
@@ -14515,7 +16532,9 @@
       "chinese": "捷拉奧拉",
       "french": "Meltan"
     },
-    "type": ["Electric"],
+    "type": [
+      "Electric"
+    ],
     "base": {
       "HP": 88,
       "Attack": 112,
@@ -14533,7 +16552,9 @@
       "chinese": "美錄坦",
       "french": "Melmetal"
     },
-    "type": ["Steel"],
+    "type": [
+      "Steel"
+    ],
     "base": {
       "HP": 46,
       "Attack": 65,
@@ -14551,7 +16572,9 @@
       "chinese": "美錄梅塔",
       "french": ""
     },
-    "type": ["Steel"],
+    "type": [
+      "Steel"
+    ],
     "base": {
       "HP": 135,
       "Attack": 143,
