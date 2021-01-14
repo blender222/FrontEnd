@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      outline: none;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: transparent;
+    }
+    button:focus {
+      outline: none;
+    }
+    img {
+      vertical-align: top;
+      max-width: 100%;
+    }
+    a {
+      text-decoration: none;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      display: flex;
+    }
+    .box {
+      margin: auto;
+      width: 500px;
+      height: 500px;
+      outline: 1px solid #ff0000;
+      display: flex;
+    }
+    .clock {
+      position: relative;
+      margin: auto;
+      width: 350px;
+      height: 350px;
+      border: 7px solid #aaaaaa;
+      border-radius: 50%;
+      display: flex;
+      outline: 1px solid #ff0000;
+    }
+    .display-box {
+      outline: 1px solid #ff0000;
+      height: 80px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 80px;
+      font-weight: 500;
+      line-height: 0;
+    }
+    .test {
+      width: 100px;
+      height: 100px;
+      background-color: #faa;
+      margin: auto;
+      display: none;
+      opacity: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div class="clock">
+      <div class="display-box">
+        <div class="hour">00</div>:<div class="min">00</div>
+      </div>
+    </div>
+  </div>
+  <div class="test"></div>
+
+  <script>
+    const test = document.querySelector(".test");
+
+
+    const box = document.querySelector(".box");
+    const clock = document.querySelector(".clock");
+    const allTic = document.querySelectorAll(".tic");
+    const displayBox = document.querySelector(".display-box");
+    const displayHour = displayBox.querySelector(".hour");
+    const displayMin = displayBox.querySelector(".min");
+
+    box.addEventListener("click", function() {
+      // let start = null;
+      // test.style.display = "block";
+      // const step = function(timestamp) {
+      //   if (!start) start = timestamp;
+      //   let progress = timestamp - start;
+      //   console.log(timestamp);
+      //   test.style.opacity = Math.min(progress / 400, 1);
+      //   if (progress < 400) {
+      //     window.requestAnimationFrame(step);
+      //   }
+      // }
+      // window.requestAnimationFrame(step);
+    });
+
+
+    clock.addEventListener("mousemove", function(event) {
+      let clockPos = {
+        top: clock.getBoundingClientRect().top,
+        left: clock.getBoundingClientRect().left
+      }
+      let cx = clockPos.left + parseInt(getComputedStyle(clock).width) / 2;
+      let cy = clockPos.top + parseInt(getComputedStyle(clock).height) / 2;
+      let angle = getAngle(event.clientX, event.clientY, cx, cy);
+      let hour;
+      if (between(angle, 45, 75)) {
+        hour = 1;
+      } else if (between(angle, 15, 45)) {
+        hour = 2;
+      } else if (outside(angle, 15, 345)) {
+        hour = 3;
+      } else if (between(angle, 315, 345)) {
+        hour = 4;
+      } else if (between(angle, 285, 315)) {
+        hour = 5;
+      } else if (between(angle, 255, 285)) {
+        hour = 6;
+      } else if (between(angle, 225, 255)) {
+        hour = 7;
+      } else if (between(angle, 195, 225)) {
+        hour = 8;
+      } else if (between(angle, 165, 195)) {
+        hour = 9;
+      } else if (between(angle, 135, 165)) {
+        hour = 10;
+      } else if (between(angle, 105, 135)) {
+        hour = 11;
+      } else if (between(angle, 75, 105)) {
+        hour = 12;
+      }
+      if (!displayBox.state) displayBox.state = 1;
+      switch (displayBox.state) {
+        case 1:
+          displayHour.textContent = `${hour.toString().padStart(2, 0)}`;
+          break;
+        case 2:
+          let value = (hour * 5);
+          value = value == 60 ? 0 : value;
+          displayMin.textContent = `${value.toString().padStart(2, 0)}`;
+          break;
+        default:
+          break;
+      }
+      console.log(displayBox.state);
+
+      function between(a, min, max) {
+        return min <= a && a <= max;
+      }
+
+      function outside(a, min, max) {
+        return a <= min || a >= max;
+      }
+
+      function getAngle(x1, y1, cx, cy) {
+        let distY = cy - y1;
+        let distX = cx - x1;
+        let dist = Math.sqrt((Math.abs(distY) ** 2) + (Math.abs(distX) ** 2));
+        let val = Math.abs(distY) / dist;
+        let angle = Math.asin(val) * (180 / Math.PI);
+        // console.log(distX, distY, angle);
+        if (distX >= 0 && distY >= 0) {
+          // 2
+          return 180 - angle;
+        } else if (distX >= 0 && distY <= 0) {
+          // 3
+          return 180 + angle;
+        } else if (distX <= 0 && distY >= 0) {
+          // 1
+          return angle;
+        } else if (distX < 0 && distY < 0) {
+          // 4
+          return 360 - angle;
+        } else {
+          console.log("error");
+          return null;
+        }
+      }
+    });
+    clock.addEventListener("mouseout", function() {
+      // displayHour.textContent = `00`;
+    });
+    clock.addEventListener("click", function(event) {
+      switch (displayBox.state) {
+        case 1:
+          // displayBoxHour.textContent = ;
+          displayBox.state++;
+          break;
+        case 2:
+          // 關閉面板 寫入設定
+          displayBox.state++;
+          break;
+        default:
+          console.log("error switch");
+          break;
+      }
+      console.log(displayBox.state);
+    });
+    const settingNum = function(event) {
+      // event.target.
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>

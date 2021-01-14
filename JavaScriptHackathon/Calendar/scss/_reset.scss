@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  overflow-y: hidden;
+}
+button {
+  background-color: transparent;
+}
+button:focus {
+  outline: none;
+}
+img {
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+}
+// bootstrap
+:root {
+  --one-seventh: calc(100% / 7);
+}
+.row-cols-7 > * {
+  flex: 0 0 auto;
+  width: var(--one-seventh);
+}
+@media (min-width: 576px) {
+  .row-cols-sm-7 > * {
+    flex: 0 0 auto;
+    width: var(--one-seventh);
+  }
+}
+@media (min-width: 768px) {
+  .row-cols-md-7 > * {
+    flex: 0 0 auto;
+    width: var(--one-seventh);
+  }
+}
+@media (min-width: 992px) {
+  .row-cols-lg-7 > * {
+    flex: 0 0 auto;
+    width: var(--one-seventh);
+  }
+}
+@media (min-width: 1200px) {
+  .row-cols-xl-7 > * {
+    flex: 0 0 auto;
+    width: var(--one-seventh);
+  }
+}
+@media (min-width: 1400px) {
+  .row-cols-xxl-7 > * {
+    flex: 0 0 auto;
+    width: var(--one-seventh);
+  }
+}

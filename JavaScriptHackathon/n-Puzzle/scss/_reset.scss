@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+button {
+  background-color: transparent;
+}
+button:focus {
+  outline: none;
+}
+img {
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+}
+// reset bootstrap
+.row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
