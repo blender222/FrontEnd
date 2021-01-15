@@ -91,7 +91,7 @@ const openEditor = function(event) {
   // -先處理y值
   let editorWindowY = dateRect.y - 120;
   // -分側
-  const isRight = dateRect.x >= 0.5 * window.screen.width;
+  const isRight = dateRect.x >= 0.5 * window.innerWidth;
   let editorWindowX = isRight ? dateRect.x - 350 - 10 : dateRect.x + dateRect.width + 10;
   // -過濾y值 top下限值 30 top上限值 screenY - 450 - 30
   editorWindowY = editorWindowY < 30 ? 30 : editorWindowY;
@@ -161,31 +161,18 @@ clockCircle.addEventListener("mouseenter", function() {
 clockCircle.addEventListener("mousemove", function(event) {
   const angle = getAngle(event.clientX, event.clientY, clockCircle.cx, clockCircle.cy)
   let hour;
-  if (between(angle, 45, 75)) {
-    hour = 1;
-  } else if (between(angle, 15, 45)) {
-    hour = 2;
-  } else if (outside(angle, 15, 345)) {
-    hour = 3;
-  } else if (between(angle, 315, 345)) {
-    hour = 4;
-  } else if (between(angle, 285, 315)) {
-    hour = 5;
-  } else if (between(angle, 255, 285)) {
-    hour = 6;
-  } else if (between(angle, 225, 255)) {
-    hour = 7;
-  } else if (between(angle, 195, 225)) {
-    hour = 8;
-  } else if (between(angle, 165, 195)) {
-    hour = 9;
-  } else if (between(angle, 135, 165)) {
-    hour = 10;
-  } else if (between(angle, 105, 135)) {
-    hour = 11;
-  } else if (between(angle, 75, 105)) {
-    hour = 12;
-  }
+  if (between(angle, 45, 75)) hour = 1;
+  else if (between(angle, 15, 45)) hour = 2;
+  else if (outside(angle, 15, 345)) hour = 3;
+  else if (between(angle, 315, 345)) hour = 4;
+  else if (between(angle, 285, 315)) hour = 5;
+  else if (between(angle, 255, 285)) hour = 6;
+  else if (between(angle, 225, 255)) hour = 7;
+  else if (between(angle, 195, 225)) hour = 8;
+  else if (between(angle, 165, 195)) hour = 9;
+  else if (between(angle, 135, 165)) hour = 10;
+  else if (between(angle, 105, 135)) hour = 11;
+  else if (between(angle, 75, 105)) hour = 12;
   // 2階段狀態
   if (!displayBox.state) displayBox.state = 1;
   switch (displayBox.state) {
@@ -289,11 +276,14 @@ editorCheck.addEventListener("change", function() {
 const createDateElement = function(dateObj) {
   const ele_date = document.createElement("label");
   const ele_dateNum = document.createElement("div");
+  const miniMatterBox = document.createElement("div");
   ele_date.setAttribute("for", "editor-check");
   ele_date.classList.add("col");
   ele_dateNum.classList.add("date-num");
+  miniMatterBox.classList.add("mini-matter-box");
   ele_dateNum.textContent = dateObj.getDate();
   ele_date.appendChild(ele_dateNum);
+  ele_date.appendChild(miniMatterBox);
   ele_date.addEventListener("click", highlightSelf);
   ele_date.addEventListener("click", openEditor);
   return ele_date;
@@ -343,7 +333,7 @@ const makeCurrentMonth = function(monthOffset) {
   }).forEach(m => {
     const obj_matterDate = new Date(m.year, m.month, m.date);
     const mIndex = Math.round((obj_matterDate - obj_dateFirst) / 86400000) + 1 - startDate;
-    dateArray[mIndex].appendChild(createMiniMatter(m));
+    dateArray[mIndex].querySelector(".mini-matter-box").appendChild(createMiniMatter(m));
   });
   // 高亮今天
   if (obj_dateFirst.getMonth() === nowM && obj_dateFirst.getFullYear() === nowY) {
@@ -367,14 +357,12 @@ const resetMonth = function(event) {
 // CRUD matter
 const updateTable = function() {
   // alias
-  const thisDate = row_date.focusDate;
-  const thisD = thisDate.myDate.getDate();
-  const thisM = thisDate.myDate.getMonth();
-  const thisY = thisDate.myDate.getFullYear();
+  const miniMatterBox = row_date.focusDate.querySelector(".mini-matter-box");
+  const thisD = row_date.focusDate.myDate.getDate();
+  const thisM = row_date.focusDate.myDate.getMonth();
+  const thisY = row_date.focusDate.myDate.getFullYear();
   // 先刪除所有mini-matter
-  console.log(thisDate.querySelectorAll(".mini-matter"));
-  thisDate.querySelectorAll(".mini-matter").forEach((ele) => {
-    console.log(ele);
+  miniMatterBox.querySelectorAll(".mini-matter").forEach((ele) => {
     ele.remove();
   });
   // 從arr_allMatter加入
@@ -382,7 +370,7 @@ const updateTable = function() {
     // if日期相同就加進來
     return m.date == thisD && m.month == thisM && m.year == thisY;
   }).forEach((m) => {
-    thisDate.appendChild(createMiniMatter(m));
+    miniMatterBox.appendChild(createMiniMatter(m));
   });
 };
 const updateEditor = function() {

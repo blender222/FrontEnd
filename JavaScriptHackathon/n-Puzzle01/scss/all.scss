@@ -26,7 +26,14 @@
     // z-index: -9;
   }
   .cell.blank {
-    opacity: 0.3;
+    opacity: 1;
+  }
+}
+.img-block {
+  display: flex;
+  justify-content: center;
+  img {
+    display: block;
   }
 }
 // oo功能

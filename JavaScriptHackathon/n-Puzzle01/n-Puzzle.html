@@ -11,17 +11,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/all.min.css">
   <style>
-    
+
   </style>
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="setting">
         <div class="box_difficulty">
           <select name="" id="difficulty">
-            <option value="2">2 * 2</option>
             <option value="3">3 * 3</option>
             <option value="4" selected>4 * 4</option>
             <option value="5">5 * 5</option>
@@ -31,20 +30,24 @@
         </div>
         <div class="box_custom-img">
           <h3 class="title-h3">自定義圖片</h3>
-          <!-- <input class="url" type="text"> -->
           <input class="setImg" type="button" value="設定">
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="box">
-        
+      <div class="col-12 col-lg-6 img-block">
+        <div class="box">
+
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 img-block">
+        <img id="img_answer" src="" alt="">
       </div>
     </div>
   </div>
 
 
-  
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <script src="./js/setting.js"></script>
   <script src="./js/puzzle.js"></script>
