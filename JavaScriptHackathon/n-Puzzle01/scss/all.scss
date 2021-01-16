@@ -1,16 +1,59 @@
 @import "./reset";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+:root {
+  --box-width: 600px;
+  --box-height: 600px;
+}
 .container {
   margin-top: 30px;
 }
 .setting {
-  margin-bottom: 10px;
+  padding: 20px 100px;
+  display: flex;
+  // justify-content: center;
+  :first-child {
+    // margin-left: 5.3%;
+  }
+  > * + *{
+    margin-left: 15px;
+  }
   .url {
     width: 1000px;
   }
+  .select-menu, .base-btn {
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #666666;
+    &:disabled{
+      color: #aaaaaa;
+    }
+    &:enabled{
+      color: #333333;
+    }
+  }
+  .base-btn {
+    &:enabled:hover {
+      background-color: #dddddd;
+    }
+    &:enabled:active {
+      background-color: #cccccc;
+    }
+    padding: 3px 15px;
+  }
+  .select-menu {
+    padding: 0 10px;
+  }
+  .range-speed {
+    // direction: rtl;
+    // appearance: none;
+    // background-color: #ffaa00;
+  }
 }
 .box {
-  --box-width: 600px;
-  --box-height: 600px;
   position: relative;
   width: var(--box-width);
   height: var(--box-height);
@@ -18,22 +61,73 @@
   flex-wrap: wrap;
   overflow: visible;
   .cell {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     border: 1px solid #ffffff;
     background-repeat: no-repeat;
-    transition: all .3s;
-    // z-index: -9;
+    transition: top .3s, left .3s, opacity .3s;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 0 0 2px #000000;
   }
   .cell.blank {
     opacity: 1;
   }
+  .cell.fadeInDelay {
+    transition: top .3s, left .3s, opacity .3s .5s;
+  }
 }
 .img-block {
+  position: relative;
   display: flex;
   justify-content: center;
-  img {
-    display: block;
+  > .box, .answer-box {
+    // border: 5px solid #000;
+    box-shadow: 0 0 10px 2px rgba($color: #000000, $alpha: .4);
+    vertical-align: middle;
+  }
+  .answer-box {
+    width: var(--box-width);
+    height: var(--box-height);
+    img {
+      display: block;
+    }
+  }
+  .loading {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color: #ffffff, $alpha: 1);
+    z-index: 99;
+    .circle {
+      width: 50px;
+      height: 50px;
+      border: 7px solid #aaaaaa;
+      border-left-color: transparent;
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+    }
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    margin-bottom: 30px;
   }
 }
 // oo功能

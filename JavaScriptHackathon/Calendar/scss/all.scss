@@ -370,7 +370,14 @@ body {
       flex-shrink: 0;
       display: flex;
       justify-content: flex-end;
+      color: #222222;
       width: 52px;
+      transition: all .3s;
+      // &.picking {
+      //   color: #4444ff;
+      //   text-shadow: 0 0 1px rgba($color: #ffffff, $alpha: .3);
+      //   transform: scale(1.1);
+      // }
     }
     .text-area {
       margin-left: 5px;

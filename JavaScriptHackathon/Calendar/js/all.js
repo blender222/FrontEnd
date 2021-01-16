@@ -111,6 +111,7 @@ const openTimePicker = function(event) {
   btn_ampm.textContent = btn_ampm.isAM ? "AM" : "PM";
   // 綁定該matter
   timeWindow.srcMatter = event.target.parentElement;
+  timeWindow.srcMatter.classList.add("editing");
   // 定位
   let windowTop = event.target.getBoundingClientRect().top - 130;
   let windowLeft = event.target.getBoundingClientRect().left - 60;
@@ -133,6 +134,7 @@ timeWindow.addEventListener("mouseleave", function() {
   // 關閉time picker 重設點擊狀態
   timeCheck.checked = false;
   displayBox.state = 1;
+  timeWindow.srcMatter.classList.remove("editing");
 });
 clockCircle.addEventListener("mouseleave", function() {
   clockCircle.lastMark.classList.remove("hover");
@@ -203,10 +205,11 @@ clockCircle.addEventListener("click", function() {
       displayMinute.classList.add("picking");
       break;
     case 2:
-      // 關閉面板 寫入設定 重設點擊狀態
+      // 關閉面板 寫入設定 重設點擊狀態 flash提示
       timeCheck.checked = false;
       displayBox.state = 1;
       displayMinute.classList.remove("picking");
+      fadeOut(timeWindow.srcMatter, 1500, 0, 1);
       // 轉換為24小時制
       let hour = parseInt(displayHour.textContent);
       let minute = parseInt(displayMinute.textContent);
