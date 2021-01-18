@@ -150,7 +150,6 @@ const box = {
       box.checkSuccess();
       // 去除來回點擊
       if (box.goHomeStack[box.goHomeStack.length - 1] === box.lastClickCell) {
-        console.log("===");
         box.goHomeStack.pop();
       } else {
         box.goHomeStack.push(box.lastClickCell);
@@ -286,8 +285,7 @@ const goHome = function() {
     }
     t = -range_speed.value + 1050;
     setTimeout(popCell, t);
-  }
-  console.log(range_speed.value);
+  };
   setTimeout(popCell, t);
 };
 // binding

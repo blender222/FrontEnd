@@ -109,6 +109,9 @@ const openTimePicker = function(event) {
   displayHour.classList.add("picking");
   btn_ampm.isAM = obj_now.getHours() < 12;
   btn_ampm.textContent = btn_ampm.isAM ? "AM" : "PM";
+  // 儲存user打開瞬間滑鼠位置
+  clockCircle.initX = event.clientX;
+  clockCircle.initY = event.clientY;
   // 綁定該matter
   timeWindow.srcMatter = event.target.parentElement;
   timeWindow.srcMatter.classList.add("editing");
@@ -124,11 +127,12 @@ const openTimePicker = function(event) {
   timeWindow.style.left = `${windowLeft}px`;
   fadeOut(timeWindow, 100, 0, 1);
 };
-timeCheck.addEventListener("change", function() {
+timeCheck.addEventListener("change", function(event) {
   // 設定clockCircle座標
   let rect = clockCircle.getBoundingClientRect();
   clockCircle.cx = rect.left + rect.width / 2;
   clockCircle.cy = rect.top + rect.height / 2;
+  updateDisplayBox(event);
 });
 timeWindow.addEventListener("mouseleave", function() {
   // 關閉time picker 重設點擊狀態
@@ -160,8 +164,12 @@ clockCircle.addEventListener("mouseenter", function() {
       break;
   }
 });
-clockCircle.addEventListener("mousemove", function(event) {
-  const angle = getAngle(event.clientX, event.clientY, clockCircle.cx, clockCircle.cy)
+const updateDisplayBox = function(event) {
+  const angle = getAngle(
+    event.clientX || clockCircle.initX,
+    event.clientY || clockCircle.initY,
+    clockCircle.cx,
+    clockCircle.cy);
   let hour;
   if (between(angle, 45, 75)) hour = 1;
   else if (between(angle, 15, 45)) hour = 2;
@@ -196,13 +204,16 @@ clockCircle.addEventListener("mousemove", function(event) {
     clockCircle.nowMark.classList.add("hover");
     clockCircle.lastMark = clockCircle.nowMark;
   }
-});
-clockCircle.addEventListener("click", function() {
+};
+clockCircle.addEventListener("mousemove", updateDisplayBox);
+clockCircle.addEventListener("click", updateDisplayBox);
+clockCircle.addEventListener("click", function(event) {
   switch (displayBox.state) {
     case 1:
       displayBox.state++;
       displayHour.classList.remove("picking");
       displayMinute.classList.add("picking");
+      updateDisplayBox(event);
       break;
     case 2:
       // 關閉面板 寫入設定 重設點擊狀態 flash提示
@@ -249,8 +260,8 @@ const getAngle = (x, y, cx, cy) => {
   else if (distX < 0 && distY < 0) // 4
     return 360 - angle;
   else {
-    console.log("error");
-    return null;
+    console.log("distX or distY is NaN");
+    return 180;
   }
 };
 const sortAllMatter = function() {
