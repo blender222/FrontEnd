@@ -223,7 +223,6 @@ const changeBG = function() {
   img_blocks.forEach(ele => {
     const loadingBlock = ele.querySelector(".loading");
     loadingBlock.style.display = "flex";
-    console.log("showing");
   });
   // 換圖的url
   img_blocks[1].querySelector("#img_answer").src = box.bg;

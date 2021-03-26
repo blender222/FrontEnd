@@ -71,7 +71,6 @@ const addOne = function () {
     globalIndex++;
     const newPokemon = allPokemonArray[globalIndex];
     const newCard = card.content.cloneNode(true);
-
     newCard.querySelector(".pokemonImg").setAttribute("src", newPokemon.img);
     newCard.querySelector(".pokemonId").textContent = `#${newPokemon.id.toString().padStart(3, "0")}`;
     newCard.querySelector(".pokemonName").textContent = newPokemon.name;
@@ -91,7 +90,6 @@ const addOne = function () {
 const removeOne = function () {
   if (globalIndex >= 0) {
     globalIndex--;
-    console.log(row.lastElementChild);
     row.removeChild(row.lastElementChild);
   }
 };
@@ -144,7 +142,6 @@ const increasing = function (thisPokemon, allSpans, allAttr) {
     let j = 0;
     const timer = setInterval(() => {
       allSpans[i].textContent = Math.trunc(thisPokemon[allAttr[i]] * (j / times));
-      console.log(j / times);
       if (j == times) {
         window.clearInterval(timer);
       }

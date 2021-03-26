@@ -20,11 +20,11 @@
       <div class="col col-12">
         <div class="month-name"></div>
         <div class="year-name"></div>
-        <i class="fas fa-angle-double-left" onclick="changeMonth(event)" data-offset="-12"></i>
-        <i class="fas fa-angle-left" onclick="changeMonth(event)" data-offset="-1"></i>
-        <i class="fas fa-angle-right" onclick="changeMonth(event)" data-offset="1"></i>
-        <i class="fas fa-angle-double-right" onclick="changeMonth(event)" data-offset="12"></i>
-        <i class="fas fa-home reset" onclick="resetMonth(event)" data-offset="0"></i>
+        <i class="fas fa-angle-double-left arrow" data-offset="-12"></i>
+        <i class="fas fa-angle-left arrow" data-offset="-1"></i>
+        <i class="fas fa-angle-right arrow" data-offset="1"></i>
+        <i class="fas fa-angle-double-right arrow" data-offset="12"></i>
+        <i class="fas fa-home reset" data-offset="0"></i>
       </div>
     </div>
     <div class="table-body">
@@ -46,7 +46,7 @@
   <div id="editor">
     <div class="editor-window">
       <label class="ex-btn close" for="editor-check"></label>
-      <button class="ex-btn add" onclick="addMatter()"></button>
+      <button class="ex-btn add"></button>
       <div class="matter-box">
 
       </div>

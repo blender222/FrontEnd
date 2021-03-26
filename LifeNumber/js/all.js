@@ -82,7 +82,6 @@ const getResult = function () {
   const userLifeNumber = calcNumber(inputArr);
   const userConstellation = calcConstellation();
   showInfo(userConstellation, userLifeNumber);
-  // console.log(lifeNumber);
 };
 const getCharArray = function () {
   return input_date.value.split("").filter((char) => char !== "-");
@@ -92,8 +91,6 @@ const calcNumber = function (inputArr) {
   do {
     lifeNumber = inputArr.reduce((all, next) => all + Number(next), 0).toString();
     inputArr = lifeNumber.split("");
-    // console.log(inputArr);
-    // console.log(lifeNumber, lifeNumber.toString().length);
   } while (lifeNumber.length > 1);
   return Number(lifeNumber);
 };
@@ -124,3 +121,17 @@ const showInfo = function (userConstellation, userLifeNumber) {
 };
 
 btn_getResult.addEventListener("click", getResult);
+btn_getResult.addEventListener("click", function () {
+  resultBox.querySelectorAll(".value").forEach((ele) => {
+    let start = null;
+    ele.flashID = requestAnimationFrame(flash);
+    function flash(t, duration = 1000) {
+      if (!start) start = t;
+      let progress = t - start;
+      ele.style.opacity = Math.min(progress / duration, 1);
+      if (progress <= duration) {
+        requestAnimationFrame(flash);
+      }  
+    }
+  });
+});

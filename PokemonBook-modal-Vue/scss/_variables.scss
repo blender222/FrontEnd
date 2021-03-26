@@ -1,0 +1,87 @@
+/*#region value bar colors*/
+.modal {
+  --color-Hp: #ff7777;
+  --color-Attack: #ffcc00;
+  --color-Defense: #33cc33;
+  --color-SpecialAttack: #ffbb00;
+  --color-SpecialDefense: #44dd44;
+  --color-Speed: #7777ff;
+}
+.modal .Hp + .value-bar {
+  background-color: var(--color-Hp);
+}
+.modal .Attack + .value-bar {
+  background-color: var(--color-Attack);
+}
+.modal .Defense + .value-bar {
+  background-color: var(--color-Defense);
+}
+.modal .SpecialAttack + .value-bar {
+  background-color: var(--color-SpecialAttack);
+}
+.modal .SpecialDefense + .value-bar {
+  background-color: var(--color-SpecialDefense);
+}
+.modal .Speed + .value-bar {
+  background-color: var(--color-Speed);
+}
+/*#endregion value bar colors*/
+/*#region type colors*/
+.Fire {
+  background: #fd7d24;
+}
+.Water {
+  background: #4592c4;
+}
+.Grass {
+  background: #9bcc50;
+}
+.Poison {
+  background: #b97fc9;
+}
+.Bug {
+  background: #729f3f;
+}
+.Flying {
+  color: #555555;
+  background: #3effff;
+}
+.Electric {
+  color: #555555;
+  background: #eed535;
+}
+.Ground {
+  background: #ab9842;
+}
+.Fairy {
+  color: #555555;
+  background: #fdb9e9;
+}
+.Normal {
+  background: #a4acaf;
+}
+.Psychic {
+  background: #f366b9;
+}
+.Rock {
+  background: #a38c21;
+}
+.Fighting {
+  background: #d56723;
+}
+.Ice {
+  background: #51c4e7;
+}
+.Dark {
+  background: #707070;
+}
+.Dragon {
+  background: #f16e57;
+}
+.Steel {
+  background: #9eb7b8;
+}
+.Ghost {
+  background: #7b62a3;
+}
+/*#endregion type colors*/
