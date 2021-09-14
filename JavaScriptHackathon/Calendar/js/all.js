@@ -172,19 +172,14 @@
       event.clientY || clockCircle.initY,
       clockCircle.cx,
       clockCircle.cy);
-    let hour;
-    if (between(angle, 45, 75)) hour = 1;
-    else if (between(angle, 15, 45)) hour = 2;
-    else if (outside(angle, 15, 345)) hour = 3;
-    else if (between(angle, 315, 345)) hour = 4;
-    else if (between(angle, 285, 315)) hour = 5;
-    else if (between(angle, 255, 285)) hour = 6;
-    else if (between(angle, 225, 255)) hour = 7;
-    else if (between(angle, 195, 225)) hour = 8;
-    else if (between(angle, 165, 195)) hour = 9;
-    else if (between(angle, 135, 165)) hour = 10;
-    else if (between(angle, 105, 135)) hour = 11;
-    else if (between(angle, 75, 105)) hour = 12;
+    let mapAngle = -(angle) + 105
+    if (mapAngle < 0) {
+      mapAngle += 360
+    }
+    let hour = Math.floor(mapAngle / 30)
+    if (hour === 0) {
+      hour = 12
+    }
     // 2階段狀態
     if (!displayBox.state) displayBox.state = 1;
     switch (displayBox.state) {
@@ -245,8 +240,6 @@
         break;
     }
   });
-  const between = (a, min, max) => min <= a && a <= max;
-  const outside = (a, min, max) => a <= min || a >= max;
   const getAngle = (x, y, cx, cy) => {
     const distY = cy - y;
     const distX = cx - x;
